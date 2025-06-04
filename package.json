@@ -1,0 +1,72 @@
+{
+  "name": "lucide-icons-mcp",
+  "description": "This project, lucide-react-mcp, is a Model Context Protocol (MCP) server built with Bun and the MCP TypeScript SDK. It exposes Lucide React icons as resources and tools, enabling LLMs and agentic applications to search for and utilize icons. Key features include listing icons, icon search by name or category and integration capabilities with MCP clients like Claude Desktop.",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "bin": {
+    "lucide-icons-mcp": "build/entry.js"
+  },
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "dev": "bun run src/entry.ts",
+    "dev:stdio": "bun run src/entry.ts --stdio",
+    "start": "bun run build/entry.js",
+    "start:stdio": "bun run build/entry.js --stdio",
+    "build": "tsc && chmod 755 build/entry.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky",
+    "crawl": "tsx src/scripts/main.ts",
+    "pre-build": "bun run crawl && bun run update-version && bun src/scripts/build-data.ts && bun run lint:fix",
+    "update-version": "bun run src/scripts/version.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/bun": "latest",
+    "@types/express": "^5.0.2",
+    "@types/node": "22.15.21",
+    "camoufox-js": "^0.3.6",
+    "crawlee": "^3.13.5",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "husky": "9.1.7",
+    "playwright": "^1.52.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript-eslint": "^8.32.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeyangzhi/lucide-icons-mcp.git"
+  },
+  "keywords": [
+    "lucide",
+    "lucide-icons",
+    "lucide-react",
+    "mcp",
+    "typescript",
+    "ai",
+    "icons"
+  ],
+  "author": "See Yang Zhi",
+  "license": "MIT"
+}
