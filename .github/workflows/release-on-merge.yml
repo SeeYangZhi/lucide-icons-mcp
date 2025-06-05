@@ -1,0 +1,122 @@
+name: Release after PR merge
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+env:
+  NODE_VERSION: "22"
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    # Only run if PR was merged and it was an automated update
+    if: |
+      github.event.pull_request.merged == true &&
+      startsWith(github.event.pull_request.title, 'Update Lucide icons to')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build project
+        run: bun run build
+
+      - name: Extract version from PR title
+        id: extract_version
+        run: |
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          # Extract version from "Update Lucide icons to v1.2.3"
+          LUCIDE_VERSION=$(echo "$PR_TITLE" | sed -n 's/.*Update Lucide icons to \(.*\)/\1/p')
+          echo "lucide_version=$LUCIDE_VERSION" >> $GITHUB_OUTPUT
+          echo "Lucide version: $LUCIDE_VERSION"
+
+      - name: Bump version
+        id: version
+        run: |
+          # Get current version from package.json
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          echo "Current version: $CURRENT_VERSION"
+
+          # Bump patch version
+          NEW_VERSION=$(node -p "
+            const semver = '$CURRENT_VERSION'.split('.');
+            semver[2] = String(parseInt(semver[2]) + 1);
+            semver.join('.');
+          ")
+
+          echo "New version: $NEW_VERSION"
+          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+
+          # Update package.json
+          node -e "
+            const pkg = require('./package.json');
+            pkg.version = '$NEW_VERSION';
+            require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2) + '\n');
+          "
+
+      - name: Commit version bump
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add package.json
+          git commit -m "chore: bump version to ${{ steps.version.outputs.new_version }}"
+          git push
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.version.outputs.new_version }}
+          release_name: Release v${{ steps.version.outputs.new_version }}
+          body: |
+            ## 🚀 Release v${{ steps.version.outputs.new_version }}
+
+            ### Changes
+            - Updated Lucide icons to ${{ steps.extract_version.outputs.lucide_version }}
+            - Refreshed icon metadata and categories
+
+            ### Installation
+            ```bash
+            npm install -g lucide-icons-mcp@${{ steps.version.outputs.new_version }}
+            ```
+
+            This release was automatically created following the merge of PR #${{ github.event.pull_request.number }}.
+
+            **Lucide Release:** ${{ steps.extract_version.outputs.lucide_version }}
+          draft: false
+          prerelease: false
+
+      - name: Publish to npm
+        if: env.NODE_AUTH_TOKEN != ''
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: ${{ github.event.pull_request.number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '🚀 Release v${{ steps.version.outputs.new_version }} has been created and published!\n\n📦 **NPM:** `npm install -g lucide-icons-mcp@${{ steps.version.outputs.new_version }}`\n🏷️ **GitHub:** [View Release](https://github.com/${{ github.repository }}/releases/tag/v${{ steps.version.outputs.new_version }})'
+            });
