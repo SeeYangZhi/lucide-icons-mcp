@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "fs/promises";
+import { writeFile } from "fs/promises";
 
 // Fetch latest release tag from GitHub API
 let latestRelease = "";
@@ -13,8 +13,6 @@ try {
 } catch (err) {
   console.warn("Failed to fetch latest release:", err);
 }
-
-await mkdir("data/processed", { recursive: true });
 
 // Write latest release to version.txt
 await writeFile("data/version.txt", latestRelease);

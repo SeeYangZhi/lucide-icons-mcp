@@ -90,9 +90,9 @@ async function processIconData() {
   }));
 
   // Save processed data
-  await mkdir("data/processed", { recursive: true });
+  await mkdir("data", { recursive: true });
   await writeFile(
-    "data/processed/icon-metadata.json",
+    "data/icon-metadata.json",
     JSON.stringify(uniqueIcons, null, 2)
   );
 
