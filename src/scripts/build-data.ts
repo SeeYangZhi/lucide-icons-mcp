@@ -91,13 +91,10 @@ async function processIconData() {
 
   // Save processed data
   await mkdir("data", { recursive: true });
-  await writeFile(
-    "data/icon-metadata.json",
-    JSON.stringify(uniqueIcons, null, 2)
-  );
+  await writeFile("data/icon-metadata.json", JSON.stringify(allIcons, null, 2));
 
   // Generate TypeScript module with proper formatting
-  const iconMetadataString = uniqueIcons
+  const iconMetadataString = allIcons
     .map((icon) => `  { name: "${icon.name}", category: "${icon.category}" }`)
     .join(",\n");
 

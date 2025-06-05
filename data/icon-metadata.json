@@ -136,6 +136,10 @@
     "category": "Accounts & access"
   },
   {
+    "name": "BadgeInfo",
+    "category": "Accounts & access"
+  },
+  {
     "name": "Ban",
     "category": "Accounts & access"
   },
@@ -365,6 +369,10 @@
   },
   {
     "name": "RotateCcwKey",
+    "category": "Accounts & access"
+  },
+  {
+    "name": "ScanEye",
     "category": "Accounts & access"
   },
   {
@@ -1168,6 +1176,14 @@
     "category": "Arrows"
   },
   {
+    "name": "LogIn",
+    "category": "Arrows"
+  },
+  {
+    "name": "LogOut",
+    "category": "Arrows"
+  },
+  {
     "name": "Maximize2",
     "category": "Arrows"
   },
@@ -1588,7 +1604,23 @@
     "category": "Brands"
   },
   {
+    "name": "Slack",
+    "category": "Brands"
+  },
+  {
     "name": "Target",
+    "category": "Brands"
+  },
+  {
+    "name": "Trello",
+    "category": "Brands"
+  },
+  {
+    "name": "Twitch",
+    "category": "Brands"
+  },
+  {
+    "name": "Twitter",
     "category": "Brands"
   },
   {
@@ -1601,6 +1633,14 @@
   },
   {
     "name": "BrickWall",
+    "category": "Buildings"
+  },
+  {
+    "name": "Building",
+    "category": "Buildings"
+  },
+  {
+    "name": "Building2",
     "category": "Buildings"
   },
   {
@@ -1796,6 +1836,18 @@
     "category": "Charts"
   },
   {
+    "name": "TrendingDown",
+    "category": "Charts"
+  },
+  {
+    "name": "TrendingUp",
+    "category": "Charts"
+  },
+  {
+    "name": "TrendingUpDown",
+    "category": "Charts"
+  },
+  {
     "name": "Antenna",
     "category": "Communication"
   },
@@ -1805,6 +1857,10 @@
   },
   {
     "name": "AudioWaveform",
+    "category": "Communication"
+  },
+  {
+    "name": "BookUser",
     "category": "Communication"
   },
   {
@@ -1836,7 +1892,19 @@
     "category": "Communication"
   },
   {
+    "name": "Contact",
+    "category": "Communication"
+  },
+  {
+    "name": "ContactRound",
+    "category": "Communication"
+  },
+  {
     "name": "EthernetPort",
+    "category": "Communication"
+  },
+  {
+    "name": "Handshake",
     "category": "Communication"
   },
   {
@@ -1868,6 +1936,10 @@
     "category": "Communication"
   },
   {
+    "name": "NotebookTabs",
+    "category": "Communication"
+  },
+  {
     "name": "Phone",
     "category": "Communication"
   },
@@ -1876,11 +1948,23 @@
     "category": "Communication"
   },
   {
+    "name": "PhoneForwarded",
+    "category": "Communication"
+  },
+  {
+    "name": "PhoneIncoming",
+    "category": "Communication"
+  },
+  {
     "name": "PhoneMissed",
     "category": "Communication"
   },
   {
     "name": "PhoneOff",
+    "category": "Communication"
+  },
+  {
+    "name": "PhoneOutgoing",
     "category": "Communication"
   },
   {
@@ -1917,6 +2001,10 @@
   },
   {
     "name": "SmilePlus",
+    "category": "Communication"
+  },
+  {
+    "name": "Speech",
     "category": "Communication"
   },
   {
@@ -1964,6 +2052,10 @@
     "category": "Communication"
   },
   {
+    "name": "Airplay",
+    "category": "Connectivity"
+  },
+  {
     "name": "Battery",
     "category": "Connectivity"
   },
@@ -2004,6 +2096,10 @@
     "category": "Connectivity"
   },
   {
+    "name": "BookUser",
+    "category": "Connectivity"
+  },
+  {
     "name": "BrickWallFire",
     "category": "Connectivity"
   },
@@ -2012,7 +2108,19 @@
     "category": "Connectivity"
   },
   {
+    "name": "CardSim",
+    "category": "Connectivity"
+  },
+  {
+    "name": "CassetteTape",
+    "category": "Connectivity"
+  },
+  {
     "name": "Cast",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Cctv",
     "category": "Connectivity"
   },
   {
@@ -2024,11 +2132,35 @@
     "category": "Connectivity"
   },
   {
+    "name": "Contact",
+    "category": "Connectivity"
+  },
+  {
+    "name": "ContactRound",
+    "category": "Connectivity"
+  },
+  {
+    "name": "HeadphoneOff",
+    "category": "Connectivity"
+  },
+  {
     "name": "Headphones",
     "category": "Connectivity"
   },
   {
     "name": "Headset",
+    "category": "Connectivity"
+  },
+  {
+    "name": "HouseWifi",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Mic",
+    "category": "Connectivity"
+  },
+  {
+    "name": "MicOff",
     "category": "Connectivity"
   },
   {
@@ -2084,6 +2216,34 @@
     "category": "Connectivity"
   },
   {
+    "name": "Phone",
+    "category": "Connectivity"
+  },
+  {
+    "name": "PhoneCall",
+    "category": "Connectivity"
+  },
+  {
+    "name": "PhoneForwarded",
+    "category": "Connectivity"
+  },
+  {
+    "name": "PhoneIncoming",
+    "category": "Connectivity"
+  },
+  {
+    "name": "PhoneMissed",
+    "category": "Connectivity"
+  },
+  {
+    "name": "PhoneOff",
+    "category": "Connectivity"
+  },
+  {
+    "name": "PhoneOutgoing",
+    "category": "Connectivity"
+  },
+  {
     "name": "Power",
     "category": "Connectivity"
   },
@@ -2105,6 +2265,22 @@
   },
   {
     "name": "SatelliteDish",
+    "category": "Connectivity"
+  },
+  {
+    "name": "ScreenShare",
+    "category": "Connectivity"
+  },
+  {
+    "name": "ScreenShareOff",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Send",
+    "category": "Connectivity"
+  },
+  {
+    "name": "SendHorizontal",
     "category": "Connectivity"
   },
   {
@@ -2140,7 +2316,51 @@
     "category": "Connectivity"
   },
   {
+    "name": "Vibrate",
+    "category": "Connectivity"
+  },
+  {
+    "name": "VibrateOff",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Video",
+    "category": "Connectivity"
+  },
+  {
+    "name": "VideoOff",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Videotape",
+    "category": "Connectivity"
+  },
+  {
     "name": "Voicemail",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Volume",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Volume1",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Volume2",
+    "category": "Connectivity"
+  },
+  {
+    "name": "VolumeOff",
+    "category": "Connectivity"
+  },
+  {
+    "name": "VolumeX",
+    "category": "Connectivity"
+  },
+  {
+    "name": "Webcam",
     "category": "Connectivity"
   },
   {
@@ -2184,7 +2404,15 @@
     "category": "Cursors"
   },
   {
+    "name": "Hand",
+    "category": "Cursors"
+  },
+  {
     "name": "Lasso",
+    "category": "Cursors"
+  },
+  {
+    "name": "LassoSelect",
     "category": "Cursors"
   },
   {
@@ -2197,6 +2425,42 @@
   },
   {
     "name": "LoaderPinwheel",
+    "category": "Cursors"
+  },
+  {
+    "name": "MousePointer",
+    "category": "Cursors"
+  },
+  {
+    "name": "MousePointer2",
+    "category": "Cursors"
+  },
+  {
+    "name": "MousePointerBan",
+    "category": "Cursors"
+  },
+  {
+    "name": "MousePointerClick",
+    "category": "Cursors"
+  },
+  {
+    "name": "Move",
+    "category": "Cursors"
+  },
+  {
+    "name": "MoveDiagonal",
+    "category": "Cursors"
+  },
+  {
+    "name": "MoveDiagonal2",
+    "category": "Cursors"
+  },
+  {
+    "name": "MoveHorizontal",
+    "category": "Cursors"
+  },
+  {
+    "name": "MoveVertical",
     "category": "Cursors"
   },
   {
@@ -2225,6 +2489,18 @@
   },
   {
     "name": "Sparkles",
+    "category": "Cursors"
+  },
+  {
+    "name": "SplinePointer",
+    "category": "Cursors"
+  },
+  {
+    "name": "SquareDashedMousePointer",
+    "category": "Cursors"
+  },
+  {
+    "name": "SquareMousePointer",
     "category": "Cursors"
   },
   {
@@ -2312,6 +2588,10 @@
     "category": "Design"
   },
   {
+    "name": "ChartNoAxesGantt",
+    "category": "Design"
+  },
+  {
     "name": "Columns2",
     "category": "Design"
   },
@@ -2332,11 +2612,27 @@
     "category": "Design"
   },
   {
+    "name": "Contrast",
+    "category": "Design"
+  },
+  {
     "name": "Crop",
     "category": "Design"
   },
   {
     "name": "Cylinder",
+    "category": "Design"
+  },
+  {
+    "name": "DatabaseBackup",
+    "category": "Design"
+  },
+  {
+    "name": "DecimalsArrowLeft",
+    "category": "Design"
+  },
+  {
+    "name": "DecimalsArrowRight",
     "category": "Design"
   },
   {
@@ -2349,6 +2645,30 @@
   },
   {
     "name": "DraftingCompass",
+    "category": "Design"
+  },
+  {
+    "name": "Dribbble",
+    "category": "Design"
+  },
+  {
+    "name": "Eclipse",
+    "category": "Design"
+  },
+  {
+    "name": "Eye",
+    "category": "Design"
+  },
+  {
+    "name": "EyeClosed",
+    "category": "Design"
+  },
+  {
+    "name": "EyeOff",
+    "category": "Design"
+  },
+  {
+    "name": "Figma",
     "category": "Design"
   },
   {
@@ -2372,7 +2692,15 @@
     "category": "Design"
   },
   {
+    "name": "FolderKanban",
+    "category": "Design"
+  },
+  {
     "name": "Frame",
+    "category": "Design"
+  },
+  {
+    "name": "Framer",
     "category": "Design"
   },
   {
@@ -2400,6 +2728,10 @@
     "category": "Design"
   },
   {
+    "name": "Grab",
+    "category": "Design"
+  },
+  {
     "name": "Grid2x2",
     "category": "Design"
   },
@@ -2416,7 +2748,27 @@
     "category": "Design"
   },
   {
+    "name": "IterationCcw",
+    "category": "Design"
+  },
+  {
+    "name": "IterationCw",
+    "category": "Design"
+  },
+  {
+    "name": "Kanban",
+    "category": "Design"
+  },
+  {
     "name": "LandPlot",
+    "category": "Design"
+  },
+  {
+    "name": "Lasso",
+    "category": "Design"
+  },
+  {
+    "name": "LassoSelect",
     "category": "Design"
   },
   {
@@ -2444,6 +2796,14 @@
     "category": "Design"
   },
   {
+    "name": "Loader",
+    "category": "Design"
+  },
+  {
+    "name": "LoaderPinwheel",
+    "category": "Design"
+  },
+  {
     "name": "Magnet",
     "category": "Design"
   },
@@ -2452,11 +2812,27 @@
     "category": "Design"
   },
   {
+    "name": "Maximize2",
+    "category": "Design"
+  },
+  {
     "name": "Minimize",
     "category": "Design"
   },
   {
+    "name": "Minimize2",
+    "category": "Design"
+  },
+  {
     "name": "Move3d",
+    "category": "Design"
+  },
+  {
+    "name": "Notebook",
+    "category": "Design"
+  },
+  {
+    "name": "Origami",
     "category": "Design"
   },
   {
@@ -2504,7 +2880,19 @@
     "category": "Design"
   },
   {
+    "name": "PenTool",
+    "category": "Design"
+  },
+  {
+    "name": "Pencil",
+    "category": "Design"
+  },
+  {
     "name": "PencilLine",
+    "category": "Design"
+  },
+  {
+    "name": "PencilOff",
     "category": "Design"
   },
   {
@@ -2513,6 +2901,10 @@
   },
   {
     "name": "Pipette",
+    "category": "Design"
+  },
+  {
+    "name": "Presentation",
     "category": "Design"
   },
   {
@@ -2537,6 +2929,22 @@
   },
   {
     "name": "Rotate3d",
+    "category": "Design"
+  },
+  {
+    "name": "RotateCcw",
+    "category": "Design"
+  },
+  {
+    "name": "RotateCcwSquare",
+    "category": "Design"
+  },
+  {
+    "name": "RotateCw",
+    "category": "Design"
+  },
+  {
+    "name": "RotateCwSquare",
     "category": "Design"
   },
   {
@@ -2588,6 +2996,10 @@
     "category": "Design"
   },
   {
+    "name": "SplinePointer",
+    "category": "Design"
+  },
+  {
     "name": "SprayCan",
     "category": "Design"
   },
@@ -2596,11 +3008,23 @@
     "category": "Design"
   },
   {
+    "name": "SquareChartGantt",
+    "category": "Design"
+  },
+  {
     "name": "SquareDashed",
     "category": "Design"
   },
   {
+    "name": "SquareDashedKanban",
+    "category": "Design"
+  },
+  {
     "name": "SquareDashedTopSolid",
+    "category": "Design"
+  },
+  {
+    "name": "SquareKanban",
     "category": "Design"
   },
   {
@@ -2628,6 +3052,10 @@
     "category": "Design"
   },
   {
+    "name": "Stamp",
+    "category": "Design"
+  },
+  {
     "name": "SwatchBook",
     "category": "Design"
   },
@@ -2648,11 +3076,55 @@
     "category": "Design"
   },
   {
+    "name": "Wand",
+    "category": "Design"
+  },
+  {
+    "name": "WandSparkles",
+    "category": "Design"
+  },
+  {
+    "name": "ZoomIn",
+    "category": "Design"
+  },
+  {
+    "name": "ZoomOut",
+    "category": "Design"
+  },
+  {
     "name": "Ampersand",
     "category": "Coding & development"
   },
   {
     "name": "Ampersands",
+    "category": "Coding & development"
+  },
+  {
+    "name": "AppWindow",
+    "category": "Coding & development"
+  },
+  {
+    "name": "AppWindowMac",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ArrowBigUp",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ArrowBigUpDash",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ArrowDownToLine",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ArrowRightToLine",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ArrowUpFromLine",
     "category": "Coding & development"
   },
   {
@@ -2665,6 +3137,14 @@
   },
   {
     "name": "Binoculars",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Bitcoin",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Blend",
     "category": "Coding & development"
   },
   {
@@ -2768,6 +3248,30 @@
     "category": "Coding & development"
   },
   {
+    "name": "Bug",
+    "category": "Coding & development"
+  },
+  {
+    "name": "BugOff",
+    "category": "Coding & development"
+  },
+  {
+    "name": "BugPlay",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ChartNoAxesGantt",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ChevronRight",
+    "category": "Coding & development"
+  },
+  {
+    "name": "CircleArrowOutUpLeft",
+    "category": "Coding & development"
+  },
+  {
     "name": "CircleDashed",
     "category": "Coding & development"
   },
@@ -2781,6 +3285,14 @@
   },
   {
     "name": "CircleEllipsis",
+    "category": "Coding & development"
+  },
+  {
+    "name": "CircleFadingArrowUp",
+    "category": "Coding & development"
+  },
+  {
+    "name": "CirclePlus",
     "category": "Coding & development"
   },
   {
@@ -2820,11 +3332,23 @@
     "category": "Coding & development"
   },
   {
+    "name": "Codepen",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Codesandbox",
+    "category": "Coding & development"
+  },
+  {
     "name": "Combine",
     "category": "Coding & development"
   },
   {
     "name": "Command",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Component",
     "category": "Coding & development"
   },
   {
@@ -2844,7 +3368,15 @@
     "category": "Coding & development"
   },
   {
+    "name": "CornerDownRight",
+    "category": "Coding & development"
+  },
+  {
     "name": "Database",
+    "category": "Coding & development"
+  },
+  {
+    "name": "DatabaseBackup",
     "category": "Coding & development"
   },
   {
@@ -2860,7 +3392,15 @@
     "category": "Coding & development"
   },
   {
+    "name": "Dock",
+    "category": "Coding & development"
+  },
+  {
     "name": "EarthLock",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Eclipse",
     "category": "Coding & development"
   },
   {
@@ -2928,11 +3468,35 @@
     "category": "Coding & development"
   },
   {
+    "name": "FolderKanban",
+    "category": "Coding & development"
+  },
+  {
     "name": "FolderOpenDot",
     "category": "Coding & development"
   },
   {
     "name": "FolderRoot",
+    "category": "Coding & development"
+  },
+  {
+    "name": "GalleryHorizontal",
+    "category": "Coding & development"
+  },
+  {
+    "name": "GalleryHorizontalEnd",
+    "category": "Coding & development"
+  },
+  {
+    "name": "GalleryThumbnails",
+    "category": "Coding & development"
+  },
+  {
+    "name": "GalleryVertical",
+    "category": "Coding & development"
+  },
+  {
+    "name": "GalleryVerticalEnd",
     "category": "Coding & development"
   },
   {
@@ -2960,6 +3524,10 @@
     "category": "Coding & development"
   },
   {
+    "name": "GitCompareArrows",
+    "category": "Coding & development"
+  },
+  {
     "name": "GitFork",
     "category": "Coding & development"
   },
@@ -2976,6 +3544,10 @@
     "category": "Coding & development"
   },
   {
+    "name": "GitPullRequestArrow",
+    "category": "Coding & development"
+  },
+  {
     "name": "GitPullRequestClosed",
     "category": "Coding & development"
   },
@@ -2984,7 +3556,19 @@
     "category": "Coding & development"
   },
   {
+    "name": "GitPullRequestCreateArrow",
+    "category": "Coding & development"
+  },
+  {
     "name": "GitPullRequestDraft",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Github",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Gitlab",
     "category": "Coding & development"
   },
   {
@@ -2996,11 +3580,27 @@
     "category": "Coding & development"
   },
   {
+    "name": "HardDriveDownload",
+    "category": "Coding & development"
+  },
+  {
+    "name": "HardDriveUpload",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Hexagon",
+    "category": "Coding & development"
+  },
+  {
     "name": "IndentDecrease",
     "category": "Coding & development"
   },
   {
     "name": "IndentIncrease",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Kanban",
     "category": "Coding & development"
   },
   {
@@ -3020,6 +3620,10 @@
     "category": "Coding & development"
   },
   {
+    "name": "Merge",
+    "category": "Coding & development"
+  },
+  {
     "name": "MessageCircleCode",
     "category": "Coding & development"
   },
@@ -3029,6 +3633,10 @@
   },
   {
     "name": "MessageSquareDiff",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Milestone",
     "category": "Coding & development"
   },
   {
@@ -3080,6 +3688,14 @@
     "category": "Coding & development"
   },
   {
+    "name": "PanelTop",
+    "category": "Coding & development"
+  },
+  {
+    "name": "PanelsTopLeft",
+    "category": "Coding & development"
+  },
+  {
     "name": "Parentheses",
     "category": "Coding & development"
   },
@@ -3100,6 +3716,10 @@
     "category": "Coding & development"
   },
   {
+    "name": "Plus",
+    "category": "Coding & development"
+  },
+  {
     "name": "Puzzle",
     "category": "Coding & development"
   },
@@ -3116,11 +3736,19 @@
     "category": "Coding & development"
   },
   {
+    "name": "RefreshCcwDot",
+    "category": "Coding & development"
+  },
+  {
     "name": "Regex",
     "category": "Coding & development"
   },
   {
     "name": "Rocket",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Router",
     "category": "Coding & development"
   },
   {
@@ -3156,6 +3784,70 @@
     "category": "Coding & development"
   },
   {
+    "name": "Shell",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Shield",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldAlert",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldBan",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldCheck",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldEllipsis",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldHalf",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldMinus",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldOff",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldPlus",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldQuestion",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldUser",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ShieldX",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Signpost",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SignpostBig",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Slack",
+    "category": "Coding & development"
+  },
+  {
     "name": "Slash",
     "category": "Coding & development"
   },
@@ -3168,7 +3860,23 @@
     "category": "Coding & development"
   },
   {
+    "name": "Split",
+    "category": "Coding & development"
+  },
+  {
     "name": "SquareAsterisk",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareBottomDashedScissors",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareChartGantt",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareChevronRight",
     "category": "Coding & development"
   },
   {
@@ -3184,6 +3892,18 @@
     "category": "Coding & development"
   },
   {
+    "name": "SquareDashedKanban",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareDashedMousePointer",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareDashedTopSolid",
+    "category": "Coding & development"
+  },
+  {
     "name": "SquareDot",
     "category": "Coding & development"
   },
@@ -3192,11 +3912,19 @@
     "category": "Coding & development"
   },
   {
+    "name": "SquareKanban",
+    "category": "Coding & development"
+  },
+  {
     "name": "SquareLibrary",
     "category": "Coding & development"
   },
   {
     "name": "SquareMinus",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareMousePointer",
     "category": "Coding & development"
   },
   {
@@ -3209,6 +3937,14 @@
   },
   {
     "name": "SquareRadical",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareRoundCorner",
+    "category": "Coding & development"
+  },
+  {
+    "name": "SquareScissors",
     "category": "Coding & development"
   },
   {
@@ -3228,6 +3964,10 @@
     "category": "Coding & development"
   },
   {
+    "name": "TabletSmartphone",
+    "category": "Coding & development"
+  },
+  {
     "name": "Telescope",
     "category": "Coding & development"
   },
@@ -3236,7 +3976,19 @@
     "category": "Coding & development"
   },
   {
+    "name": "ToggleLeft",
+    "category": "Coding & development"
+  },
+  {
+    "name": "ToggleRight",
+    "category": "Coding & development"
+  },
+  {
     "name": "ToyBrick",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Trello",
     "category": "Coding & development"
   },
   {
@@ -3252,8 +4004,28 @@
     "category": "Coding & development"
   },
   {
+    "name": "Waypoints",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Webhook",
+    "category": "Coding & development"
+  },
+  {
+    "name": "WebhookOff",
+    "category": "Coding & development"
+  },
+  {
     "name": "Workflow",
     "category": "Coding & development"
+  },
+  {
+    "name": "Wrench",
+    "category": "Coding & development"
+  },
+  {
+    "name": "Airplay",
+    "category": "Devices"
   },
   {
     "name": "AlarmClock",
@@ -3280,7 +4052,35 @@
     "category": "Devices"
   },
   {
+    "name": "Antenna",
+    "category": "Devices"
+  },
+  {
+    "name": "Battery",
+    "category": "Devices"
+  },
+  {
+    "name": "BatteryCharging",
+    "category": "Devices"
+  },
+  {
+    "name": "BatteryFull",
+    "category": "Devices"
+  },
+  {
+    "name": "BatteryLow",
+    "category": "Devices"
+  },
+  {
+    "name": "BatteryMedium",
+    "category": "Devices"
+  },
+  {
     "name": "BatteryPlus",
+    "category": "Devices"
+  },
+  {
+    "name": "BatteryWarning",
     "category": "Devices"
   },
   {
@@ -3288,7 +4088,27 @@
     "category": "Devices"
   },
   {
+    "name": "Bluetooth",
+    "category": "Devices"
+  },
+  {
+    "name": "BluetoothConnected",
+    "category": "Devices"
+  },
+  {
+    "name": "BluetoothOff",
+    "category": "Devices"
+  },
+  {
+    "name": "BluetoothSearching",
+    "category": "Devices"
+  },
+  {
     "name": "BoomBox",
+    "category": "Devices"
+  },
+  {
+    "name": "Cable",
     "category": "Devices"
   },
   {
@@ -3296,7 +4116,51 @@
     "category": "Devices"
   },
   {
+    "name": "Camera",
+    "category": "Devices"
+  },
+  {
+    "name": "CameraOff",
+    "category": "Devices"
+  },
+  {
+    "name": "CardSim",
+    "category": "Devices"
+  },
+  {
+    "name": "CassetteTape",
+    "category": "Devices"
+  },
+  {
+    "name": "Cast",
+    "category": "Devices"
+  },
+  {
+    "name": "Cctv",
+    "category": "Devices"
+  },
+  {
+    "name": "ChevronsLeftRightEllipsis",
+    "category": "Devices"
+  },
+  {
+    "name": "Computer",
+    "category": "Devices"
+  },
+  {
     "name": "Cpu",
+    "category": "Devices"
+  },
+  {
+    "name": "Database",
+    "category": "Devices"
+  },
+  {
+    "name": "DatabaseBackup",
+    "category": "Devices"
+  },
+  {
+    "name": "DatabaseZap",
     "category": "Devices"
   },
   {
@@ -3332,6 +4196,18 @@
     "category": "Devices"
   },
   {
+    "name": "EarthLock",
+    "category": "Devices"
+  },
+  {
+    "name": "EthernetPort",
+    "category": "Devices"
+  },
+  {
+    "name": "Fingerprint",
+    "category": "Devices"
+  },
+  {
     "name": "Flashlight",
     "category": "Devices"
   },
@@ -3348,11 +4224,39 @@
     "category": "Devices"
   },
   {
+    "name": "GlobeLock",
+    "category": "Devices"
+  },
+  {
     "name": "Gpu",
     "category": "Devices"
   },
   {
+    "name": "HardDrive",
+    "category": "Devices"
+  },
+  {
+    "name": "HardDriveDownload",
+    "category": "Devices"
+  },
+  {
+    "name": "HardDriveUpload",
+    "category": "Devices"
+  },
+  {
     "name": "HdmiPort",
+    "category": "Devices"
+  },
+  {
+    "name": "HeadphoneOff",
+    "category": "Devices"
+  },
+  {
+    "name": "Headphones",
+    "category": "Devices"
+  },
+  {
+    "name": "Headset",
     "category": "Devices"
   },
   {
@@ -3364,7 +4268,15 @@
     "category": "Devices"
   },
   {
+    "name": "Keyboard",
+    "category": "Devices"
+  },
+  {
     "name": "KeyboardMusic",
+    "category": "Devices"
+  },
+  {
+    "name": "KeyboardOff",
     "category": "Devices"
   },
   {
@@ -3384,11 +4296,71 @@
     "category": "Devices"
   },
   {
+    "name": "Mic",
+    "category": "Devices"
+  },
+  {
+    "name": "MicOff",
+    "category": "Devices"
+  },
+  {
     "name": "MicVocal",
     "category": "Devices"
   },
   {
     "name": "Microchip",
+    "category": "Devices"
+  },
+  {
+    "name": "Monitor",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorCheck",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorCog",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorDot",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorDown",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorOff",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorPause",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorPlay",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorSmartphone",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorSpeaker",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorStop",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorUp",
+    "category": "Devices"
+  },
+  {
+    "name": "MonitorX",
     "category": "Devices"
   },
   {
@@ -3400,7 +4372,39 @@
     "category": "Devices"
   },
   {
+    "name": "Nfc",
+    "category": "Devices"
+  },
+  {
     "name": "PcCase",
+    "category": "Devices"
+  },
+  {
+    "name": "Phone",
+    "category": "Devices"
+  },
+  {
+    "name": "PhoneCall",
+    "category": "Devices"
+  },
+  {
+    "name": "PhoneForwarded",
+    "category": "Devices"
+  },
+  {
+    "name": "PhoneIncoming",
+    "category": "Devices"
+  },
+  {
+    "name": "PhoneMissed",
+    "category": "Devices"
+  },
+  {
+    "name": "PhoneOff",
+    "category": "Devices"
+  },
+  {
+    "name": "PhoneOutgoing",
     "category": "Devices"
   },
   {
@@ -3408,7 +4412,19 @@
     "category": "Devices"
   },
   {
+    "name": "Plug",
+    "category": "Devices"
+  },
+  {
+    "name": "Plug2",
+    "category": "Devices"
+  },
+  {
     "name": "PlugZap",
+    "category": "Devices"
+  },
+  {
+    "name": "Presentation",
     "category": "Devices"
   },
   {
@@ -3417,6 +4433,14 @@
   },
   {
     "name": "PrinterCheck",
+    "category": "Devices"
+  },
+  {
+    "name": "Projector",
+    "category": "Devices"
+  },
+  {
+    "name": "Proportions",
     "category": "Devices"
   },
   {
@@ -3432,6 +4456,18 @@
     "category": "Devices"
   },
   {
+    "name": "RectangleGoggles",
+    "category": "Devices"
+  },
+  {
+    "name": "Router",
+    "category": "Devices"
+  },
+  {
+    "name": "SatelliteDish",
+    "category": "Devices"
+  },
+  {
     "name": "Scan",
     "category": "Devices"
   },
@@ -3440,7 +4476,19 @@
     "category": "Devices"
   },
   {
+    "name": "ScanEye",
+    "category": "Devices"
+  },
+  {
+    "name": "ScanFace",
+    "category": "Devices"
+  },
+  {
     "name": "ScanLine",
+    "category": "Devices"
+  },
+  {
+    "name": "ScanQrCode",
     "category": "Devices"
   },
   {
@@ -3448,11 +4496,59 @@
     "category": "Devices"
   },
   {
+    "name": "ScreenShare",
+    "category": "Devices"
+  },
+  {
+    "name": "ScreenShareOff",
+    "category": "Devices"
+  },
+  {
+    "name": "Server",
+    "category": "Devices"
+  },
+  {
+    "name": "ServerCog",
+    "category": "Devices"
+  },
+  {
+    "name": "ServerCrash",
+    "category": "Devices"
+  },
+  {
+    "name": "ServerOff",
+    "category": "Devices"
+  },
+  {
+    "name": "Smartphone",
+    "category": "Devices"
+  },
+  {
+    "name": "SmartphoneCharging",
+    "category": "Devices"
+  },
+  {
+    "name": "SmartphoneNfc",
+    "category": "Devices"
+  },
+  {
     "name": "Speaker",
     "category": "Devices"
   },
   {
+    "name": "SquareMinus",
+    "category": "Devices"
+  },
+  {
+    "name": "SwitchCamera",
+    "category": "Devices"
+  },
+  {
     "name": "Tablet",
+    "category": "Devices"
+  },
+  {
+    "name": "TabletSmartphone",
     "category": "Devices"
   },
   {
@@ -3468,6 +4564,10 @@
     "category": "Devices"
   },
   {
+    "name": "Tv",
+    "category": "Devices"
+  },
+  {
     "name": "TvMinimal",
     "category": "Devices"
   },
@@ -3476,11 +4576,79 @@
     "category": "Devices"
   },
   {
+    "name": "Unplug",
+    "category": "Devices"
+  },
+  {
     "name": "Usb",
     "category": "Devices"
   },
   {
+    "name": "Vibrate",
+    "category": "Devices"
+  },
+  {
+    "name": "VibrateOff",
+    "category": "Devices"
+  },
+  {
+    "name": "Video",
+    "category": "Devices"
+  },
+  {
+    "name": "VideoOff",
+    "category": "Devices"
+  },
+  {
+    "name": "Videotape",
+    "category": "Devices"
+  },
+  {
+    "name": "Voicemail",
+    "category": "Devices"
+  },
+  {
+    "name": "Wallpaper",
+    "category": "Devices"
+  },
+  {
     "name": "WashingMachine",
+    "category": "Devices"
+  },
+  {
+    "name": "Webcam",
+    "category": "Devices"
+  },
+  {
+    "name": "Wifi",
+    "category": "Devices"
+  },
+  {
+    "name": "WifiHigh",
+    "category": "Devices"
+  },
+  {
+    "name": "WifiLow",
+    "category": "Devices"
+  },
+  {
+    "name": "WifiOff",
+    "category": "Devices"
+  },
+  {
+    "name": "WifiPen",
+    "category": "Devices"
+  },
+  {
+    "name": "WifiZero",
+    "category": "Devices"
+  },
+  {
+    "name": "Zap",
+    "category": "Devices"
+  },
+  {
+    "name": "ZapOff",
     "category": "Devices"
   },
   {
@@ -3493,6 +4661,10 @@
   },
   {
     "name": "BicepsFlexed",
+    "category": "Emoji"
+  },
+  {
+    "name": "Frown",
     "category": "Emoji"
   },
   {
@@ -3509,6 +4681,10 @@
   },
   {
     "name": "HeartCrack",
+    "category": "Emoji"
+  },
+  {
+    "name": "HeartHandshake",
     "category": "Emoji"
   },
   {
@@ -3536,6 +4712,34 @@
     "category": "Emoji"
   },
   {
+    "name": "Smile",
+    "category": "Emoji"
+  },
+  {
+    "name": "SmilePlus",
+    "category": "Emoji"
+  },
+  {
+    "name": "Star",
+    "category": "Emoji"
+  },
+  {
+    "name": "ThumbsDown",
+    "category": "Emoji"
+  },
+  {
+    "name": "ThumbsUp",
+    "category": "Emoji"
+  },
+  {
+    "name": "AppWindow",
+    "category": "File icons"
+  },
+  {
+    "name": "AppWindowMac",
+    "category": "File icons"
+  },
+  {
     "name": "Archive",
     "category": "File icons"
   },
@@ -3548,11 +4752,71 @@
     "category": "File icons"
   },
   {
+    "name": "ArrowBigDownDash",
+    "category": "File icons"
+  },
+  {
+    "name": "ArrowDownFromLine",
+    "category": "File icons"
+  },
+  {
+    "name": "ArrowDownToLine",
+    "category": "File icons"
+  },
+  {
+    "name": "ArrowUpFromLine",
+    "category": "File icons"
+  },
+  {
+    "name": "ArrowUpToLine",
+    "category": "File icons"
+  },
+  {
     "name": "BookImage",
     "category": "File icons"
   },
   {
+    "name": "Braces",
+    "category": "File icons"
+  },
+  {
+    "name": "Brackets",
+    "category": "File icons"
+  },
+  {
     "name": "CalendarFold",
+    "category": "File icons"
+  },
+  {
+    "name": "CassetteTape",
+    "category": "File icons"
+  },
+  {
+    "name": "ChartPie",
+    "category": "File icons"
+  },
+  {
+    "name": "CloudDownload",
+    "category": "File icons"
+  },
+  {
+    "name": "CloudUpload",
+    "category": "File icons"
+  },
+  {
+    "name": "Combine",
+    "category": "File icons"
+  },
+  {
+    "name": "Diff",
+    "category": "File icons"
+  },
+  {
+    "name": "Dock",
+    "category": "File icons"
+  },
+  {
+    "name": "Download",
     "category": "File icons"
   },
   {
@@ -3569,6 +4833,10 @@
   },
   {
     "name": "FileAudio2",
+    "category": "File icons"
+  },
+  {
+    "name": "FileAxis3d",
     "category": "File icons"
   },
   {
@@ -3612,7 +4880,27 @@
     "category": "File icons"
   },
   {
+    "name": "FileCode",
+    "category": "File icons"
+  },
+  {
+    "name": "FileCode2",
+    "category": "File icons"
+  },
+  {
     "name": "FileCog",
+    "category": "File icons"
+  },
+  {
+    "name": "FileDiff",
+    "category": "File icons"
+  },
+  {
+    "name": "FileDigit",
+    "category": "File icons"
+  },
+  {
+    "name": "FileDown",
     "category": "File icons"
   },
   {
@@ -3621,6 +4909,18 @@
   },
   {
     "name": "FileImage",
+    "category": "File icons"
+  },
+  {
+    "name": "FileInput",
+    "category": "File icons"
+  },
+  {
+    "name": "FileJson",
+    "category": "File icons"
+  },
+  {
+    "name": "FileJson2",
     "category": "File icons"
   },
   {
@@ -3649,6 +4949,10 @@
   },
   {
     "name": "FileMusic",
+    "category": "File icons"
+  },
+  {
+    "name": "FileOutput",
     "category": "File icons"
   },
   {
@@ -3684,11 +4988,23 @@
     "category": "File icons"
   },
   {
+    "name": "FileSliders",
+    "category": "File icons"
+  },
+  {
     "name": "FileSpreadsheet",
     "category": "File icons"
   },
   {
+    "name": "FileStack",
+    "category": "File icons"
+  },
+  {
     "name": "FileSymlink",
+    "category": "File icons"
+  },
+  {
+    "name": "FileTerminal",
     "category": "File icons"
   },
   {
@@ -3701,6 +5017,14 @@
   },
   {
     "name": "FileType2",
+    "category": "File icons"
+  },
+  {
+    "name": "FileUp",
+    "category": "File icons"
+  },
+  {
+    "name": "FileUser",
     "category": "File icons"
   },
   {
@@ -3756,7 +5080,19 @@
     "category": "File icons"
   },
   {
+    "name": "FolderCode",
+    "category": "File icons"
+  },
+  {
     "name": "FolderCog",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderDot",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderDown",
     "category": "File icons"
   },
   {
@@ -3769,6 +5105,14 @@
   },
   {
     "name": "FolderHeart",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderInput",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderKanban",
     "category": "File icons"
   },
   {
@@ -3788,11 +5132,23 @@
     "category": "File icons"
   },
   {
+    "name": "FolderOpenDot",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderOutput",
+    "category": "File icons"
+  },
+  {
     "name": "FolderPen",
     "category": "File icons"
   },
   {
     "name": "FolderPlus",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderRoot",
     "category": "File icons"
   },
   {
@@ -3808,7 +5164,15 @@
     "category": "File icons"
   },
   {
+    "name": "FolderSync",
+    "category": "File icons"
+  },
+  {
     "name": "FolderTree",
+    "category": "File icons"
+  },
+  {
+    "name": "FolderUp",
     "category": "File icons"
   },
   {
@@ -3820,7 +5184,31 @@
     "category": "File icons"
   },
   {
+    "name": "GalleryHorizontalEnd",
+    "category": "File icons"
+  },
+  {
+    "name": "GalleryVerticalEnd",
+    "category": "File icons"
+  },
+  {
     "name": "Group",
+    "category": "File icons"
+  },
+  {
+    "name": "HardDriveDownload",
+    "category": "File icons"
+  },
+  {
+    "name": "HardDriveUpload",
+    "category": "File icons"
+  },
+  {
+    "name": "Headphones",
+    "category": "File icons"
+  },
+  {
+    "name": "Headset",
     "category": "File icons"
   },
   {
@@ -3856,7 +5244,15 @@
     "category": "File icons"
   },
   {
+    "name": "Import",
+    "category": "File icons"
+  },
+  {
     "name": "ListTree",
+    "category": "File icons"
+  },
+  {
+    "name": "MessageSquareDiff",
     "category": "File icons"
   },
   {
@@ -3873,6 +5269,30 @@
   },
   {
     "name": "Music4",
+    "category": "File icons"
+  },
+  {
+    "name": "Package",
+    "category": "File icons"
+  },
+  {
+    "name": "Package2",
+    "category": "File icons"
+  },
+  {
+    "name": "PackageOpen",
+    "category": "File icons"
+  },
+  {
+    "name": "PackageSearch",
+    "category": "File icons"
+  },
+  {
+    "name": "Paperclip",
+    "category": "File icons"
+  },
+  {
+    "name": "Parentheses",
     "category": "File icons"
   },
   {
@@ -3896,6 +5316,26 @@
     "category": "File icons"
   },
   {
+    "name": "SquareBottomDashedScissors",
+    "category": "File icons"
+  },
+  {
+    "name": "SquareDashedBottom",
+    "category": "File icons"
+  },
+  {
+    "name": "SquareDashedBottomCode",
+    "category": "File icons"
+  },
+  {
+    "name": "SquareScissors",
+    "category": "File icons"
+  },
+  {
+    "name": "SquareStack",
+    "category": "File icons"
+  },
+  {
     "name": "Table",
     "category": "File icons"
   },
@@ -3916,7 +5356,15 @@
     "category": "File icons"
   },
   {
+    "name": "TableProperties",
+    "category": "File icons"
+  },
+  {
     "name": "TableRowsSplit",
+    "category": "File icons"
+  },
+  {
+    "name": "Text",
     "category": "File icons"
   },
   {
@@ -3929,6 +5377,14 @@
   },
   {
     "name": "Ungroup",
+    "category": "File icons"
+  },
+  {
+    "name": "Upload",
+    "category": "File icons"
+  },
+  {
+    "name": "Videotape",
     "category": "File icons"
   },
   {
@@ -3984,6 +5440,14 @@
     "category": "Finance"
   },
   {
+    "name": "Bitcoin",
+    "category": "Finance"
+  },
+  {
+    "name": "ChartCandlestick",
+    "category": "Finance"
+  },
+  {
     "name": "CircleDollarSign",
     "category": "Finance"
   },
@@ -3993,6 +5457,10 @@
   },
   {
     "name": "CirclePoundSterling",
+    "category": "Finance"
+  },
+  {
+    "name": "CreditCard",
     "category": "Finance"
   },
   {
@@ -4012,11 +5480,35 @@
     "category": "Finance"
   },
   {
+    "name": "Gem",
+    "category": "Finance"
+  },
+  {
+    "name": "HandCoins",
+    "category": "Finance"
+  },
+  {
+    "name": "Handshake",
+    "category": "Finance"
+  },
+  {
     "name": "IndianRupee",
     "category": "Finance"
   },
   {
     "name": "JapaneseYen",
+    "category": "Finance"
+  },
+  {
+    "name": "Landmark",
+    "category": "Finance"
+  },
+  {
+    "name": "Nfc",
+    "category": "Finance"
+  },
+  {
+    "name": "Percent",
     "category": "Finance"
   },
   {
@@ -4076,11 +5568,27 @@
     "category": "Finance"
   },
   {
+    "name": "SmartphoneNfc",
+    "category": "Finance"
+  },
+  {
     "name": "SquarePercent",
     "category": "Finance"
   },
   {
     "name": "SwissFranc",
+    "category": "Finance"
+  },
+  {
+    "name": "Wallet",
+    "category": "Finance"
+  },
+  {
+    "name": "WalletCards",
+    "category": "Finance"
+  },
+  {
+    "name": "WalletMinimal",
     "category": "Finance"
   },
   {
@@ -4113,6 +5621,10 @@
   },
   {
     "name": "BeerOff",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "Cake",
     "category": "Food & beverage"
   },
   {
@@ -4152,6 +5664,10 @@
     "category": "Food & beverage"
   },
   {
+    "name": "Cookie",
+    "category": "Food & beverage"
+  },
+  {
     "name": "CookingPot",
     "category": "Food & beverage"
   },
@@ -4180,11 +5696,27 @@
     "category": "Food & beverage"
   },
   {
+    "name": "Egg",
+    "category": "Food & beverage"
+  },
+  {
     "name": "EggFried",
     "category": "Food & beverage"
   },
   {
     "name": "EggOff",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "Fish",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "FishOff",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "FishSymbol",
     "category": "Food & beverage"
   },
   {
@@ -4221,6 +5753,10 @@
   },
   {
     "name": "IceCreamCone",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "LeafyGreen",
     "category": "Food & beverage"
   },
   {
@@ -4268,11 +5804,27 @@
     "category": "Food & beverage"
   },
   {
+    "name": "Salad",
+    "category": "Food & beverage"
+  },
+  {
     "name": "Sandwich",
     "category": "Food & beverage"
   },
   {
+    "name": "Shell",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "Snail",
+    "category": "Food & beverage"
+  },
+  {
     "name": "Soup",
+    "category": "Food & beverage"
+  },
+  {
+    "name": "Torus",
     "category": "Food & beverage"
   },
   {
@@ -4308,6 +5860,50 @@
     "category": "Food & beverage"
   },
   {
+    "name": "Amphora",
+    "category": "Gaming"
+  },
+  {
+    "name": "Anvil",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigDown",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigDownDash",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigLeft",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigLeftDash",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigRight",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigRightDash",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigUp",
+    "category": "Gaming"
+  },
+  {
+    "name": "ArrowBigUpDash",
+    "category": "Gaming"
+  },
+  {
+    "name": "Award",
+    "category": "Gaming"
+  },
+  {
     "name": "Axe",
     "category": "Gaming"
   },
@@ -4320,7 +5916,23 @@
     "category": "Gaming"
   },
   {
+    "name": "Bone",
+    "category": "Gaming"
+  },
+  {
+    "name": "Book",
+    "category": "Gaming"
+  },
+  {
     "name": "BookA",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookCheck",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookCopy",
     "category": "Gaming"
   },
   {
@@ -4328,7 +5940,39 @@
     "category": "Gaming"
   },
   {
+    "name": "BookKey",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookLock",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookMarked",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookMinus",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookOpen",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookOpenCheck",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookPlus",
+    "category": "Gaming"
+  },
+  {
     "name": "BookText",
+    "category": "Gaming"
+  },
+  {
+    "name": "BookType",
     "category": "Gaming"
   },
   {
@@ -4337,6 +5981,66 @@
   },
   {
     "name": "BowArrow",
+    "category": "Gaming"
+  },
+  {
+    "name": "Box",
+    "category": "Gaming"
+  },
+  {
+    "name": "Boxes",
+    "category": "Gaming"
+  },
+  {
+    "name": "Castle",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronDown",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronUp",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronsDown",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronsLeft",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronsLeftRightEllipsis",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronsRight",
+    "category": "Gaming"
+  },
+  {
+    "name": "ChevronsUp",
+    "category": "Gaming"
+  },
+  {
+    "name": "CircleArrowDown",
+    "category": "Gaming"
+  },
+  {
+    "name": "CircleArrowLeft",
+    "category": "Gaming"
+  },
+  {
+    "name": "CircleArrowRight",
+    "category": "Gaming"
+  },
+  {
+    "name": "CircleArrowUp",
+    "category": "Gaming"
+  },
+  {
+    "name": "CirclePlus",
     "category": "Gaming"
   },
   {
@@ -4349,6 +6053,10 @@
   },
   {
     "name": "Coins",
+    "category": "Gaming"
+  },
+  {
+    "name": "Computer",
     "category": "Gaming"
   },
   {
@@ -4396,6 +6104,10 @@
     "category": "Gaming"
   },
   {
+    "name": "EthernetPort",
+    "category": "Gaming"
+  },
+  {
     "name": "Feather",
     "category": "Gaming"
   },
@@ -4424,7 +6136,23 @@
     "category": "Gaming"
   },
   {
+    "name": "Gamepad",
+    "category": "Gaming"
+  },
+  {
+    "name": "Gamepad2",
+    "category": "Gaming"
+  },
+  {
+    "name": "Gem",
+    "category": "Gaming"
+  },
+  {
     "name": "Ghost",
+    "category": "Gaming"
+  },
+  {
+    "name": "Gift",
     "category": "Gaming"
   },
   {
@@ -4432,7 +6160,47 @@
     "category": "Gaming"
   },
   {
+    "name": "Gpu",
+    "category": "Gaming"
+  },
+  {
+    "name": "HdmiPort",
+    "category": "Gaming"
+  },
+  {
+    "name": "HeadphoneOff",
+    "category": "Gaming"
+  },
+  {
+    "name": "Headphones",
+    "category": "Gaming"
+  },
+  {
+    "name": "Headset",
+    "category": "Gaming"
+  },
+  {
+    "name": "Heart",
+    "category": "Gaming"
+  },
+  {
+    "name": "HeartMinus",
+    "category": "Gaming"
+  },
+  {
+    "name": "HeartPlus",
+    "category": "Gaming"
+  },
+  {
     "name": "Hourglass",
+    "category": "Gaming"
+  },
+  {
+    "name": "Joystick",
+    "category": "Gaming"
+  },
+  {
+    "name": "LandPlot",
     "category": "Gaming"
   },
   {
@@ -4440,7 +6208,19 @@
     "category": "Gaming"
   },
   {
+    "name": "MemoryStick",
+    "category": "Gaming"
+  },
+  {
+    "name": "Milestone",
+    "category": "Gaming"
+  },
+  {
     "name": "Mountain",
+    "category": "Gaming"
+  },
+  {
+    "name": "PcCase",
     "category": "Gaming"
   },
   {
@@ -4448,11 +6228,91 @@
     "category": "Gaming"
   },
   {
+    "name": "Plus",
+    "category": "Gaming"
+  },
+  {
+    "name": "Puzzle",
+    "category": "Gaming"
+  },
+  {
+    "name": "RectangleGoggles",
+    "category": "Gaming"
+  },
+  {
+    "name": "Rocket",
+    "category": "Gaming"
+  },
+  {
+    "name": "Scan",
+    "category": "Gaming"
+  },
+  {
+    "name": "Scroll",
+    "category": "Gaming"
+  },
+  {
+    "name": "ScrollText",
+    "category": "Gaming"
+  },
+  {
     "name": "Shapes",
     "category": "Gaming"
   },
   {
+    "name": "Shield",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldAlert",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldBan",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldCheck",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldEllipsis",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldHalf",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldMinus",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldOff",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldPlus",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldQuestion",
+    "category": "Gaming"
+  },
+  {
+    "name": "ShieldX",
+    "category": "Gaming"
+  },
+  {
     "name": "Shovel",
+    "category": "Gaming"
+  },
+  {
+    "name": "Signpost",
+    "category": "Gaming"
+  },
+  {
+    "name": "SignpostBig",
     "category": "Gaming"
   },
   {
@@ -4464,7 +6324,27 @@
     "category": "Gaming"
   },
   {
+    "name": "Sparkles",
+    "category": "Gaming"
+  },
+  {
     "name": "Sprout",
+    "category": "Gaming"
+  },
+  {
+    "name": "SquareArrowDown",
+    "category": "Gaming"
+  },
+  {
+    "name": "SquareArrowDownLeft",
+    "category": "Gaming"
+  },
+  {
+    "name": "SquareArrowDownRight",
+    "category": "Gaming"
+  },
+  {
+    "name": "Star",
     "category": "Gaming"
   },
   {
@@ -4496,7 +6376,23 @@
     "category": "Gaming"
   },
   {
+    "name": "Target",
+    "category": "Gaming"
+  },
+  {
+    "name": "ToyBrick",
+    "category": "Gaming"
+  },
+  {
     "name": "Trophy",
+    "category": "Gaming"
+  },
+  {
+    "name": "Twitch",
+    "category": "Gaming"
+  },
+  {
+    "name": "VenetianMask",
     "category": "Gaming"
   },
   {
@@ -4504,7 +6400,19 @@
     "category": "Gaming"
   },
   {
+    "name": "Wand",
+    "category": "Gaming"
+  },
+  {
+    "name": "WandSparkles",
+    "category": "Gaming"
+  },
+  {
     "name": "AirVent",
+    "category": "Home"
+  },
+  {
+    "name": "AlarmSmoke",
     "category": "Home"
   },
   {
@@ -4524,11 +6432,31 @@
     "category": "Home"
   },
   {
+    "name": "BellElectric",
+    "category": "Home"
+  },
+  {
     "name": "Blinds",
     "category": "Home"
   },
   {
     "name": "Bolt",
+    "category": "Home"
+  },
+  {
+    "name": "BrickWall",
+    "category": "Home"
+  },
+  {
+    "name": "BrickWallFire",
+    "category": "Home"
+  },
+  {
+    "name": "BrushCleaning",
+    "category": "Home"
+  },
+  {
+    "name": "CookingPot",
     "category": "Home"
   },
   {
@@ -4544,7 +6472,15 @@
     "category": "Home"
   },
   {
+    "name": "Drill",
+    "category": "Home"
+  },
+  {
     "name": "Fan",
+    "category": "Home"
+  },
+  {
+    "name": "Fence",
     "category": "Home"
   },
   {
@@ -4553,6 +6489,22 @@
   },
   {
     "name": "Hammer",
+    "category": "Home"
+  },
+  {
+    "name": "Heater",
+    "category": "Home"
+  },
+  {
+    "name": "House",
+    "category": "Home"
+  },
+  {
+    "name": "HousePlug",
+    "category": "Home"
+  },
+  {
+    "name": "HouseWifi",
     "category": "Home"
   },
   {
@@ -4580,7 +6532,35 @@
     "category": "Home"
   },
   {
+    "name": "Microwave",
+    "category": "Home"
+  },
+  {
+    "name": "PaintRoller",
+    "category": "Home"
+  },
+  {
+    "name": "Paintbrush",
+    "category": "Home"
+  },
+  {
+    "name": "PaintbrushVertical",
+    "category": "Home"
+  },
+  {
+    "name": "Refrigerator",
+    "category": "Home"
+  },
+  {
     "name": "RockingChair",
+    "category": "Home"
+  },
+  {
+    "name": "Router",
+    "category": "Home"
+  },
+  {
+    "name": "Shell",
     "category": "Home"
   },
   {
@@ -4596,7 +6576,27 @@
     "category": "Home"
   },
   {
+    "name": "SwatchBook",
+    "category": "Home"
+  },
+  {
+    "name": "Toilet",
+    "category": "Home"
+  },
+  {
+    "name": "Usb",
+    "category": "Home"
+  },
+  {
+    "name": "UtilityPole",
+    "category": "Home"
+  },
+  {
     "name": "Vault",
+    "category": "Home"
+  },
+  {
+    "name": "WashingMachine",
     "category": "Home"
   },
   {
@@ -4692,7 +6692,123 @@
     "category": "Layout"
   },
   {
+    "name": "AppWindow",
+    "category": "Layout"
+  },
+  {
+    "name": "AppWindowMac",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowDown01",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowDown10",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowDownAZ",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowDownNarrowWide",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowDownWideNarrow",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowDownZA",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowUp01",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowUp10",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowUpAZ",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowUpNarrowWide",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowUpWideNarrow",
+    "category": "Layout"
+  },
+  {
+    "name": "ArrowUpZA",
+    "category": "Layout"
+  },
+  {
+    "name": "BetweenHorizontalEnd",
+    "category": "Layout"
+  },
+  {
+    "name": "BetweenHorizontalStart",
+    "category": "Layout"
+  },
+  {
+    "name": "BetweenVerticalEnd",
+    "category": "Layout"
+  },
+  {
+    "name": "BetweenVerticalStart",
+    "category": "Layout"
+  },
+  {
+    "name": "BringToFront",
+    "category": "Layout"
+  },
+  {
+    "name": "CircleEllipsis",
+    "category": "Layout"
+  },
+  {
+    "name": "Columns2",
+    "category": "Layout"
+  },
+  {
+    "name": "Columns3",
+    "category": "Layout"
+  },
+  {
+    "name": "Columns3Cog",
+    "category": "Layout"
+  },
+  {
+    "name": "Columns4",
+    "category": "Layout"
+  },
+  {
+    "name": "Dock",
+    "category": "Layout"
+  },
+  {
+    "name": "Ellipsis",
+    "category": "Layout"
+  },
+  {
     "name": "EllipsisVertical",
+    "category": "Layout"
+  },
+  {
+    "name": "FoldHorizontal",
+    "category": "Layout"
+  },
+  {
+    "name": "FoldVertical",
+    "category": "Layout"
+  },
+  {
+    "name": "Fullscreen",
     "category": "Layout"
   },
   {
@@ -4708,6 +6824,34 @@
     "category": "Layout"
   },
   {
+    "name": "GalleryHorizontal",
+    "category": "Layout"
+  },
+  {
+    "name": "GalleryHorizontalEnd",
+    "category": "Layout"
+  },
+  {
+    "name": "GalleryThumbnails",
+    "category": "Layout"
+  },
+  {
+    "name": "GalleryVertical",
+    "category": "Layout"
+  },
+  {
+    "name": "GalleryVerticalEnd",
+    "category": "Layout"
+  },
+  {
+    "name": "Grab",
+    "category": "Layout"
+  },
+  {
+    "name": "Grid2x2",
+    "category": "Layout"
+  },
+  {
     "name": "Grid2x2Check",
     "category": "Layout"
   },
@@ -4717,6 +6861,14 @@
   },
   {
     "name": "Grid2x2X",
+    "category": "Layout"
+  },
+  {
+    "name": "Grid3x2",
+    "category": "Layout"
+  },
+  {
+    "name": "Grid3x3",
     "category": "Layout"
   },
   {
@@ -4732,6 +6884,30 @@
     "category": "Layout"
   },
   {
+    "name": "Layers",
+    "category": "Layout"
+  },
+  {
+    "name": "Layers2",
+    "category": "Layout"
+  },
+  {
+    "name": "LayoutDashboard",
+    "category": "Layout"
+  },
+  {
+    "name": "LayoutGrid",
+    "category": "Layout"
+  },
+  {
+    "name": "LayoutList",
+    "category": "Layout"
+  },
+  {
+    "name": "LayoutPanelLeft",
+    "category": "Layout"
+  },
+  {
     "name": "LayoutPanelTop",
     "category": "Layout"
   },
@@ -4744,7 +6920,43 @@
     "category": "Layout"
   },
   {
+    "name": "ListTree",
+    "category": "Layout"
+  },
+  {
+    "name": "Loader",
+    "category": "Layout"
+  },
+  {
+    "name": "LoaderCircle",
+    "category": "Layout"
+  },
+  {
+    "name": "Maximize",
+    "category": "Layout"
+  },
+  {
+    "name": "Maximize2",
+    "category": "Layout"
+  },
+  {
+    "name": "Menu",
+    "category": "Layout"
+  },
+  {
+    "name": "Minimize",
+    "category": "Layout"
+  },
+  {
+    "name": "Minimize2",
+    "category": "Layout"
+  },
+  {
     "name": "PanelBottom",
+    "category": "Layout"
+  },
+  {
+    "name": "PanelBottomClose",
     "category": "Layout"
   },
   {
@@ -4752,7 +6964,15 @@
     "category": "Layout"
   },
   {
+    "name": "PanelBottomOpen",
+    "category": "Layout"
+  },
+  {
     "name": "PanelLeft",
+    "category": "Layout"
+  },
+  {
+    "name": "PanelLeftClose",
     "category": "Layout"
   },
   {
@@ -4760,7 +6980,15 @@
     "category": "Layout"
   },
   {
+    "name": "PanelLeftOpen",
+    "category": "Layout"
+  },
+  {
     "name": "PanelRight",
+    "category": "Layout"
+  },
+  {
+    "name": "PanelRightClose",
     "category": "Layout"
   },
   {
@@ -4768,7 +6996,23 @@
     "category": "Layout"
   },
   {
+    "name": "PanelRightOpen",
+    "category": "Layout"
+  },
+  {
+    "name": "PanelTop",
+    "category": "Layout"
+  },
+  {
+    "name": "PanelTopClose",
+    "category": "Layout"
+  },
+  {
     "name": "PanelTopDashed",
+    "category": "Layout"
+  },
+  {
+    "name": "PanelTopOpen",
     "category": "Layout"
   },
   {
@@ -4780,7 +7024,75 @@
     "category": "Layout"
   },
   {
+    "name": "PanelsTopLeft",
+    "category": "Layout"
+  },
+  {
+    "name": "PencilRuler",
+    "category": "Layout"
+  },
+  {
+    "name": "Proportions",
+    "category": "Layout"
+  },
+  {
+    "name": "Ratio",
+    "category": "Layout"
+  },
+  {
+    "name": "RotateCcwSquare",
+    "category": "Layout"
+  },
+  {
+    "name": "RotateCwSquare",
+    "category": "Layout"
+  },
+  {
+    "name": "Rows2",
+    "category": "Layout"
+  },
+  {
+    "name": "Rows3",
+    "category": "Layout"
+  },
+  {
+    "name": "Rows4",
+    "category": "Layout"
+  },
+  {
+    "name": "Ruler",
+    "category": "Layout"
+  },
+  {
+    "name": "RulerDimensionLine",
+    "category": "Layout"
+  },
+  {
+    "name": "SendToBack",
+    "category": "Layout"
+  },
+  {
+    "name": "SeparatorHorizontal",
+    "category": "Layout"
+  },
+  {
+    "name": "SeparatorVertical",
+    "category": "Layout"
+  },
+  {
+    "name": "Shrink",
+    "category": "Layout"
+  },
+  {
+    "name": "SquareDashedTopSolid",
+    "category": "Layout"
+  },
+  {
     "name": "SquareMenu",
+    "category": "Layout"
+  },
+  {
+    "name": "SquareRoundCorner",
     "category": "Layout"
   },
   {
@@ -4808,7 +7120,59 @@
     "category": "Layout"
   },
   {
+    "name": "ToggleLeft",
+    "category": "Layout"
+  },
+  {
+    "name": "ToggleRight",
+    "category": "Layout"
+  },
+  {
+    "name": "UnfoldHorizontal",
+    "category": "Layout"
+  },
+  {
+    "name": "UnfoldVertical",
+    "category": "Layout"
+  },
+  {
+    "name": "ZoomIn",
+    "category": "Layout"
+  },
+  {
+    "name": "ZoomOut",
+    "category": "Layout"
+  },
+  {
+    "name": "Archive",
+    "category": "Mail"
+  },
+  {
+    "name": "ArchiveRestore",
+    "category": "Mail"
+  },
+  {
+    "name": "ArchiveX",
+    "category": "Mail"
+  },
+  {
+    "name": "ArrowsUpFromLine",
+    "category": "Mail"
+  },
+  {
+    "name": "Container",
+    "category": "Mail"
+  },
+  {
     "name": "Forward",
+    "category": "Mail"
+  },
+  {
+    "name": "Inbox",
+    "category": "Mail"
+  },
+  {
+    "name": "Mail",
     "category": "Mail"
   },
   {
@@ -4852,12 +7216,60 @@
     "category": "Mail"
   },
   {
+    "name": "Paperclip",
+    "category": "Mail"
+  },
+  {
     "name": "Reply",
     "category": "Mail"
   },
   {
     "name": "ReplyAll",
     "category": "Mail"
+  },
+  {
+    "name": "Send",
+    "category": "Mail"
+  },
+  {
+    "name": "SendHorizontal",
+    "category": "Mail"
+  },
+  {
+    "name": "Shredder",
+    "category": "Mail"
+  },
+  {
+    "name": "Trash",
+    "category": "Mail"
+  },
+  {
+    "name": "Trash2",
+    "category": "Mail"
+  },
+  {
+    "name": "Asterisk",
+    "category": "Mathematics"
+  },
+  {
+    "name": "BadgePercent",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Box",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Calculator",
+    "category": "Mathematics"
+  },
+  {
+    "name": "ChevronRight",
+    "category": "Mathematics"
+  },
+  {
+    "name": "ChevronUp",
+    "category": "Mathematics"
   },
   {
     "name": "CircleDivide",
@@ -4869,6 +7281,26 @@
   },
   {
     "name": "CircleMinus",
+    "category": "Mathematics"
+  },
+  {
+    "name": "CirclePercent",
+    "category": "Mathematics"
+  },
+  {
+    "name": "CirclePlus",
+    "category": "Mathematics"
+  },
+  {
+    "name": "CircleSlash",
+    "category": "Mathematics"
+  },
+  {
+    "name": "CircleSlash2",
+    "category": "Mathematics"
+  },
+  {
+    "name": "CircleX",
     "category": "Mathematics"
   },
   {
@@ -4884,7 +7316,47 @@
     "category": "Mathematics"
   },
   {
+    "name": "CopySlash",
+    "category": "Mathematics"
+  },
+  {
     "name": "CopyX",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Cuboid",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Cylinder",
+    "category": "Mathematics"
+  },
+  {
+    "name": "DecimalsArrowLeft",
+    "category": "Mathematics"
+  },
+  {
+    "name": "DecimalsArrowRight",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Diameter",
+    "category": "Mathematics"
+  },
+  {
+    "name": "DiamondPercent",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Divide",
+    "category": "Mathematics"
+  },
+  {
+    "name": "DraftingCompass",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Equal",
     "category": "Mathematics"
   },
   {
@@ -4892,7 +7364,59 @@
     "category": "Mathematics"
   },
   {
+    "name": "EqualNot",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Grid2x2",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Grid2x2Check",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Grid2x2Plus",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Grid2x2X",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Grid3x2",
+    "category": "Mathematics"
+  },
+  {
+    "name": "LandPlot",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Minus",
+    "category": "Mathematics"
+  },
+  {
     "name": "OctagonX",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Omega",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Parentheses",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Percent",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Pi",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Plus",
     "category": "Mathematics"
   },
   {
@@ -4900,7 +7424,27 @@
     "category": "Mathematics"
   },
   {
+    "name": "Radical",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Radius",
+    "category": "Mathematics"
+  },
+  {
     "name": "Sigma",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Slash",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquareAsterisk",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquareChevronUp",
     "category": "Mathematics"
   },
   {
@@ -4912,7 +7456,35 @@
     "category": "Mathematics"
   },
   {
+    "name": "SquareFunction",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquareMinus",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquarePercent",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquarePi",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquarePlus",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquareRadical",
+    "category": "Mathematics"
+  },
+  {
     "name": "SquareSigma",
+    "category": "Mathematics"
+  },
+  {
+    "name": "SquareSlash",
     "category": "Mathematics"
   },
   {
@@ -4920,7 +7492,35 @@
     "category": "Mathematics"
   },
   {
+    "name": "Tally1",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Tally2",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Tally3",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Tally4",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Tally5",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Tangent",
+    "category": "Mathematics"
+  },
+  {
     "name": "TriangleRight",
+    "category": "Mathematics"
+  },
+  {
+    "name": "Variable",
     "category": "Mathematics"
   },
   {
@@ -4932,11 +7532,23 @@
     "category": "Mathematics"
   },
   {
+    "name": "Accessibility",
+    "category": "Medical"
+  },
+  {
+    "name": "Activity",
+    "category": "Medical"
+  },
+  {
     "name": "Ambulance",
     "category": "Medical"
   },
   {
     "name": "Bandage",
+    "category": "Medical"
+  },
+  {
+    "name": "Bone",
     "category": "Medical"
   },
   {
@@ -4972,7 +7584,47 @@
     "category": "Medical"
   },
   {
+    "name": "DnaOff",
+    "category": "Medical"
+  },
+  {
+    "name": "Ear",
+    "category": "Medical"
+  },
+  {
+    "name": "EarOff",
+    "category": "Medical"
+  },
+  {
+    "name": "Fingerprint",
+    "category": "Medical"
+  },
+  {
+    "name": "Heart",
+    "category": "Medical"
+  },
+  {
+    "name": "HeartMinus",
+    "category": "Medical"
+  },
+  {
+    "name": "HeartPlus",
+    "category": "Medical"
+  },
+  {
     "name": "HeartPulse",
+    "category": "Medical"
+  },
+  {
+    "name": "Hospital",
+    "category": "Medical"
+  },
+  {
+    "name": "HousePlus",
+    "category": "Medical"
+  },
+  {
+    "name": "LifeBuoy",
     "category": "Medical"
   },
   {
@@ -5000,7 +7652,15 @@
     "category": "Medical"
   },
   {
+    "name": "Ribbon",
+    "category": "Medical"
+  },
+  {
     "name": "ScanHeart",
+    "category": "Medical"
+  },
+  {
+    "name": "ShieldPlus",
     "category": "Medical"
   },
   {
@@ -5024,6 +7684,10 @@
     "category": "Medical"
   },
   {
+    "name": "Transgender",
+    "category": "Medical"
+  },
+  {
     "name": "Venus",
     "category": "Medical"
   },
@@ -5032,7 +7696,27 @@
     "category": "Medical"
   },
   {
+    "name": "Activity",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Airplay",
+    "category": "Multimedia"
+  },
+  {
     "name": "Album",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Antenna",
+    "category": "Multimedia"
+  },
+  {
+    "name": "AudioLines",
+    "category": "Multimedia"
+  },
+  {
+    "name": "AudioWaveform",
     "category": "Multimedia"
   },
   {
@@ -5044,11 +7728,43 @@
     "category": "Multimedia"
   },
   {
+    "name": "BookImage",
+    "category": "Multimedia"
+  },
+  {
+    "name": "BoomBox",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Cable",
+    "category": "Multimedia"
+  },
+  {
     "name": "Captions",
     "category": "Multimedia"
   },
   {
     "name": "CaptionsOff",
+    "category": "Multimedia"
+  },
+  {
+    "name": "CardSim",
+    "category": "Multimedia"
+  },
+  {
+    "name": "CassetteTape",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ChevronFirst",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ChevronLast",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ChevronsLeftRightEllipsis",
     "category": "Multimedia"
   },
   {
@@ -5068,7 +7784,47 @@
     "category": "Multimedia"
   },
   {
+    "name": "DiamondMinus",
+    "category": "Multimedia"
+  },
+  {
+    "name": "DiamondPlus",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Disc",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Disc2",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Disc3",
+    "category": "Multimedia"
+  },
+  {
+    "name": "DiscAlbum",
+    "category": "Multimedia"
+  },
+  {
     "name": "Drama",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Drum",
+    "category": "Multimedia"
+  },
+  {
+    "name": "EthernetPort",
+    "category": "Multimedia"
+  },
+  {
+    "name": "FastForward",
+    "category": "Multimedia"
+  },
+  {
+    "name": "FileMusic",
     "category": "Multimedia"
   },
   {
@@ -5076,7 +7832,59 @@
     "category": "Multimedia"
   },
   {
+    "name": "Fullscreen",
+    "category": "Multimedia"
+  },
+  {
+    "name": "GalleryHorizontal",
+    "category": "Multimedia"
+  },
+  {
+    "name": "GalleryHorizontalEnd",
+    "category": "Multimedia"
+  },
+  {
+    "name": "GalleryThumbnails",
+    "category": "Multimedia"
+  },
+  {
+    "name": "GalleryVertical",
+    "category": "Multimedia"
+  },
+  {
+    "name": "GalleryVerticalEnd",
+    "category": "Multimedia"
+  },
+  {
     "name": "Guitar",
+    "category": "Multimedia"
+  },
+  {
+    "name": "HandMetal",
+    "category": "Multimedia"
+  },
+  {
+    "name": "HdmiPort",
+    "category": "Multimedia"
+  },
+  {
+    "name": "HeadphoneOff",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Headphones",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Headset",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Heart",
+    "category": "Multimedia"
+  },
+  {
+    "name": "HeartMinus",
     "category": "Multimedia"
   },
   {
@@ -5084,11 +7892,63 @@
     "category": "Multimedia"
   },
   {
+    "name": "HeartPlus",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Image",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ImageDown",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ImageMinus",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ImageOff",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ImagePlay",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ImagePlus",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ImageUp",
+    "category": "Multimedia"
+  },
+  {
     "name": "ImageUpscale",
     "category": "Multimedia"
   },
   {
+    "name": "Images",
+    "category": "Multimedia"
+  },
+  {
     "name": "Infinity",
+    "category": "Multimedia"
+  },
+  {
+    "name": "KeyboardMusic",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Lectern",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Library",
+    "category": "Multimedia"
+  },
+  {
+    "name": "LibraryBig",
     "category": "Multimedia"
   },
   {
@@ -5124,11 +7984,63 @@
     "category": "Multimedia"
   },
   {
+    "name": "Loader",
+    "category": "Multimedia"
+  },
+  {
+    "name": "LoaderCircle",
+    "category": "Multimedia"
+  },
+  {
     "name": "Megaphone",
     "category": "Multimedia"
   },
   {
     "name": "MegaphoneOff",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Mic",
+    "category": "Multimedia"
+  },
+  {
+    "name": "MicOff",
+    "category": "Multimedia"
+  },
+  {
+    "name": "MicVocal",
+    "category": "Multimedia"
+  },
+  {
+    "name": "MonitorPause",
+    "category": "Multimedia"
+  },
+  {
+    "name": "MonitorPlay",
+    "category": "Multimedia"
+  },
+  {
+    "name": "MonitorStop",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Music",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Music2",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Music3",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Music4",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Newspaper",
     "category": "Multimedia"
   },
   {
@@ -5140,6 +8052,10 @@
     "category": "Multimedia"
   },
   {
+    "name": "Piano",
+    "category": "Multimedia"
+  },
+  {
     "name": "PictureInPicture",
     "category": "Multimedia"
   },
@@ -5148,11 +8064,99 @@
     "category": "Multimedia"
   },
   {
+    "name": "Play",
+    "category": "Multimedia"
+  },
+  {
     "name": "Podcast",
     "category": "Multimedia"
   },
   {
+    "name": "Popcorn",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Presentation",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Projector",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Radio",
+    "category": "Multimedia"
+  },
+  {
+    "name": "RadioTower",
+    "category": "Multimedia"
+  },
+  {
+    "name": "RectangleGoggles",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Repeat",
+    "category": "Multimedia"
+  },
+  {
     "name": "Repeat1",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Repeat2",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Rewind",
+    "category": "Multimedia"
+  },
+  {
+    "name": "SatelliteDish",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ScanEye",
+    "category": "Multimedia"
+  },
+  {
+    "name": "ScanSearch",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Shuffle",
+    "category": "Multimedia"
+  },
+  {
+    "name": "SkipBack",
+    "category": "Multimedia"
+  },
+  {
+    "name": "SkipForward",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Sparkles",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Speaker",
+    "category": "Multimedia"
+  },
+  {
+    "name": "SquareActivity",
+    "category": "Multimedia"
+  },
+  {
+    "name": "SquareLibrary",
+    "category": "Multimedia"
+  },
+  {
+    "name": "SquarePlay",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Star",
     "category": "Multimedia"
   },
   {
@@ -5164,8 +8168,60 @@
     "category": "Multimedia"
   },
   {
+    "name": "StepBack",
+    "category": "Multimedia"
+  },
+  {
+    "name": "StepForward",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Tv",
+    "category": "Multimedia"
+  },
+  {
+    "name": "TvMinimal",
+    "category": "Multimedia"
+  },
+  {
+    "name": "TvMinimalPlay",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Usb",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Volume",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Volume1",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Volume2",
+    "category": "Multimedia"
+  },
+  {
+    "name": "VolumeOff",
+    "category": "Multimedia"
+  },
+  {
+    "name": "VolumeX",
+    "category": "Multimedia"
+  },
+  {
     "name": "Waves",
     "category": "Multimedia"
+  },
+  {
+    "name": "Youtube",
+    "category": "Multimedia"
+  },
+  {
+    "name": "Binoculars",
+    "category": "Nature"
   },
   {
     "name": "Cannabis",
@@ -5173,6 +8229,14 @@
   },
   {
     "name": "Caravan",
+    "category": "Nature"
+  },
+  {
+    "name": "FlameKindling",
+    "category": "Nature"
+  },
+  {
+    "name": "Flower",
     "category": "Nature"
   },
   {
@@ -5184,11 +8248,27 @@
     "category": "Nature"
   },
   {
+    "name": "Mountain",
+    "category": "Nature"
+  },
+  {
     "name": "MountainSnow",
     "category": "Nature"
   },
   {
+    "name": "Shell",
+    "category": "Nature"
+  },
+  {
+    "name": "Shovel",
+    "category": "Nature"
+  },
+  {
     "name": "Shrub",
+    "category": "Nature"
+  },
+  {
+    "name": "Sprout",
     "category": "Nature"
   },
   {
@@ -5214,6 +8294,214 @@
   {
     "name": "Trees",
     "category": "Nature"
+  },
+  {
+    "name": "ArrowBigDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigDownDash",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigLeftDash",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigRightDash",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowBigUpDash",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDownFromLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDownLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDownRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDownToDot",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDownToLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowDownUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowLeftFromLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowLeftRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowLeftToLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowRightFromLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowRightLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowRightToLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUpDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUpFromDot",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUpFromLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUpLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUpRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ArrowUpToLine",
+    "category": "Navigation"
+  },
+  {
+    "name": "Binoculars",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "ChevronsUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "Church",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowOutDownLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowOutDownRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowOutUpLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowOutUpRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleArrowUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleChevronDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleChevronLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleChevronRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "CircleChevronUp",
+    "category": "Navigation"
   },
   {
     "name": "CircleParking",
@@ -5252,7 +8540,35 @@
     "category": "Navigation"
   },
   {
+    "name": "GitCommitHorizontal",
+    "category": "Navigation"
+  },
+  {
+    "name": "GitCommitVertical",
+    "category": "Navigation"
+  },
+  {
     "name": "Globe",
+    "category": "Navigation"
+  },
+  {
+    "name": "Hospital",
+    "category": "Navigation"
+  },
+  {
+    "name": "Hotel",
+    "category": "Navigation"
+  },
+  {
+    "name": "Landmark",
+    "category": "Navigation"
+  },
+  {
+    "name": "Library",
+    "category": "Navigation"
+  },
+  {
+    "name": "LibraryBig",
     "category": "Navigation"
   },
   {
@@ -5268,7 +8584,35 @@
     "category": "Navigation"
   },
   {
+    "name": "LocationEdit",
+    "category": "Navigation"
+  },
+  {
     "name": "Map",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPin",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinCheck",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinCheckInside",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinHouse",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinMinus",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinMinusInside",
     "category": "Navigation"
   },
   {
@@ -5276,7 +8620,31 @@
     "category": "Navigation"
   },
   {
+    "name": "MapPinPlus",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinPlusInside",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinX",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinXInside",
+    "category": "Navigation"
+  },
+  {
+    "name": "MapPinned",
+    "category": "Navigation"
+  },
+  {
     "name": "MapPlus",
+    "category": "Navigation"
+  },
+  {
+    "name": "Milestone",
     "category": "Navigation"
   },
   {
@@ -5300,7 +8668,15 @@
     "category": "Navigation"
   },
   {
+    "name": "Pin",
+    "category": "Navigation"
+  },
+  {
     "name": "PinOff",
+    "category": "Navigation"
+  },
+  {
+    "name": "Radar",
     "category": "Navigation"
   },
   {
@@ -5324,11 +8700,91 @@
     "category": "Navigation"
   },
   {
+    "name": "School",
+    "category": "Navigation"
+  },
+  {
     "name": "Ship",
     "category": "Navigation"
   },
   {
     "name": "ShipWheel",
+    "category": "Navigation"
+  },
+  {
+    "name": "Signpost",
+    "category": "Navigation"
+  },
+  {
+    "name": "SignpostBig",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowDownLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowDownRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowOutDownLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowOutDownRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowOutUpLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowOutUpRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowUpLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareArrowUpRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareChevronDown",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareChevronLeft",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareChevronRight",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareChevronUp",
+    "category": "Navigation"
+  },
+  {
+    "name": "SquareLibrary",
     "category": "Navigation"
   },
   {
@@ -5344,12 +8800,72 @@
     "category": "Navigation"
   },
   {
+    "name": "Store",
+    "category": "Navigation"
+  },
+  {
     "name": "TrainFrontTunnel",
     "category": "Navigation"
   },
   {
     "name": "TrainTrack",
     "category": "Navigation"
+  },
+  {
+    "name": "University",
+    "category": "Navigation"
+  },
+  {
+    "name": "Utensils",
+    "category": "Navigation"
+  },
+  {
+    "name": "UtensilsCrossed",
+    "category": "Navigation"
+  },
+  {
+    "name": "Warehouse",
+    "category": "Navigation"
+  },
+  {
+    "name": "Waves",
+    "category": "Navigation"
+  },
+  {
+    "name": "Waypoints",
+    "category": "Navigation"
+  },
+  {
+    "name": "AlarmClock",
+    "category": "Notification"
+  },
+  {
+    "name": "AlarmClockCheck",
+    "category": "Notification"
+  },
+  {
+    "name": "AlarmClockMinus",
+    "category": "Notification"
+  },
+  {
+    "name": "AlarmClockOff",
+    "category": "Notification"
+  },
+  {
+    "name": "AlarmClockPlus",
+    "category": "Notification"
+  },
+  {
+    "name": "Bell",
+    "category": "Notification"
+  },
+  {
+    "name": "BellDot",
+    "category": "Notification"
+  },
+  {
+    "name": "BellElectric",
+    "category": "Notification"
   },
   {
     "name": "BellMinus",
@@ -5392,7 +8908,35 @@
     "category": "Notification"
   },
   {
+    "name": "CircleHelp",
+    "category": "Notification"
+  },
+  {
     "name": "CopyCheck",
+    "category": "Notification"
+  },
+  {
+    "name": "CopyX",
+    "category": "Notification"
+  },
+  {
+    "name": "FileWarning",
+    "category": "Notification"
+  },
+  {
+    "name": "Info",
+    "category": "Notification"
+  },
+  {
+    "name": "LaptopMinimalCheck",
+    "category": "Notification"
+  },
+  {
+    "name": "Megaphone",
+    "category": "Notification"
+  },
+  {
+    "name": "MegaphoneOff",
     "category": "Notification"
   },
   {
@@ -5412,6 +8956,18 @@
     "category": "Notification"
   },
   {
+    "name": "OctagonX",
+    "category": "Notification"
+  },
+  {
+    "name": "ShieldAlert",
+    "category": "Notification"
+  },
+  {
+    "name": "SmilePlus",
+    "category": "Notification"
+  },
+  {
     "name": "SquareCheck",
     "category": "Notification"
   },
@@ -5420,7 +8976,75 @@
     "category": "Notification"
   },
   {
+    "name": "SquareX",
+    "category": "Notification"
+  },
+  {
+    "name": "TriangleAlert",
+    "category": "Notification"
+  },
+  {
+    "name": "Vibrate",
+    "category": "Notification"
+  },
+  {
+    "name": "X",
+    "category": "Notification"
+  },
+  {
+    "name": "Baby",
+    "category": "People"
+  },
+  {
+    "name": "HandPlatter",
+    "category": "People"
+  },
+  {
+    "name": "PersonStanding",
+    "category": "People"
+  },
+  {
+    "name": "Album",
+    "category": "Photography"
+  },
+  {
     "name": "Aperture",
+    "category": "Photography"
+  },
+  {
+    "name": "Backpack",
+    "category": "Photography"
+  },
+  {
+    "name": "Binoculars",
+    "category": "Photography"
+  },
+  {
+    "name": "Blend",
+    "category": "Photography"
+  },
+  {
+    "name": "BookImage",
+    "category": "Photography"
+  },
+  {
+    "name": "Camera",
+    "category": "Photography"
+  },
+  {
+    "name": "CameraOff",
+    "category": "Photography"
+  },
+  {
+    "name": "Cctv",
+    "category": "Photography"
+  },
+  {
+    "name": "Contrast",
+    "category": "Photography"
+  },
+  {
+    "name": "Crop",
     "category": "Photography"
   },
   {
@@ -5428,7 +9052,143 @@
     "category": "Photography"
   },
   {
+    "name": "DatabaseBackup",
+    "category": "Photography"
+  },
+  {
+    "name": "DiamondMinus",
+    "category": "Photography"
+  },
+  {
+    "name": "DiamondPlus",
+    "category": "Photography"
+  },
+  {
+    "name": "Eclipse",
+    "category": "Photography"
+  },
+  {
+    "name": "Eye",
+    "category": "Photography"
+  },
+  {
+    "name": "EyeClosed",
+    "category": "Photography"
+  },
+  {
+    "name": "EyeOff",
+    "category": "Photography"
+  },
+  {
+    "name": "Film",
+    "category": "Photography"
+  },
+  {
+    "name": "Flashlight",
+    "category": "Photography"
+  },
+  {
+    "name": "FlashlightOff",
+    "category": "Photography"
+  },
+  {
+    "name": "FlipHorizontal",
+    "category": "Photography"
+  },
+  {
+    "name": "FlipHorizontal2",
+    "category": "Photography"
+  },
+  {
+    "name": "FlipVertical",
+    "category": "Photography"
+  },
+  {
+    "name": "FlipVertical2",
+    "category": "Photography"
+  },
+  {
     "name": "Focus",
+    "category": "Photography"
+  },
+  {
+    "name": "Frame",
+    "category": "Photography"
+  },
+  {
+    "name": "Fullscreen",
+    "category": "Photography"
+  },
+  {
+    "name": "GalleryHorizontal",
+    "category": "Photography"
+  },
+  {
+    "name": "GalleryHorizontalEnd",
+    "category": "Photography"
+  },
+  {
+    "name": "GalleryThumbnails",
+    "category": "Photography"
+  },
+  {
+    "name": "GalleryVertical",
+    "category": "Photography"
+  },
+  {
+    "name": "GalleryVerticalEnd",
+    "category": "Photography"
+  },
+  {
+    "name": "Image",
+    "category": "Photography"
+  },
+  {
+    "name": "ImageDown",
+    "category": "Photography"
+  },
+  {
+    "name": "ImageMinus",
+    "category": "Photography"
+  },
+  {
+    "name": "ImageOff",
+    "category": "Photography"
+  },
+  {
+    "name": "ImagePlay",
+    "category": "Photography"
+  },
+  {
+    "name": "ImagePlus",
+    "category": "Photography"
+  },
+  {
+    "name": "ImageUp",
+    "category": "Photography"
+  },
+  {
+    "name": "ImageUpscale",
+    "category": "Photography"
+  },
+  {
+    "name": "Images",
+    "category": "Photography"
+  },
+  {
+    "name": "Instagram",
+    "category": "Photography"
+  },
+  {
+    "name": "LayoutList",
+    "category": "Photography"
+  },
+  {
+    "name": "Library",
+    "category": "Photography"
+  },
+  {
+    "name": "LibraryBig",
     "category": "Photography"
   },
   {
@@ -5440,7 +9200,119 @@
     "category": "Photography"
   },
   {
+    "name": "Paintbrush",
+    "category": "Photography"
+  },
+  {
+    "name": "PaintbrushVertical",
+    "category": "Photography"
+  },
+  {
+    "name": "Palette",
+    "category": "Photography"
+  },
+  {
+    "name": "Presentation",
+    "category": "Photography"
+  },
+  {
+    "name": "Projector",
+    "category": "Photography"
+  },
+  {
+    "name": "Proportions",
+    "category": "Photography"
+  },
+  {
+    "name": "Ratio",
+    "category": "Photography"
+  },
+  {
+    "name": "RotateCcw",
+    "category": "Photography"
+  },
+  {
+    "name": "RotateCcwSquare",
+    "category": "Photography"
+  },
+  {
+    "name": "RotateCw",
+    "category": "Photography"
+  },
+  {
+    "name": "RotateCwSquare",
+    "category": "Photography"
+  },
+  {
+    "name": "ScanEye",
+    "category": "Photography"
+  },
+  {
+    "name": "ScanSearch",
+    "category": "Photography"
+  },
+  {
+    "name": "SquareLibrary",
+    "category": "Photography"
+  },
+  {
+    "name": "SwatchBook",
+    "category": "Photography"
+  },
+  {
+    "name": "Video",
+    "category": "Photography"
+  },
+  {
+    "name": "VideoOff",
+    "category": "Photography"
+  },
+  {
+    "name": "Videotape",
+    "category": "Photography"
+  },
+  {
+    "name": "View",
+    "category": "Photography"
+  },
+  {
+    "name": "Wand",
+    "category": "Photography"
+  },
+  {
+    "name": "WandSparkles",
+    "category": "Photography"
+  },
+  {
+    "name": "Zap",
+    "category": "Photography"
+  },
+  {
+    "name": "ZapOff",
+    "category": "Photography"
+  },
+  {
+    "name": "ZoomIn",
+    "category": "Photography"
+  },
+  {
+    "name": "ZoomOut",
+    "category": "Photography"
+  },
+  {
+    "name": "Activity",
+    "category": "Science"
+  },
+  {
     "name": "Atom",
+    "category": "Science"
+  },
+  {
+    "name": "Beaker",
+    "category": "Science"
+  },
+  {
+    "name": "Binoculars",
     "category": "Science"
   },
   {
@@ -5448,7 +9320,39 @@
     "category": "Science"
   },
   {
+    "name": "Brain",
+    "category": "Science"
+  },
+  {
+    "name": "BrainCircuit",
+    "category": "Science"
+  },
+  {
+    "name": "BrainCog",
+    "category": "Science"
+  },
+  {
     "name": "CircleGauge",
+    "category": "Science"
+  },
+  {
+    "name": "CircuitBoard",
+    "category": "Science"
+  },
+  {
+    "name": "Eclipse",
+    "category": "Science"
+  },
+  {
+    "name": "FlaskConical",
+    "category": "Science"
+  },
+  {
+    "name": "FlaskConicalOff",
+    "category": "Science"
+  },
+  {
+    "name": "FlaskRound",
     "category": "Science"
   },
   {
@@ -5456,11 +9360,51 @@
     "category": "Science"
   },
   {
+    "name": "Microscope",
+    "category": "Science"
+  },
+  {
+    "name": "Omega",
+    "category": "Science"
+  },
+  {
     "name": "Orbit",
     "category": "Science"
   },
   {
+    "name": "Pipette",
+    "category": "Science"
+  },
+  {
     "name": "Radiation",
+    "category": "Science"
+  },
+  {
+    "name": "Satellite",
+    "category": "Science"
+  },
+  {
+    "name": "Shell",
+    "category": "Science"
+  },
+  {
+    "name": "Sigma",
+    "category": "Science"
+  },
+  {
+    "name": "SquareActivity",
+    "category": "Science"
+  },
+  {
+    "name": "Stethoscope",
+    "category": "Science"
+  },
+  {
+    "name": "Syringe",
+    "category": "Science"
+  },
+  {
+    "name": "Telescope",
     "category": "Science"
   },
   {
@@ -5476,11 +9420,131 @@
     "category": "Science"
   },
   {
+    "name": "Flower2",
+    "category": "Seasons"
+  },
+  {
+    "name": "Leaf",
+    "category": "Seasons"
+  },
+  {
     "name": "Snowflake",
     "category": "Seasons"
   },
   {
+    "name": "Sun",
+    "category": "Seasons"
+  },
+  {
     "name": "Bomb",
+    "category": "Security"
+  },
+  {
+    "name": "BookKey",
+    "category": "Security"
+  },
+  {
+    "name": "BookLock",
+    "category": "Security"
+  },
+  {
+    "name": "BrickWallFire",
+    "category": "Security"
+  },
+  {
+    "name": "Cctv",
+    "category": "Security"
+  },
+  {
+    "name": "Columns4",
+    "category": "Security"
+  },
+  {
+    "name": "DoorClosed",
+    "category": "Security"
+  },
+  {
+    "name": "DoorClosedLocked",
+    "category": "Security"
+  },
+  {
+    "name": "DoorOpen",
+    "category": "Security"
+  },
+  {
+    "name": "EarthLock",
+    "category": "Security"
+  },
+  {
+    "name": "Eye",
+    "category": "Security"
+  },
+  {
+    "name": "EyeClosed",
+    "category": "Security"
+  },
+  {
+    "name": "EyeOff",
+    "category": "Security"
+  },
+  {
+    "name": "FileKey",
+    "category": "Security"
+  },
+  {
+    "name": "FileKey2",
+    "category": "Security"
+  },
+  {
+    "name": "FileLock",
+    "category": "Security"
+  },
+  {
+    "name": "FileLock2",
+    "category": "Security"
+  },
+  {
+    "name": "Fingerprint",
+    "category": "Security"
+  },
+  {
+    "name": "FolderKey",
+    "category": "Security"
+  },
+  {
+    "name": "FolderLock",
+    "category": "Security"
+  },
+  {
+    "name": "GlobeLock",
+    "category": "Security"
+  },
+  {
+    "name": "Handshake",
+    "category": "Security"
+  },
+  {
+    "name": "HeartHandshake",
+    "category": "Security"
+  },
+  {
+    "name": "IdCard",
+    "category": "Security"
+  },
+  {
+    "name": "IdCardLanyard",
+    "category": "Security"
+  },
+  {
+    "name": "Key",
+    "category": "Security"
+  },
+  {
+    "name": "KeyRound",
+    "category": "Security"
+  },
+  {
+    "name": "KeySquare",
     "category": "Security"
   },
   {
@@ -5500,7 +9564,127 @@
     "category": "Security"
   },
   {
+    "name": "Radar",
+    "category": "Security"
+  },
+  {
+    "name": "RotateCcwKey",
+    "category": "Security"
+  },
+  {
+    "name": "Scan",
+    "category": "Security"
+  },
+  {
+    "name": "ScanEye",
+    "category": "Security"
+  },
+  {
+    "name": "ScanFace",
+    "category": "Security"
+  },
+  {
+    "name": "ScanQrCode",
+    "category": "Security"
+  },
+  {
+    "name": "Shield",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldAlert",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldBan",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldCheck",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldEllipsis",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldHalf",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldMinus",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldOff",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldPlus",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldQuestion",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldUser",
+    "category": "Security"
+  },
+  {
+    "name": "ShieldX",
+    "category": "Security"
+  },
+  {
+    "name": "SquareAsterisk",
+    "category": "Security"
+  },
+  {
+    "name": "UserLock",
+    "category": "Security"
+  },
+  {
+    "name": "Vault",
+    "category": "Security"
+  },
+  {
+    "name": "Waypoints",
+    "category": "Security"
+  },
+  {
+    "name": "Worm",
+    "category": "Security"
+  },
+  {
+    "name": "Badge",
+    "category": "Shapes"
+  },
+  {
+    "name": "Blocks",
+    "category": "Shapes"
+  },
+  {
+    "name": "Box",
+    "category": "Shapes"
+  },
+  {
+    "name": "Boxes",
+    "category": "Shapes"
+  },
+  {
     "name": "Circle",
+    "category": "Shapes"
+  },
+  {
+    "name": "CircleDashed",
+    "category": "Shapes"
+  },
+  {
+    "name": "CircleDot",
+    "category": "Shapes"
+  },
+  {
+    "name": "CircleDotDashed",
     "category": "Shapes"
   },
   {
@@ -5508,7 +9692,39 @@
     "category": "Shapes"
   },
   {
+    "name": "CircleSlash2",
+    "category": "Shapes"
+  },
+  {
+    "name": "CircleSmall",
+    "category": "Shapes"
+  },
+  {
+    "name": "Club",
+    "category": "Shapes"
+  },
+  {
+    "name": "Cone",
+    "category": "Shapes"
+  },
+  {
     "name": "Cross",
+    "category": "Shapes"
+  },
+  {
+    "name": "Cuboid",
+    "category": "Shapes"
+  },
+  {
+    "name": "Cylinder",
+    "category": "Shapes"
+  },
+  {
+    "name": "Diameter",
+    "category": "Shapes"
+  },
+  {
+    "name": "Diamond",
     "category": "Shapes"
   },
   {
@@ -5516,11 +9732,55 @@
     "category": "Shapes"
   },
   {
+    "name": "Heart",
+    "category": "Shapes"
+  },
+  {
+    "name": "Hexagon",
+    "category": "Shapes"
+  },
+  {
     "name": "Octagon",
     "category": "Shapes"
   },
   {
+    "name": "OctagonAlert",
+    "category": "Shapes"
+  },
+  {
+    "name": "OctagonPause",
+    "category": "Shapes"
+  },
+  {
     "name": "Pentagon",
+    "category": "Shapes"
+  },
+  {
+    "name": "Pyramid",
+    "category": "Shapes"
+  },
+  {
+    "name": "Radius",
+    "category": "Shapes"
+  },
+  {
+    "name": "RectangleHorizontal",
+    "category": "Shapes"
+  },
+  {
+    "name": "RectangleVertical",
+    "category": "Shapes"
+  },
+  {
+    "name": "Shapes",
+    "category": "Shapes"
+  },
+  {
+    "name": "Shield",
+    "category": "Shapes"
+  },
+  {
+    "name": "Spade",
     "category": "Shapes"
   },
   {
@@ -5536,7 +9796,23 @@
     "category": "Shapes"
   },
   {
+    "name": "Star",
+    "category": "Shapes"
+  },
+  {
+    "name": "Tangent",
+    "category": "Shapes"
+  },
+  {
+    "name": "Torus",
+    "category": "Shapes"
+  },
+  {
     "name": "Triangle",
+    "category": "Shapes"
+  },
+  {
+    "name": "TriangleAlert",
     "category": "Shapes"
   },
   {
@@ -5544,7 +9820,83 @@
     "category": "Shapes"
   },
   {
+    "name": "TriangleRight",
+    "category": "Shapes"
+  },
+  {
+    "name": "Ungroup",
+    "category": "Shapes"
+  },
+  {
+    "name": "BadgeCent",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgeDollarSign",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgeEuro",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgeIndianRupee",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgeJapaneseYen",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgePercent",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgePoundSterling",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgeRussianRuble",
+    "category": "Shopping"
+  },
+  {
+    "name": "BadgeSwissFranc",
+    "category": "Shopping"
+  },
+  {
     "name": "Barcode",
+    "category": "Shopping"
+  },
+  {
+    "name": "BookImage",
+    "category": "Shopping"
+  },
+  {
+    "name": "CirclePercent",
+    "category": "Shopping"
+  },
+  {
+    "name": "DiamondPercent",
+    "category": "Shopping"
+  },
+  {
+    "name": "Percent",
+    "category": "Shopping"
+  },
+  {
+    "name": "Scan",
+    "category": "Shopping"
+  },
+  {
+    "name": "ScanBarcode",
+    "category": "Shopping"
+  },
+  {
+    "name": "ScanLine",
+    "category": "Shopping"
+  },
+  {
+    "name": "ScanQrCode",
     "category": "Shopping"
   },
   {
@@ -5564,15 +9916,47 @@
     "category": "Shopping"
   },
   {
+    "name": "SquarePercent",
+    "category": "Shopping"
+  },
+  {
+    "name": "Store",
+    "category": "Shopping"
+  },
+  {
     "name": "TicketPercent",
     "category": "Shopping"
+  },
+  {
+    "name": "Activity",
+    "category": "Social"
+  },
+  {
+    "name": "Badge",
+    "category": "Social"
+  },
+  {
+    "name": "BadgeAlert",
+    "category": "Social"
   },
   {
     "name": "BadgeCheck",
     "category": "Social"
   },
   {
+    "name": "BadgeHelp",
+    "category": "Social"
+  },
+  {
+    "name": "BadgeInfo",
+    "category": "Social"
+  },
+  {
     "name": "BadgeMinus",
+    "category": "Social"
+  },
+  {
+    "name": "BadgePercent",
     "category": "Social"
   },
   {
@@ -5584,7 +9968,95 @@
     "category": "Social"
   },
   {
+    "name": "BookHeart",
+    "category": "Social"
+  },
+  {
+    "name": "BookImage",
+    "category": "Social"
+  },
+  {
+    "name": "BookUser",
+    "category": "Social"
+  },
+  {
+    "name": "BoomBox",
+    "category": "Social"
+  },
+  {
+    "name": "Bot",
+    "category": "Social"
+  },
+  {
+    "name": "BotMessageSquare",
+    "category": "Social"
+  },
+  {
+    "name": "BotOff",
+    "category": "Social"
+  },
+  {
+    "name": "Cake",
+    "category": "Social"
+  },
+  {
+    "name": "CakeSlice",
+    "category": "Social"
+  },
+  {
+    "name": "CircleFadingPlus",
+    "category": "Social"
+  },
+  {
+    "name": "CirclePercent",
+    "category": "Social"
+  },
+  {
+    "name": "Contact",
+    "category": "Social"
+  },
+  {
+    "name": "ContactRound",
+    "category": "Social"
+  },
+  {
+    "name": "DiamondPercent",
+    "category": "Social"
+  },
+  {
+    "name": "Dribbble",
+    "category": "Social"
+  },
+  {
+    "name": "ExternalLink",
+    "category": "Social"
+  },
+  {
+    "name": "Facebook",
+    "category": "Social"
+  },
+  {
+    "name": "Flag",
+    "category": "Social"
+  },
+  {
+    "name": "FlagOff",
+    "category": "Social"
+  },
+  {
+    "name": "Flame",
+    "category": "Social"
+  },
+  {
+    "name": "FlameKindling",
+    "category": "Social"
+  },
+  {
     "name": "HandHeart",
+    "category": "Social"
+  },
+  {
+    "name": "Handshake",
     "category": "Social"
   },
   {
@@ -5592,7 +10064,35 @@
     "category": "Social"
   },
   {
+    "name": "Heart",
+    "category": "Social"
+  },
+  {
+    "name": "HeartMinus",
+    "category": "Social"
+  },
+  {
+    "name": "HeartOff",
+    "category": "Social"
+  },
+  {
+    "name": "HeartPlus",
+    "category": "Social"
+  },
+  {
+    "name": "Instagram",
+    "category": "Social"
+  },
+  {
+    "name": "Linkedin",
+    "category": "Social"
+  },
+  {
     "name": "MessageCircle",
+    "category": "Social"
+  },
+  {
+    "name": "MessageCircleCode",
     "category": "Social"
   },
   {
@@ -5624,11 +10124,31 @@
     "category": "Social"
   },
   {
+    "name": "MessageCircleWarning",
+    "category": "Social"
+  },
+  {
+    "name": "MessageCircleX",
+    "category": "Social"
+  },
+  {
     "name": "MessageSquare",
     "category": "Social"
   },
   {
+    "name": "MessageSquareCode",
+    "category": "Social"
+  },
+  {
     "name": "MessageSquareDashed",
+    "category": "Social"
+  },
+  {
+    "name": "MessageSquareDiff",
+    "category": "Social"
+  },
+  {
+    "name": "MessageSquareDot",
     "category": "Social"
   },
   {
@@ -5668,6 +10188,10 @@
     "category": "Social"
   },
   {
+    "name": "MessageSquareWarning",
+    "category": "Social"
+  },
+  {
     "name": "MessageSquareX",
     "category": "Social"
   },
@@ -5676,7 +10200,15 @@
     "category": "Social"
   },
   {
+    "name": "Notebook",
+    "category": "Social"
+  },
+  {
     "name": "NotebookPen",
+    "category": "Social"
+  },
+  {
+    "name": "NotebookTabs",
     "category": "Social"
   },
   {
@@ -5692,11 +10224,51 @@
     "category": "Social"
   },
   {
+    "name": "Podcast",
+    "category": "Social"
+  },
+  {
+    "name": "QrCode",
+    "category": "Social"
+  },
+  {
+    "name": "Radio",
+    "category": "Social"
+  },
+  {
+    "name": "RadioTower",
+    "category": "Social"
+  },
+  {
+    "name": "Repeat2",
+    "category": "Social"
+  },
+  {
+    "name": "Ribbon",
+    "category": "Social"
+  },
+  {
+    "name": "Rss",
+    "category": "Social"
+  },
+  {
+    "name": "Scan",
+    "category": "Social"
+  },
+  {
+    "name": "ScanFace",
+    "category": "Social"
+  },
+  {
     "name": "Search",
     "category": "Social"
   },
   {
     "name": "SearchCheck",
+    "category": "Social"
+  },
+  {
+    "name": "SearchCode",
     "category": "Social"
   },
   {
@@ -5708,6 +10280,50 @@
     "category": "Social"
   },
   {
+    "name": "Share",
+    "category": "Social"
+  },
+  {
+    "name": "Share2",
+    "category": "Social"
+  },
+  {
+    "name": "Slack",
+    "category": "Social"
+  },
+  {
+    "name": "SmilePlus",
+    "category": "Social"
+  },
+  {
+    "name": "SquareActivity",
+    "category": "Social"
+  },
+  {
+    "name": "SquareArrowOutUpRight",
+    "category": "Social"
+  },
+  {
+    "name": "SquareArrowUpRight",
+    "category": "Social"
+  },
+  {
+    "name": "SquarePercent",
+    "category": "Social"
+  },
+  {
+    "name": "Star",
+    "category": "Social"
+  },
+  {
+    "name": "StarHalf",
+    "category": "Social"
+  },
+  {
+    "name": "StarOff",
+    "category": "Social"
+  },
+  {
     "name": "Sticker",
     "category": "Social"
   },
@@ -5716,11 +10332,163 @@
     "category": "Social"
   },
   {
+    "name": "Theater",
+    "category": "Social"
+  },
+  {
+    "name": "ThumbsDown",
+    "category": "Social"
+  },
+  {
+    "name": "ThumbsUp",
+    "category": "Social"
+  },
+  {
+    "name": "Twitch",
+    "category": "Social"
+  },
+  {
+    "name": "Twitter",
+    "category": "Social"
+  },
+  {
+    "name": "UserRoundSearch",
+    "category": "Social"
+  },
+  {
+    "name": "UserSearch",
+    "category": "Social"
+  },
+  {
+    "name": "Voicemail",
+    "category": "Social"
+  },
+  {
     "name": "Vote",
     "category": "Social"
   },
   {
+    "name": "Waypoints",
+    "category": "Social"
+  },
+  {
+    "name": "Webhook",
+    "category": "Social"
+  },
+  {
+    "name": "WebhookOff",
+    "category": "Social"
+  },
+  {
+    "name": "Youtube",
+    "category": "Social"
+  },
+  {
+    "name": "Award",
+    "category": "Sports"
+  },
+  {
+    "name": "CircleGauge",
+    "category": "Sports"
+  },
+  {
+    "name": "Dumbbell",
+    "category": "Sports"
+  },
+  {
+    "name": "Gauge",
+    "category": "Sports"
+  },
+  {
+    "name": "LandPlot",
+    "category": "Sports"
+  },
+  {
+    "name": "Medal",
+    "category": "Sports"
+  },
+  {
+    "name": "Trophy",
+    "category": "Sports"
+  },
+  {
+    "name": "Volleyball",
+    "category": "Sports"
+  },
+  {
+    "name": "WavesLadder",
+    "category": "Sports"
+  },
+  {
+    "name": "Dam",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Flower",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Flower2",
+    "category": "Sustainability"
+  },
+  {
+    "name": "HousePlug",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Leaf",
+    "category": "Sustainability"
+  },
+  {
+    "name": "LeafyGreen",
+    "category": "Sustainability"
+  },
+  {
     "name": "Recycle",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Sprout",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Sun",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Tent",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Tractor",
+    "category": "Sustainability"
+  },
+  {
+    "name": "TreeDeciduous",
+    "category": "Sustainability"
+  },
+  {
+    "name": "TreePalm",
+    "category": "Sustainability"
+  },
+  {
+    "name": "TreePine",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Trees",
+    "category": "Sustainability"
+  },
+  {
+    "name": "UtilityPole",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Vegan",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Waves",
     "category": "Sustainability"
   },
   {
@@ -5730,6 +10498,18 @@
   {
     "name": "WindArrowDown",
     "category": "Sustainability"
+  },
+  {
+    "name": "AArrowDown",
+    "category": "Text formatting"
+  },
+  {
+    "name": "AArrowUp",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ALargeSmall",
+    "category": "Text formatting"
   },
   {
     "name": "AlignCenter",
@@ -5748,7 +10528,79 @@
     "category": "Text formatting"
   },
   {
+    "name": "Ampersand",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Ampersands",
+    "category": "Text formatting"
+  },
+  {
     "name": "Anchor",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowBigUp",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowBigUpDash",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowDown01",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowDown10",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowDownAZ",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowDownNarrowWide",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowDownWideNarrow",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowDownZA",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowUp01",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowUp10",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowUpAZ",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowUpNarrowWide",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowUpWideNarrow",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ArrowUpZA",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Asterisk",
+    "category": "Text formatting"
+  },
+  {
+    "name": "AtSign",
     "category": "Text formatting"
   },
   {
@@ -5756,7 +10608,83 @@
     "category": "Text formatting"
   },
   {
+    "name": "Binary",
+    "category": "Text formatting"
+  },
+  {
     "name": "Bold",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Book",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookA",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookAudio",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookCheck",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookCopy",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookHeadphones",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookHeart",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookImage",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookMarked",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookMinus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookOpen",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookOpenCheck",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookOpenText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookPlus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookType",
+    "category": "Text formatting"
+  },
+  {
+    "name": "BookX",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Brush",
     "category": "Text formatting"
   },
   {
@@ -5772,6 +10700,10 @@
     "category": "Text formatting"
   },
   {
+    "name": "CircleHelp",
+    "category": "Text formatting"
+  },
+  {
     "name": "Clipboard",
     "category": "Text formatting"
   },
@@ -5780,7 +10712,19 @@
     "category": "Text formatting"
   },
   {
+    "name": "ClipboardCopy",
+    "category": "Text formatting"
+  },
+  {
     "name": "ClipboardList",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ClipboardMinus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ClipboardPaste",
     "category": "Text formatting"
   },
   {
@@ -5792,6 +10736,10 @@
     "category": "Text formatting"
   },
   {
+    "name": "ClipboardPlus",
+    "category": "Text formatting"
+  },
+  {
     "name": "ClipboardType",
     "category": "Text formatting"
   },
@@ -5800,7 +10748,43 @@
     "category": "Text formatting"
   },
   {
+    "name": "Code",
+    "category": "Text formatting"
+  },
+  {
+    "name": "CodeXml",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Columns2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Columns3",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Columns4",
+    "category": "Text formatting"
+  },
+  {
     "name": "Copy",
+    "category": "Text formatting"
+  },
+  {
+    "name": "CopyCheck",
+    "category": "Text formatting"
+  },
+  {
+    "name": "CopyMinus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "CopyPlus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "CopySlash",
     "category": "Text formatting"
   },
   {
@@ -5812,11 +10796,79 @@
     "category": "Text formatting"
   },
   {
+    "name": "CornerDownRight",
+    "category": "Text formatting"
+  },
+  {
     "name": "CreativeCommons",
     "category": "Text formatting"
   },
   {
+    "name": "DecimalsArrowLeft",
+    "category": "Text formatting"
+  },
+  {
+    "name": "DecimalsArrowRight",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Delete",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Dot",
+    "category": "Text formatting"
+  },
+  {
     "name": "Eraser",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Expand",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ExternalLink",
+    "category": "Text formatting"
+  },
+  {
+    "name": "FileText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "FileType",
+    "category": "Text formatting"
+  },
+  {
+    "name": "FileType2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Grid2x2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Grid2x2Check",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Grid2x2Plus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Grid2x2X",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Grid3x2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Grid3x3",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Hash",
     "category": "Text formatting"
   },
   {
@@ -5848,7 +10900,47 @@
     "category": "Text formatting"
   },
   {
+    "name": "Highlighter",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Image",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ImageDown",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ImagePlay",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ImageUp",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Images",
+    "category": "Text formatting"
+  },
+  {
+    "name": "IndentDecrease",
+    "category": "Text formatting"
+  },
+  {
+    "name": "IndentIncrease",
+    "category": "Text formatting"
+  },
+  {
     "name": "Italic",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Keyboard",
+    "category": "Text formatting"
+  },
+  {
+    "name": "KeyboardOff",
     "category": "Text formatting"
   },
   {
@@ -5856,11 +10948,31 @@
     "category": "Text formatting"
   },
   {
+    "name": "LayoutList",
+    "category": "Text formatting"
+  },
+  {
     "name": "LetterText",
     "category": "Text formatting"
   },
   {
+    "name": "Library",
+    "category": "Text formatting"
+  },
+  {
+    "name": "LibraryBig",
+    "category": "Text formatting"
+  },
+  {
     "name": "Ligature",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Link",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Link2",
     "category": "Text formatting"
   },
   {
@@ -5884,7 +10996,19 @@
     "category": "Text formatting"
   },
   {
+    "name": "ListEnd",
+    "category": "Text formatting"
+  },
+  {
     "name": "ListFilter",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ListFilterPlus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ListMinus",
     "category": "Text formatting"
   },
   {
@@ -5892,11 +11016,127 @@
     "category": "Text formatting"
   },
   {
+    "name": "ListPlus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ListRestart",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ListStart",
+    "category": "Text formatting"
+  },
+  {
     "name": "ListTodo",
     "category": "Text formatting"
   },
   {
+    "name": "ListTree",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ListX",
+    "category": "Text formatting"
+  },
+  {
     "name": "Logs",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Mail",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Map",
+    "category": "Text formatting"
+  },
+  {
+    "name": "MessageSquareQuote",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Minus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Notebook",
+    "category": "Text formatting"
+  },
+  {
+    "name": "NotebookPen",
+    "category": "Text formatting"
+  },
+  {
+    "name": "NotebookText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "NotepadText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "NotepadTextDashed",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Omega",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PaintRoller",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Paintbrush",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PaintbrushVertical",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Palette",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Paperclip",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Pen",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PenLine",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PenOff",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PenTool",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Pencil",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PencilLine",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PencilOff",
+    "category": "Text formatting"
+  },
+  {
+    "name": "PencilRuler",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Phone",
     "category": "Text formatting"
   },
   {
@@ -5912,7 +11152,35 @@
     "category": "Text formatting"
   },
   {
+    "name": "Pipette",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Plus",
+    "category": "Text formatting"
+  },
+  {
     "name": "Quote",
+    "category": "Text formatting"
+  },
+  {
+    "name": "RectangleEllipsis",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Redo",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Redo2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "RedoDot",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Regex",
     "category": "Text formatting"
   },
   {
@@ -5928,7 +11196,83 @@
     "category": "Text formatting"
   },
   {
+    "name": "Rows2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Rows3",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Rows4",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Save",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SaveAll",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SaveOff",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ScanText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Scissors",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Scroll",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ScrollText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Search",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SearchCheck",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SearchCode",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SearchSlash",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SearchX",
+    "category": "Text formatting"
+  },
+  {
     "name": "Section",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SeparatorHorizontal",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SeparatorVertical",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Sheet",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Sigma",
     "category": "Text formatting"
   },
   {
@@ -5940,11 +11284,63 @@
     "category": "Text formatting"
   },
   {
+    "name": "SpellCheck",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SpellCheck2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareAsterisk",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareBottomDashedScissors",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareCode",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareDashed",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareLibrary",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareMinus",
+    "category": "Text formatting"
+  },
+  {
     "name": "SquarePen",
     "category": "Text formatting"
   },
   {
     "name": "SquarePilcrow",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquarePlus",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareScissors",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareSigma",
+    "category": "Text formatting"
+  },
+  {
+    "name": "SquareStack",
+    "category": "Text formatting"
+  },
+  {
+    "name": "StickyNote",
     "category": "Text formatting"
   },
   {
@@ -5960,7 +11356,47 @@
     "category": "Text formatting"
   },
   {
+    "name": "Table",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Table2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TableCellsMerge",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TableCellsSplit",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TableColumnsSplit",
+    "category": "Text formatting"
+  },
+  {
     "name": "TableOfContents",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TableProperties",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TableRowsSplit",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Text",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TextCursor",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TextCursorInput",
     "category": "Text formatting"
   },
   {
@@ -5969,6 +11405,10 @@
   },
   {
     "name": "TextSearch",
+    "category": "Text formatting"
+  },
+  {
+    "name": "TextSelect",
     "category": "Text formatting"
   },
   {
@@ -5984,6 +11424,18 @@
     "category": "Text formatting"
   },
   {
+    "name": "Undo",
+    "category": "Text formatting"
+  },
+  {
+    "name": "Undo2",
+    "category": "Text formatting"
+  },
+  {
+    "name": "UndoDot",
+    "category": "Text formatting"
+  },
+  {
     "name": "Unlink",
     "category": "Text formatting"
   },
@@ -5994,6 +11446,38 @@
   {
     "name": "WholeWord",
     "category": "Text formatting"
+  },
+  {
+    "name": "WrapText",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ZoomIn",
+    "category": "Text formatting"
+  },
+  {
+    "name": "ZoomOut",
+    "category": "Text formatting"
+  },
+  {
+    "name": "AlarmClock",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "AlarmClockCheck",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "AlarmClockMinus",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "AlarmClockOff",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "AlarmClockPlus",
+    "category": "Time & calendar"
   },
   {
     "name": "Calendar",
@@ -6032,6 +11516,10 @@
     "category": "Time & calendar"
   },
   {
+    "name": "CalendarFold",
+    "category": "Time & calendar"
+  },
+  {
     "name": "CalendarHeart",
     "category": "Time & calendar"
   },
@@ -6064,11 +11552,19 @@
     "category": "Time & calendar"
   },
   {
+    "name": "CalendarSync",
+    "category": "Time & calendar"
+  },
+  {
     "name": "CalendarX",
     "category": "Time & calendar"
   },
   {
     "name": "CalendarX2",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "ChartNoAxesGantt",
     "category": "Time & calendar"
   },
   {
@@ -6144,6 +11640,30 @@
     "category": "Time & calendar"
   },
   {
+    "name": "FileClock",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "FolderClock",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "History",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "Hourglass",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "SquareChartGantt",
+    "category": "Time & calendar"
+  },
+  {
+    "name": "Sunrise",
+    "category": "Time & calendar"
+  },
+  {
     "name": "Timer",
     "category": "Time & calendar"
   },
@@ -6160,6 +11680,86 @@
     "category": "Time & calendar"
   },
   {
+    "name": "Anvil",
+    "category": "Tools"
+  },
+  {
+    "name": "Axe",
+    "category": "Tools"
+  },
+  {
+    "name": "BetweenHorizontalEnd",
+    "category": "Tools"
+  },
+  {
+    "name": "BetweenHorizontalStart",
+    "category": "Tools"
+  },
+  {
+    "name": "BetweenVerticalEnd",
+    "category": "Tools"
+  },
+  {
+    "name": "BetweenVerticalStart",
+    "category": "Tools"
+  },
+  {
+    "name": "Blend",
+    "category": "Tools"
+  },
+  {
+    "name": "Bolt",
+    "category": "Tools"
+  },
+  {
+    "name": "Bomb",
+    "category": "Tools"
+  },
+  {
+    "name": "BowArrow",
+    "category": "Tools"
+  },
+  {
+    "name": "Brush",
+    "category": "Tools"
+  },
+  {
+    "name": "BrushCleaning",
+    "category": "Tools"
+  },
+  {
+    "name": "Diameter",
+    "category": "Tools"
+  },
+  {
+    "name": "DiamondMinus",
+    "category": "Tools"
+  },
+  {
+    "name": "DiamondPlus",
+    "category": "Tools"
+  },
+  {
+    "name": "DraftingCompass",
+    "category": "Tools"
+  },
+  {
+    "name": "Drill",
+    "category": "Tools"
+  },
+  {
+    "name": "FireExtinguisher",
+    "category": "Tools"
+  },
+  {
+    "name": "Gavel",
+    "category": "Tools"
+  },
+  {
+    "name": "Hammer",
+    "category": "Tools"
+  },
+  {
     "name": "HardHat",
     "category": "Tools"
   },
@@ -6168,8 +11768,176 @@
     "category": "Tools"
   },
   {
+    "name": "LandPlot",
+    "category": "Tools"
+  },
+  {
+    "name": "Minus",
+    "category": "Tools"
+  },
+  {
+    "name": "PaintBucket",
+    "category": "Tools"
+  },
+  {
+    "name": "PaintRoller",
+    "category": "Tools"
+  },
+  {
+    "name": "Paintbrush",
+    "category": "Tools"
+  },
+  {
+    "name": "PaintbrushVertical",
+    "category": "Tools"
+  },
+  {
+    "name": "Pen",
+    "category": "Tools"
+  },
+  {
+    "name": "PenLine",
+    "category": "Tools"
+  },
+  {
+    "name": "PenOff",
+    "category": "Tools"
+  },
+  {
+    "name": "Pencil",
+    "category": "Tools"
+  },
+  {
+    "name": "PencilLine",
+    "category": "Tools"
+  },
+  {
+    "name": "PencilOff",
+    "category": "Tools"
+  },
+  {
+    "name": "PencilRuler",
+    "category": "Tools"
+  },
+  {
+    "name": "Pickaxe",
+    "category": "Tools"
+  },
+  {
+    "name": "Plus",
+    "category": "Tools"
+  },
+  {
     "name": "PocketKnife",
     "category": "Tools"
+  },
+  {
+    "name": "Radius",
+    "category": "Tools"
+  },
+  {
+    "name": "RotateCcwSquare",
+    "category": "Tools"
+  },
+  {
+    "name": "RotateCwSquare",
+    "category": "Tools"
+  },
+  {
+    "name": "Ruler",
+    "category": "Tools"
+  },
+  {
+    "name": "RulerDimensionLine",
+    "category": "Tools"
+  },
+  {
+    "name": "Scissors",
+    "category": "Tools"
+  },
+  {
+    "name": "ScissorsLineDashed",
+    "category": "Tools"
+  },
+  {
+    "name": "Shovel",
+    "category": "Tools"
+  },
+  {
+    "name": "SplinePointer",
+    "category": "Tools"
+  },
+  {
+    "name": "SprayCan",
+    "category": "Tools"
+  },
+  {
+    "name": "SquareBottomDashedScissors",
+    "category": "Tools"
+  },
+  {
+    "name": "SquareDashedMousePointer",
+    "category": "Tools"
+  },
+  {
+    "name": "SquareMinus",
+    "category": "Tools"
+  },
+  {
+    "name": "SquareMousePointer",
+    "category": "Tools"
+  },
+  {
+    "name": "SquarePlus",
+    "category": "Tools"
+  },
+  {
+    "name": "SquareScissors",
+    "category": "Tools"
+  },
+  {
+    "name": "Stamp",
+    "category": "Tools"
+  },
+  {
+    "name": "Sword",
+    "category": "Tools"
+  },
+  {
+    "name": "Swords",
+    "category": "Tools"
+  },
+  {
+    "name": "TabletSmartphone",
+    "category": "Tools"
+  },
+  {
+    "name": "Tangent",
+    "category": "Tools"
+  },
+  {
+    "name": "Telescope",
+    "category": "Tools"
+  },
+  {
+    "name": "Torus",
+    "category": "Tools"
+  },
+  {
+    "name": "Wrench",
+    "category": "Tools"
+  },
+  {
+    "name": "Ambulance",
+    "category": "Transportation"
+  },
+  {
+    "name": "Anchor",
+    "category": "Transportation"
+  },
+  {
+    "name": "ArrowsUpFromLine",
+    "category": "Transportation"
   },
   {
     "name": "BaggageClaim",
@@ -6189,6 +11957,10 @@
   },
   {
     "name": "BriefcaseConveyorBelt",
+    "category": "Transportation"
+  },
+  {
+    "name": "BriefcaseMedical",
     "category": "Transportation"
   },
   {
@@ -6216,7 +11988,43 @@
     "category": "Transportation"
   },
   {
+    "name": "Caravan",
+    "category": "Transportation"
+  },
+  {
+    "name": "Cigarette",
+    "category": "Transportation"
+  },
+  {
+    "name": "CigaretteOff",
+    "category": "Transportation"
+  },
+  {
+    "name": "CircleGauge",
+    "category": "Transportation"
+  },
+  {
+    "name": "CircleParking",
+    "category": "Transportation"
+  },
+  {
+    "name": "CircleParkingOff",
+    "category": "Transportation"
+  },
+  {
+    "name": "Container",
+    "category": "Transportation"
+  },
+  {
     "name": "Forklift",
+    "category": "Transportation"
+  },
+  {
+    "name": "Fuel",
+    "category": "Transportation"
+  },
+  {
+    "name": "Gauge",
     "category": "Transportation"
   },
   {
@@ -6225,6 +12033,10 @@
   },
   {
     "name": "OctagonMinus",
+    "category": "Transportation"
+  },
+  {
+    "name": "ParkingMeter",
     "category": "Transportation"
   },
   {
@@ -6240,7 +12052,35 @@
     "category": "Transportation"
   },
   {
+    "name": "RailSymbol",
+    "category": "Transportation"
+  },
+  {
     "name": "Sailboat",
+    "category": "Transportation"
+  },
+  {
+    "name": "Ship",
+    "category": "Transportation"
+  },
+  {
+    "name": "ShipWheel",
+    "category": "Transportation"
+  },
+  {
+    "name": "SquareM",
+    "category": "Transportation"
+  },
+  {
+    "name": "SquareParking",
+    "category": "Transportation"
+  },
+  {
+    "name": "SquareParkingOff",
+    "category": "Transportation"
+  },
+  {
+    "name": "Ticket",
     "category": "Transportation"
   },
   {
@@ -6249,6 +12089,10 @@
   },
   {
     "name": "TicketMinus",
+    "category": "Transportation"
+  },
+  {
+    "name": "TicketPercent",
     "category": "Transportation"
   },
   {
@@ -6264,6 +12108,10 @@
     "category": "Transportation"
   },
   {
+    "name": "Tickets",
+    "category": "Transportation"
+  },
+  {
     "name": "TicketsPlane",
     "category": "Transportation"
   },
@@ -6272,11 +12120,23 @@
     "category": "Transportation"
   },
   {
+    "name": "Tractor",
+    "category": "Transportation"
+  },
+  {
     "name": "TrafficCone",
     "category": "Transportation"
   },
   {
     "name": "TrainFront",
+    "category": "Transportation"
+  },
+  {
+    "name": "TrainFrontTunnel",
+    "category": "Transportation"
+  },
+  {
+    "name": "TrainTrack",
     "category": "Transportation"
   },
   {
@@ -6292,11 +12152,255 @@
     "category": "Transportation"
   },
   {
+    "name": "AlarmSmoke",
+    "category": "Travel"
+  },
+  {
+    "name": "Backpack",
+    "category": "Travel"
+  },
+  {
+    "name": "BaggageClaim",
+    "category": "Travel"
+  },
+  {
     "name": "Bath",
     "category": "Travel"
   },
   {
+    "name": "Binoculars",
+    "category": "Travel"
+  },
+  {
+    "name": "BookImage",
+    "category": "Travel"
+  },
+  {
+    "name": "BriefcaseConveyorBelt",
+    "category": "Travel"
+  },
+  {
+    "name": "CableCar",
+    "category": "Travel"
+  },
+  {
+    "name": "Caravan",
+    "category": "Travel"
+  },
+  {
+    "name": "Cigarette",
+    "category": "Travel"
+  },
+  {
+    "name": "CigaretteOff",
+    "category": "Travel"
+  },
+  {
+    "name": "Compass",
+    "category": "Travel"
+  },
+  {
     "name": "ConciergeBell",
+    "category": "Travel"
+  },
+  {
+    "name": "DoorClosed",
+    "category": "Travel"
+  },
+  {
+    "name": "DoorClosedLocked",
+    "category": "Travel"
+  },
+  {
+    "name": "DoorOpen",
+    "category": "Travel"
+  },
+  {
+    "name": "FireExtinguisher",
+    "category": "Travel"
+  },
+  {
+    "name": "Heater",
+    "category": "Travel"
+  },
+  {
+    "name": "Hospital",
+    "category": "Travel"
+  },
+  {
+    "name": "Hotel",
+    "category": "Travel"
+  },
+  {
+    "name": "LocationEdit",
+    "category": "Travel"
+  },
+  {
+    "name": "Luggage",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPin",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinCheck",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinCheckInside",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinHouse",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinMinus",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinMinusInside",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinOff",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinPlus",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinPlusInside",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinX",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinXInside",
+    "category": "Travel"
+  },
+  {
+    "name": "MapPinned",
+    "category": "Travel"
+  },
+  {
+    "name": "Plane",
+    "category": "Travel"
+  },
+  {
+    "name": "PlaneLanding",
+    "category": "Travel"
+  },
+  {
+    "name": "PlaneTakeoff",
+    "category": "Travel"
+  },
+  {
+    "name": "Pyramid",
+    "category": "Travel"
+  },
+  {
+    "name": "Receipt",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptCent",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptEuro",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptIndianRupee",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptJapaneseYen",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptPoundSterling",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptRussianRuble",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptSwissFranc",
+    "category": "Travel"
+  },
+  {
+    "name": "ReceiptText",
+    "category": "Travel"
+  },
+  {
+    "name": "Sailboat",
+    "category": "Travel"
+  },
+  {
+    "name": "Shell",
+    "category": "Travel"
+  },
+  {
+    "name": "Ship",
+    "category": "Travel"
+  },
+  {
+    "name": "ShipWheel",
+    "category": "Travel"
+  },
+  {
+    "name": "ShowerHead",
+    "category": "Travel"
+  },
+  {
+    "name": "SoapDispenserDroplet",
+    "category": "Travel"
+  },
+  {
+    "name": "Tent",
+    "category": "Travel"
+  },
+  {
+    "name": "TentTree",
+    "category": "Travel"
+  },
+  {
+    "name": "Tickets",
+    "category": "Travel"
+  },
+  {
+    "name": "TicketsPlane",
+    "category": "Travel"
+  },
+  {
+    "name": "TowerControl",
+    "category": "Travel"
+  },
+  {
+    "name": "Utensils",
+    "category": "Travel"
+  },
+  {
+    "name": "UtensilsCrossed",
+    "category": "Travel"
+  },
+  {
+    "name": "Vault",
+    "category": "Travel"
+  },
+  {
+    "name": "Volleyball",
+    "category": "Travel"
+  },
+  {
+    "name": "WashingMachine",
     "category": "Travel"
   },
   {
@@ -6332,6 +12436,10 @@
     "category": "Weather"
   },
   {
+    "name": "CloudOff",
+    "category": "Weather"
+  },
+  {
     "name": "CloudRain",
     "category": "Weather"
   },
@@ -6356,7 +12464,19 @@
     "category": "Weather"
   },
   {
+    "name": "Droplet",
+    "category": "Weather"
+  },
+  {
+    "name": "DropletOff",
+    "category": "Weather"
+  },
+  {
     "name": "Droplets",
+    "category": "Weather"
+  },
+  {
+    "name": "Flame",
     "category": "Weather"
   },
   {
@@ -6364,11 +12484,47 @@
     "category": "Weather"
   },
   {
+    "name": "MoonStar",
+    "category": "Weather"
+  },
+  {
     "name": "Rainbow",
     "category": "Weather"
   },
   {
+    "name": "Snowflake",
+    "category": "Weather"
+  },
+  {
+    "name": "Sparkles",
+    "category": "Weather"
+  },
+  {
+    "name": "Star",
+    "category": "Weather"
+  },
+  {
+    "name": "Sun",
+    "category": "Weather"
+  },
+  {
+    "name": "SunDim",
+    "category": "Weather"
+  },
+  {
+    "name": "SunMedium",
+    "category": "Weather"
+  },
+  {
     "name": "SunSnow",
+    "category": "Weather"
+  },
+  {
+    "name": "Sunrise",
+    "category": "Weather"
+  },
+  {
+    "name": "Sunset",
     "category": "Weather"
   },
   {
@@ -6393,6 +12549,26 @@
   },
   {
     "name": "UmbrellaOff",
+    "category": "Weather"
+  },
+  {
+    "name": "Waves",
+    "category": "Weather"
+  },
+  {
+    "name": "Wind",
+    "category": "Weather"
+  },
+  {
+    "name": "WindArrowDown",
+    "category": "Weather"
+  },
+  {
+    "name": "Zap",
+    "category": "Weather"
+  },
+  {
+    "name": "ZapOff",
     "category": "Weather"
   }
 ]
