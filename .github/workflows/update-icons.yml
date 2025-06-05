@@ -10,12 +10,64 @@ on:
 
 env:
   NODE_VERSION: "22"
+  LUCIDE_VERSION_FILE: "data/version.txt"
+  PR_BRANCH_PREFIX: "update-lucide"
 
 jobs:
-  check-and-update:
+  # Step 1: Check if update is needed
+  check-release:
+    name: Check for new Lucide release
     runs-on: ubuntu-latest
     outputs:
-      needs_update: ${{ steps.check_release.outputs.needs_update }}
+      needs_update: ${{ steps.version_check.outputs.needs_update }}
+      latest_version: ${{ steps.version_check.outputs.latest_version }}
+      current_version: ${{ steps.version_check.outputs.current_version }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for new Lucide release
+        id: version_check
+        run: |
+          echo "🔍 Checking for new Lucide release..."
+
+          # Get latest release from Lucide repository
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/lucide-icons/lucide/releases/latest | jq -r '.tag_name')
+          echo "📋 Latest Lucide release: $LATEST_RELEASE"
+
+          # Get current version from our data (if exists)
+          if [ -f "${{ env.LUCIDE_VERSION_FILE }}" ]; then
+            CURRENT_VERSION=$(cat ${{ env.LUCIDE_VERSION_FILE }})
+            echo "📋 Current version: $CURRENT_VERSION"
+          else
+            CURRENT_VERSION="none"
+            echo "📋 No current version found"
+          fi
+
+          # Set outputs
+          echo "latest_version=$LATEST_RELEASE" >> $GITHUB_OUTPUT
+          echo "current_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+
+          if [ "$LATEST_RELEASE" != "$CURRENT_VERSION" ]; then
+            echo "✅ Update needed!"
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          else
+            echo "⏭️ No update needed"
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+          fi
+
+  # Step 2: Update icons and create PR
+  update-icons:
+    name: Update icons and create PR
+    runs-on: ubuntu-latest
+    needs: check-release
+    if: needs.check-release.outputs.needs_update == 'true'
+    outputs:
+      pr_number: ${{ steps.create_pr.outputs.pull-request-number }}
+      pr_url: ${{ steps.create_pr.outputs.pull-request-url }}
       has_changes: ${{ steps.check_changes.outputs.has_changes }}
 
     steps:
@@ -37,112 +89,82 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install
+        run: |
+          echo "📦 Installing dependencies..."
+          bun install
 
       - name: Setup Python and Camoufox
         run: |
+          echo "🔧 Setting up Python and Camoufox..."
           pip install -U camoufox[geoip]
           python -m camoufox fetch
 
-      - name: Check for new Lucide release
-        id: check_release
-        run: |
-          # Get latest release from Lucide repository
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/lucide-icons/lucide/releases/latest | jq -r '.tag_name')
-          echo "Latest Lucide release: $LATEST_RELEASE"
-
-          # Get current version from our data (if exists)
-          if [ -f "data/lucide-version.txt" ]; then
-            CURRENT_VERSION=$(cat data/lucide-version.txt)
-            echo "Current version: $CURRENT_VERSION"
-          else
-            CURRENT_VERSION="none"
-            echo "No current version found"
-          fi
-
-          # Check if update is needed
-          if [ "$LATEST_RELEASE" != "$CURRENT_VERSION" ]; then
-            echo "Update needed!"
-            echo "needs_update=true" >> $GITHUB_OUTPUT
-            echo "latest_version=$LATEST_RELEASE" >> $GITHUB_OUTPUT
-          else
-            echo "No update needed"
-            echo "needs_update=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: Update icon data
-        if: steps.check_release.outputs.needs_update == 'true'
         run: |
-          echo "Updating icon data for lucide version ${{ steps.check_release.outputs.latest_version }}"
+          echo "🔄 Updating icon data for Lucide ${{ needs.check-release.outputs.latest_version }}..."
           bun run pre-build
 
-      - name: Build and test
-        if: steps.check_release.outputs.needs_update == 'true'
+          # Update version file
+          mkdir -p data
+          echo "${{ needs.check-release.outputs.latest_version }}" > ${{ env.LUCIDE_VERSION_FILE }}
+
+      - name: Build and lint
         run: |
+          echo "🏗️ Building project..."
           bun run build
+          echo "🧹 Running linter..."
           bun run lint:fix
 
-      - name: Bump version
-        id: version
-        run: |
-          # Get current version from package.json
-          CURRENT_VERSION=$(node -p "require('./package.json').version")
-          echo "Current version: $CURRENT_VERSION"
-
-          # Bump patch version
-          NEW_VERSION=$(node -p "
-            const semver = '$CURRENT_VERSION'.split('.');
-            semver[2] = String(parseInt(semver[2]) + 1);
-            semver.join('.');
-          ")
-
-          echo "New version: $NEW_VERSION"
-          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
-
-          # Update package.json
-          node -e "
-            const pkg = require('./package.json');
-            pkg.version = '$NEW_VERSION';
-            require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2) + '\n');
-          "
-
       - name: Check for changes
-        if: steps.check_release.outputs.needs_update == 'true'
         id: check_changes
         run: |
           git add .
           if git diff --staged --quiet; then
-            echo "No changes detected"
+            echo "📝 No changes detected"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            echo "Changes detected"
+            echo "📝 Changes detected"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Create Pull Request
-        if: steps.check_release.outputs.needs_update == 'true' && steps.check_changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v5
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: create_pr
+        uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "feat: update Lucide icons to ${{ steps.check_release.outputs.latest_version }}"
-          title: "Update Lucide icons to ${{ steps.check_release.outputs.latest_version }}"
+          commit-message: "feat: update Lucide icons to ${{ needs.check-release.outputs.latest_version }}"
+          title: "🔄 Update Lucide icons to ${{ needs.check-release.outputs.latest_version }}"
           body: |
             ## 🔄 Automated Lucide Icons Update
 
-            This pull request updates the Lucide icons data to version `${{ steps.check_release.outputs.latest_version }}`.
+            This pull request updates the Lucide icons data to version `${{ needs.check-release.outputs.latest_version }}`.
 
-            ### Changes
-            - Updated icon metadata and categories
-            - Refreshed icon data from Lucide website
-            - Updated version tracking
-            - Bumped package version to `${{ steps.version.outputs.new_version }}`
+            ### 📋 Summary
+            - **Previous Lucide Icon version:** `${{ needs.check-release.outputs.current_version }}`
+            - **New Lucide Icon version:** `${{ needs.check-release.outputs.latest_version }}`
 
-            ### Verification
-            - [ ] Icons data has been updated
-            - [ ] Build passes successfully
-            - [ ] No breaking changes detected
-            - [ ] Linting passes without errors
-            - [ ] Version has been bumped
+            ### 🔄 Changes
+            - Updated icon metadata and categories from Lucide website
+            - Updated version tracking in `${{ env.LUCIDE_VERSION_FILE }}`
 
-            This PR was automatically created by the GitHub Actions workflow.
-          branch: update-lucide-${{ steps.check_release.outputs.latest_version }}
+            ### 🤖 Automation
+            This PR was automatically created by the **Update Lucide Icons** GitHub Actions workflow.
+
+            ---
+            **Workflow run:** [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          branch: ${{ env.PR_BRANCH_PREFIX }}-${{ needs.check-release.outputs.latest_version }}
           delete-branch: true
+
+  # Step 3: Auto Merge PR
+  merge-pr:
+    name: Auto-merge Lucide update PR
+    runs-on: ubuntu-latest
+    needs: update-icons
+    if: needs.update-icons.outputs.has_changes == 'true'
+    steps:
+      - name: Enable Pull Request Automerge
+        run: |
+          echo "🔄 Attempting to enable auto-merge for PR..."
+          gh pr merge --merge --auto "${{ needs.update-icons.outputs.pr_number }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
