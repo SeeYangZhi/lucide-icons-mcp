@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-04T02:45:45.461Z
+// Generated from storage/datasets/default on 2025-06-05T03:49:52.477Z
 
 export interface IconMetadata {
   name: string;
@@ -466,6 +466,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "AudioWaveform", category: "Communication" },
   { name: "Camera", category: "Communication" },
   { name: "CameraOff", category: "Communication" },
+  { name: "CardSim", category: "Communication" },
   { name: "CassetteTape", category: "Communication" },
   { name: "Cctv", category: "Communication" },
   { name: "ChevronsLeftRightEllipsis", category: "Communication" },
@@ -1620,12 +1621,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
-  { name: "Communication", iconCount: 50 },
-  { name: "Connectivity", iconCount: 85 },
+  { name: "Communication", iconCount: 51 },
+  { name: "Connectivity", iconCount: 86 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 141 },
   { name: "Coding & development", iconCount: 233 },
-  { name: "Devices", iconCount: 156 },
+  { name: "Devices", iconCount: 157 },
   { name: "Emoji", iconCount: 20 },
   { name: "File icons", iconCount: 164 },
   { name: "Finance", iconCount: 51 },
@@ -1636,7 +1637,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 71 },
   { name: "Medical", iconCount: 41 },
-  { name: "Multimedia", iconCount: 130 },
+  { name: "Multimedia", iconCount: 131 },
   { name: "Nature", iconCount: 19 },
   { name: "Navigation", iconCount: 135 },
   { name: "Notification", iconCount: 39 },
@@ -1658,7 +1659,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1598;
+export const iconCount = 1599;
 export const categoryCount = 43;
 
 // Helper functions
