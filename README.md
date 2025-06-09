@@ -162,53 +162,58 @@ code ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
 ## Tools Available (MCP)
 
-This MCP server exposes the following tools to AI coding assistants:
+This MCP server exposes the following tools to AI coding assistants. Each icon can belong to multiple categories, providing flexible search and discovery capabilities.
 
 ### 1. **search_icons**
 
-- **Description**: Search for Lucide icons by name or category
+- **Description**: Search for Lucide icons by name or category. Returns icons with their complete category arrays.
 - **Parameters**:
-  - `query` (string): Search term for icon name or category
+  - `name` (string): Search term for icon name
   - `category` (optional string): Filter by specific category
-  - `limit` (optional number): Maximum results to return (default: 20)
+  - `limit` (optional number): Maximum results to return
+- **Returns**: Array of icons with `name` and `categories` (string array)
 
 ### 2. **search_categories**
 
-- **Description**: Search for icon categories by name
+- **Description**: Search for icon categories by category name using partial matching
+- **Parameters**:
+  - `name` (string): Search term for category
+  - `limit` (optional number): Maximum results to return
+- **Returns**: Array of categories with `name` and `iconCount`
+
+### 3. **fuzzy_search_icons**
+
+- **Description**: Fuzzy Search for icons from lucide by icon name
+- **Parameters**:
+  - `query` (string): Search term for icon
+  - `limit` (optional number): Maximum results to return
+- **Returns**: Array of icons with `name` and `categories` (string array)
+
+### 4. **fuzzy_search_category**
+
+- **Description**: Fuzzy Search for icon categories by category name
 - **Parameters**:
   - `query` (string): Search term for category name
-  - `limit` (optional number): Maximum results to return (default: 10)
+  - `limit` (optional number): Maximum results to return
+- **Returns**: Array of categories with `name` and `iconCount` (string array)
 
-### 3. **get_icon_usage_examples**
+### 5. **get_icon_usage_examples**
 
-- **Description**: Get React/JSX usage examples for a specific Lucide icon
+- **Description**: Get usage examples for a Lucide React icon by the exact name
 - **Parameters**:
-  - `name` (string): Icon name (e.g., 'Home', 'User', 'Settings')
+  - `name` (string): Search term for icon
+- **Returns**: React/JSX usage examples for a specific Lucide icon
 
-### 4. **list_icons_by_category**
+### 6. **list_all_icons_by_category**
 
 - **Description**: List all icons in a specific category
 - **Parameters**:
-  - `category` (string): Category name to list icons for
+  - `name` (string): Search term for category
   - `limit` (optional number): Maximum results to return
 
-### 5. **list_all_categories**
+### 7. **list_all_categories**
 
 - **Description**: List all available icon categories with their icon counts
-- **Parameters**: None
-
-### 6. **get_icon_info**
-
-- **Description**: Get detailed information about a specific icon
-- **Parameters**:
-  - `name` (string): Icon name to get information for
-
-### 7. **list_all_icons**
-
-- **Description**: List all available Lucide icons
-- **Parameters**:
-  - `category` (optional string): Filter by category
-  - `limit` (optional number): Maximum results to return (default: 100)
 
 ## Example Usage
 
@@ -351,26 +356,6 @@ This opens the Inspector interface for interactive testing of your MCP server.
 - **`bun run lint:fix`**: Automatically fixes linting issues
 - **`bun run crawl`**: Crawls Lucide website to update icon data
 - **`bun run pre-build`**: Crawls data, builds icon metadata, and fixes linting
-
-## Project Structure
-
-```
-lucide-icons-mcp/
-├── src/
-│   ├── entry.ts          # Main entry point
-│   ├── http.ts           # HTTP server implementation
-│   ├── stdio.ts          # Stdio server implementation
-│   ├── utils.ts          # MCP server and tools logic
-│   ├── data/
-│   │   └── icons.ts      # Generated icon metadata and helpers
-│   └── scripts/
-│       ├── main.ts       # Web crawler for Lucide icons
-│       ├── build-data.ts # Icon data processing
-│       └── routes.ts     # Crawler route definitions
-├── build/                # Compiled JavaScript output
-├── storage/              # Crawler data storage
-└── data/                 # Processed icon metadata
-```
 
 ## Data Sources
 

@@ -29,11 +29,8 @@ async function loadDatasetFiles(): Promise<{
       await readFile(join(datasetPath, "categories.json"), "utf-8")
     );
 
-    // Merge icons data with additional data if it contains icon information
-    const allIcons = Array.isArray(iconsData) ? iconsData : [];
-
     return {
-      icons: allIcons,
+      icons: Array.isArray(iconsData) ? iconsData : [],
       categories: Array.isArray(categoriesData) ? categoriesData : []
     };
   } catch (error) {
@@ -42,7 +39,7 @@ async function loadDatasetFiles(): Promise<{
   }
 }
 
-function createDisplayName(name: string): string {
+function createImportName(name: string): string {
   // Remove hyphens/underscores, split into words, capitalize each, join as PascalCase
   return name
     .replace(/[-_]/g, " ") // Replace hyphens/underscores with spaces
@@ -68,19 +65,32 @@ async function processIconData() {
   // Process icons: flatten all icons with their category
   type IconMetadata = {
     name: string;
-    category: string;
+    categories: string[];
   };
 
-  const allIcons: IconMetadata[] = rawIcons.flatMap((iconCategory) =>
-    (iconCategory.icons || []).map((iconName) => ({
-      name: createDisplayName(iconName), // Use createDisplayName for the name
-      category: iconCategory.categoryName
-    }))
+  const allIcons: { name: string; category: string }[] = rawIcons.flatMap(
+    (iconCategory) =>
+      (iconCategory.icons || []).map((iconName) => ({
+        name: createImportName(iconName), // Use createImportName for the name
+        category: iconCategory.categoryName
+      }))
   );
 
-  // Remove duplicates by name
-  const uniqueIcons = allIcons.filter(
-    (icon, idx, arr) => idx === arr.findIndex((i) => i.name === icon.name)
+  // Group icons by name and combine their categories
+  const iconMap = new Map<string, Set<string>>();
+
+  allIcons.forEach((icon) => {
+    if (!iconMap.has(icon.name)) {
+      iconMap.set(icon.name, new Set());
+    }
+    iconMap.get(icon.name)!.add(icon.category);
+  });
+
+  const uniqueIcons: IconMetadata[] = Array.from(iconMap.entries()).map(
+    ([name, categoriesSet]) => ({
+      name,
+      categories: Array.from(categoriesSet).sort()
+    })
   );
 
   // Process categories with icon counts
@@ -91,11 +101,17 @@ async function processIconData() {
 
   // Save processed data
   await mkdir("data", { recursive: true });
-  await writeFile("data/icon-metadata.json", JSON.stringify(allIcons, null, 2));
+  await writeFile(
+    "data/icon-metadata.json",
+    JSON.stringify(uniqueIcons, null, 2)
+  );
 
   // Generate TypeScript module with proper formatting
-  const iconMetadataString = allIcons
-    .map((icon) => `  { name: "${icon.name}", category: "${icon.category}" }`)
+  const iconMetadataString = uniqueIcons
+    .map(
+      (icon) =>
+        `  { name: "${icon.name}", categories: [${icon.categories.map((cat) => `"${cat}"`)}] }`
+    )
     .join(",\n");
 
   const categoriesString = processedCategories
@@ -107,7 +123,7 @@ async function processIconData() {
 
 export interface IconMetadata {
     name: string;
-    category: string;
+    categories: string[];
 }
 
 export interface CategoryMetadata {
@@ -127,28 +143,14 @@ export const iconCount = ${uniqueIcons.length};
 export const categoryCount = ${processedCategories.length};
 
 // Helper functions
-export function getIconsByCategory(category: string): IconMetadata[] {
-    const lowerCategory = category.toLowerCase();
-    return iconMetadata.filter(icon => icon.category.toLowerCase().includes(lowerCategory));
+export function getIconsByCategory(categoryName: string): string[] {
+  return iconMetadata
+    .filter(icon => icon.categories.includes(categoryName))
+    .map(icon => icon.name);
 }
-
-export function searchIcons(query: string): IconMetadata[] {
-    const lowerQuery = query.toLowerCase();
-    return iconMetadata.filter(icon => 
-        icon.name.toLowerCase().includes(lowerQuery) ||
-        icon.category.toLowerCase().includes(lowerQuery)
-    );
-}
-
+    
 export function getAllCategories(): string[] {
     return categories.map(cat => cat.name);
-}
-
-export function searchCategories(query: string): CategoryMetadata[] {
-    const lowerQuery = query.toLowerCase();
-    return categories.filter(category => 
-        category.name.toLowerCase().includes(lowerQuery)
-    );
 }
 `;
 
