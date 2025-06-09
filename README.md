@@ -168,7 +168,7 @@ This MCP server exposes the following tools to AI coding assistants. Each icon c
 
 - **Description**: Search for Lucide icons by name or category. Returns icons with their complete category arrays.
 - **Parameters**:
-  - `name` (string): Search term for icon name
+  - `query` (string): Search term for icon name or category
   - `category` (optional string): Filter by specific category
   - `limit` (optional number): Maximum results to return
 - **Returns**: Array of icons with `name` and `categories` (string array)
@@ -177,7 +177,7 @@ This MCP server exposes the following tools to AI coding assistants. Each icon c
 
 - **Description**: Search for icon categories by category name using partial matching
 - **Parameters**:
-  - `name` (string): Search term for category
+  - `query` (string): Search term for category name
   - `limit` (optional number): Maximum results to return
 - **Returns**: Array of categories with `name` and `iconCount`
 
@@ -189,7 +189,7 @@ This MCP server exposes the following tools to AI coding assistants. Each icon c
   - `limit` (optional number): Maximum results to return
 - **Returns**: Array of icons with `name` and `categories` (string array)
 
-### 4. **fuzzy_search_category**
+### 4. **fuzzy_search_categories**
 
 - **Description**: Fuzzy Search for icon categories by category name
 - **Parameters**:
@@ -208,7 +208,7 @@ This MCP server exposes the following tools to AI coding assistants. Each icon c
 
 - **Description**: List all icons in a specific category
 - **Parameters**:
-  - `name` (string): Search term for category
+  - `category` (string): Category name to list icons for
   - `limit` (optional number): Maximum results to return
 
 ### 7. **list_all_categories**

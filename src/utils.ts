@@ -79,7 +79,7 @@ class IconUsageGenerator {
 export function createMcpServer(): McpServer {
   const server = new McpServer({
     name: "Lucide Icons MCP Server",
-    version: "0.1.4"
+    version: "0.1.5"
   });
 
   // Tool: search_icons
@@ -87,15 +87,15 @@ export function createMcpServer(): McpServer {
     "search_icons",
     "Search for icons from lucide by name or category using partial matching",
     {
-      name: z.string().describe("Exact icon name to search for"),
+      query: z.string().describe("Search term for icon name"),
       category: z
         .string()
         .optional()
         .describe("category to filter by (optional)"),
       limit: searchSchemas.iconLimit.describe("Max results to return")
     },
-    async ({ name, category, limit }) => {
-      let results = SearchService.filterIconsByName(iconMetadata, name);
+    async ({ query, category, limit }) => {
+      let results = SearchService.filterIconsByName(iconMetadata, query);
 
       if (category) {
         results = SearchService.filterIconsByCategory(results, category);
@@ -111,11 +111,11 @@ export function createMcpServer(): McpServer {
     "search_categories",
     "Search for icon categories by category name using partial matching",
     {
-      name: z.string().describe("Category to search for"),
+      query: z.string().describe("Search term for category name"),
       limit: searchSchemas.categoryLimit.describe("Max results to return")
     },
-    async ({ name, limit }) => {
-      let results = SearchService.filterCategories(name);
+    async ({ query, limit }) => {
+      let results = SearchService.filterCategories(query);
       results = SearchService.applyLimit(results, limit);
       return createTextResponse(results);
     }
