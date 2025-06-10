@@ -1,5 +1,7 @@
 # lucide-icons-mcp
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/SeeYangZhi/lucide-icons-mcp)
+
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server exposing [Lucide React](https://lucide.dev/) icons as resources and tools for LLMs and agentic applications. Built with Bun and the MCP TypeScript SDK.
 
 ## What is Lucide?
