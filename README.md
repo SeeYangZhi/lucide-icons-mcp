@@ -2,6 +2,10 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/SeeYangZhi/lucide-icons-mcp)
 
+<a href="https://glama.ai/mcp/servers/@SeeYangZhi/lucide-icons-mcp">
+<img width="380" height="200" src="https://glama.ai/mcp/servers/@SeeYangZhi/lucide-icons-mcp/badge" />
+</a>
+
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server exposing [Lucide React](https://lucide.dev/) icons as resources and tools for LLMs and agentic applications. Built with Bun and the MCP TypeScript SDK.
 
 ## What is Lucide?
