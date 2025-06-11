@@ -162,6 +162,11 @@ jobs:
     needs: update-icons
     if: needs.update-icons.outputs.has_changes == 'true'
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Enable Pull Request Automerge
         run: |
           echo "🔄 Attempting to enable auto-merge for PR..."
