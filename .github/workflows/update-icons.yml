@@ -170,6 +170,7 @@ jobs:
       - id: merge
         run: |
           gh pr merge --merge --auto "${{ needs.update-icons.outputs.pr_number }}"
+          echo "merged=true" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
