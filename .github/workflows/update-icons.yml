@@ -215,6 +215,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add package.json
           git commit -m "chore: bump version to ${{ steps.version.outputs.new_version }}"
+          git pull --rebase origin main
           git push
       - id: create_release
         uses: softprops/action-gh-release@v2
