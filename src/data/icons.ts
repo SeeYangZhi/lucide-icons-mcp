@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-16T10:25:23.237Z
+// Generated from storage/datasets/default on 2025-06-17T03:21:52.709Z
 
 export interface IconMetadata {
   name: string;
@@ -1193,6 +1193,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SquarePower", categories: ["Connectivity"] },
   { name: "Voicemail", categories: ["Connectivity", "Devices", "Social"] },
   { name: "Wifi", categories: ["Connectivity", "Devices"] },
+  { name: "WifiCog", categories: ["Connectivity", "Devices", "File icons"] },
   { name: "WifiHigh", categories: ["Connectivity", "Devices"] },
   { name: "WifiLow", categories: ["Connectivity", "Devices"] },
   { name: "WifiOff", categories: ["Connectivity", "Devices"] },
@@ -2747,13 +2748,13 @@ export const categories: CategoryMetadata[] = [
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 51 },
-  { name: "Connectivity", iconCount: 86 },
+  { name: "Connectivity", iconCount: 87 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 141 },
   { name: "Coding & development", iconCount: 235 },
-  { name: "Devices", iconCount: 157 },
+  { name: "Devices", iconCount: 158 },
   { name: "Emoji", iconCount: 20 },
-  { name: "File icons", iconCount: 164 },
+  { name: "File icons", iconCount: 165 },
   { name: "Finance", iconCount: 51 },
   { name: "Food & beverage", iconCount: 67 },
   { name: "Gaming", iconCount: 138 },
@@ -2784,7 +2785,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1601;
+export const iconCount = 1602;
 export const categoryCount = 43;
 
 // Helper functions
