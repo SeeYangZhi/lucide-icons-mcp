@@ -3982,6 +3982,14 @@
     ]
   },
   {
+    "name": "WifiCog",
+    "categories": [
+      "Connectivity",
+      "Devices",
+      "File icons"
+    ]
+  },
+  {
     "name": "WifiHigh",
     "categories": [
       "Connectivity",
