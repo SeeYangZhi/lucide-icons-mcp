@@ -14,13 +14,6 @@
     ]
   },
   {
-    "name": "BadgeHelp",
-    "categories": [
-      "Accessibility",
-      "Social"
-    ]
-  },
-  {
     "name": "BadgeInfo",
     "categories": [
       "Accessibility",
@@ -29,7 +22,15 @@
     ]
   },
   {
-    "name": "CircleHelp",
+    "name": "BadgeQuestionMark",
+    "categories": [
+      "Accessibility",
+      "Shapes",
+      "Social"
+    ]
+  },
+  {
+    "name": "CircleQuestionMark",
     "categories": [
       "Accessibility",
       "Notification",
@@ -823,7 +824,7 @@
     ]
   },
   {
-    "name": "ShieldQuestion",
+    "name": "ShieldQuestionMark",
     "categories": [
       "Accounts & access",
       "Coding & development",
@@ -6792,7 +6793,7 @@
     ]
   },
   {
-    "name": "FileQuestion",
+    "name": "FileQuestionMark",
     "categories": [
       "File icons"
     ]
@@ -7509,6 +7510,13 @@
     "name": "Banana",
     "categories": [
       "Food & beverage"
+    ]
+  },
+  {
+    "name": "Barrel",
+    "categories": [
+      "Food & beverage",
+      "Navigation"
     ]
   },
   {
@@ -8690,7 +8698,7 @@
     ]
   },
   {
-    "name": "MailQuestion",
+    "name": "MailQuestionMark",
     "categories": [
       "Mail"
     ]
@@ -9968,7 +9976,7 @@
     ]
   },
   {
-    "name": "MessageCircleQuestion",
+    "name": "MessageCircleQuestionMark",
     "categories": [
       "Social"
     ]
