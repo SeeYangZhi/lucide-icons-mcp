@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-19T03:21:31.647Z
+// Generated from storage/datasets/default on 2025-06-20T03:20:43.762Z
 
 export interface IconMetadata {
   name: string;
@@ -1511,7 +1511,7 @@ export const iconMetadata: IconMetadata[] = [
       "Travel"
     ]
   },
-  { name: "Blocks", categories: ["Coding & development", "Shapes"] },
+  { name: "Blocks", categories: ["Coding & development", "Layout", "Shapes"] },
   {
     name: "Book",
     categories: ["Coding & development", "Gaming", "Text formatting"]
@@ -1899,6 +1899,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Disc3", categories: ["Devices", "Multimedia"] },
   { name: "DiscAlbum", categories: ["Devices", "Multimedia"] },
   { name: "Drill", categories: ["Devices", "Home", "Tools"] },
+  { name: "Drone", categories: ["Devices", "Transportation"] },
   { name: "Drum", categories: ["Devices", "Multimedia"] },
   { name: "Flashlight", categories: ["Devices", "Photography"] },
   { name: "FlashlightOff", categories: ["Devices", "Photography"] },
@@ -2756,14 +2757,14 @@ export const categories: CategoryMetadata[] = [
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 141 },
   { name: "Coding & development", iconCount: 235 },
-  { name: "Devices", iconCount: 158 },
+  { name: "Devices", iconCount: 159 },
   { name: "Emoji", iconCount: 20 },
   { name: "File icons", iconCount: 165 },
   { name: "Finance", iconCount: 51 },
   { name: "Food & beverage", iconCount: 68 },
   { name: "Gaming", iconCount: 138 },
   { name: "Home", iconCount: 49 },
-  { name: "Layout", iconCount: 135 },
+  { name: "Layout", iconCount: 136 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 71 },
   { name: "Medical", iconCount: 41 },
@@ -2784,12 +2785,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Text formatting", iconCount: 242 },
   { name: "Time & calendar", iconCount: 55 },
   { name: "Tools", iconCount: 62 },
-  { name: "Transportation", iconCount: 56 },
+  { name: "Transportation", iconCount: 57 },
   { name: "Travel", iconCount: 63 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1603;
+export const iconCount = 1604;
 export const categoryCount = 43;
 
 // Helper functions

@@ -5020,6 +5020,7 @@
     "name": "Blocks",
     "categories": [
       "Coding & development",
+      "Layout",
       "Shapes"
     ]
   },
@@ -6217,6 +6218,13 @@
       "Devices",
       "Home",
       "Tools"
+    ]
+  },
+  {
+    "name": "Drone",
+    "categories": [
+      "Devices",
+      "Transportation"
     ]
   },
   {
