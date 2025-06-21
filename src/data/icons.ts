@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-20T03:20:43.762Z
+// Generated from storage/datasets/default on 2025-06-21T03:17:25.740Z
 
 export interface IconMetadata {
   name: string;
@@ -1073,6 +1073,7 @@ export const iconMetadata: IconMetadata[] = [
     name: "SmilePlus",
     categories: ["Communication", "Emoji", "Notification", "Social"]
   },
+  { name: "Spool", categories: ["Communication", "Social", "Tools"] },
   { name: "SwitchCamera", categories: ["Communication", "Devices"] },
   { name: "Tv", categories: ["Communication", "Devices", "Multimedia"] },
   {
@@ -2752,7 +2753,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
-  { name: "Communication", iconCount: 51 },
+  { name: "Communication", iconCount: 52 },
   { name: "Connectivity", iconCount: 87 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 141 },
@@ -2779,18 +2780,18 @@ export const categories: CategoryMetadata[] = [
   { name: "Security", iconCount: 55 },
   { name: "Shapes", iconCount: 44 },
   { name: "Shopping", iconCount: 25 },
-  { name: "Social", iconCount: 114 },
+  { name: "Social", iconCount: 115 },
   { name: "Sports", iconCount: 9 },
   { name: "Sustainability", iconCount: 20 },
   { name: "Text formatting", iconCount: 242 },
   { name: "Time & calendar", iconCount: 55 },
-  { name: "Tools", iconCount: 62 },
+  { name: "Tools", iconCount: 63 },
   { name: "Transportation", iconCount: 57 },
   { name: "Travel", iconCount: 63 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1604;
+export const iconCount = 1605;
 export const categoryCount = 43;
 
 // Helper functions
