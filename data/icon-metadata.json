@@ -4593,6 +4593,14 @@
     ]
   },
   {
+    "name": "LineSquiggle",
+    "categories": [
+      "Design",
+      "Mathematics",
+      "Shapes"
+    ]
+  },
+  {
     "name": "Magnet",
     "categories": [
       "Design"
@@ -4940,6 +4948,14 @@
     "name": "SquaresUnite",
     "categories": [
       "Design"
+    ]
+  },
+  {
+    "name": "SquircleDashed",
+    "categories": [
+      "Coding & development",
+      "Design",
+      "Shapes"
     ]
   },
   {
@@ -7385,6 +7401,12 @@
   },
   {
     "name": "Euro",
+    "categories": [
+      "Finance"
+    ]
+  },
+  {
+    "name": "GeorgianLari",
     "categories": [
       "Finance"
     ]
