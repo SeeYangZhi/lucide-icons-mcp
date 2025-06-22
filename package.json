@@ -1,7 +1,7 @@
 {
   "name": "lucide-icons-mcp",
   "description": "This project, lucide-react-mcp, is a Model Context Protocol (MCP) server built with Bun and the MCP TypeScript SDK. It exposes Lucide React icons as resources and tools, enabling LLMs and agentic applications to search for and utilize icons. Key features include listing icons, icon search by name or category and integration capabilities with MCP clients like Claude Desktop.",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "type": "module",
   "private": false,
   "files": [
