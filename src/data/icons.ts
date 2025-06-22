@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-21T03:17:25.740Z
+// Generated from storage/datasets/default on 2025-06-22T03:28:46.279Z
 
 export interface IconMetadata {
   name: string;
@@ -1383,6 +1383,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Design", "Layout", "Photography", "Text formatting"]
   },
   { name: "LayoutPanelLeft", categories: ["Design", "Layout"] },
+  { name: "LineSquiggle", categories: ["Design", "Mathematics", "Shapes"] },
   { name: "Magnet", categories: ["Design"] },
   { name: "Maximize", categories: ["Design", "Layout"] },
   { name: "Minimize", categories: ["Design", "Layout"] },
@@ -1477,6 +1478,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SquaresIntersect", categories: ["Design"] },
   { name: "SquaresSubtract", categories: ["Design"] },
   { name: "SquaresUnite", categories: ["Design"] },
+  {
+    name: "SquircleDashed",
+    categories: ["Coding & development", "Design", "Shapes"]
+  },
   { name: "SwatchBook", categories: ["Design", "Home", "Photography"] },
   {
     name: "TabletSmartphone",
@@ -2122,6 +2127,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "DollarSign", categories: ["Finance"] },
   { name: "Euro", categories: ["Finance"] },
+  { name: "GeorgianLari", categories: ["Finance"] },
   { name: "IndianRupee", categories: ["Finance"] },
   { name: "JapaneseYen", categories: ["Finance"] },
   { name: "PhilippinePeso", categories: ["Finance"] },
@@ -2756,18 +2762,18 @@ export const categories: CategoryMetadata[] = [
   { name: "Communication", iconCount: 52 },
   { name: "Connectivity", iconCount: 87 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 141 },
-  { name: "Coding & development", iconCount: 235 },
+  { name: "Design", iconCount: 143 },
+  { name: "Coding & development", iconCount: 236 },
   { name: "Devices", iconCount: 159 },
   { name: "Emoji", iconCount: 20 },
   { name: "File icons", iconCount: 165 },
-  { name: "Finance", iconCount: 51 },
+  { name: "Finance", iconCount: 52 },
   { name: "Food & beverage", iconCount: 68 },
   { name: "Gaming", iconCount: 138 },
   { name: "Home", iconCount: 49 },
   { name: "Layout", iconCount: 136 },
   { name: "Mail", iconCount: 26 },
-  { name: "Mathematics", iconCount: 71 },
+  { name: "Mathematics", iconCount: 72 },
   { name: "Medical", iconCount: 41 },
   { name: "Multimedia", iconCount: 131 },
   { name: "Nature", iconCount: 19 },
@@ -2778,7 +2784,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Science", iconCount: 30 },
   { name: "Seasons", iconCount: 4 },
   { name: "Security", iconCount: 55 },
-  { name: "Shapes", iconCount: 44 },
+  { name: "Shapes", iconCount: 46 },
   { name: "Shopping", iconCount: 25 },
   { name: "Social", iconCount: 115 },
   { name: "Sports", iconCount: 9 },
@@ -2791,7 +2797,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1605;
+export const iconCount = 1608;
 export const categoryCount = 43;
 
 // Helper functions
