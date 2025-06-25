@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-22T03:28:46.279Z
+// Generated from storage/datasets/default on 2025-06-25T03:23:37.719Z
 
 export interface IconMetadata {
   name: string;
@@ -2158,6 +2158,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Beef", categories: ["Food & beverage"] },
   { name: "Beer", categories: ["Food & beverage"] },
   { name: "BeerOff", categories: ["Food & beverage"] },
+  { name: "BottleWine", categories: ["Food & beverage"] },
   { name: "CakeSlice", categories: ["Food & beverage", "Social"] },
   { name: "Candy", categories: ["Food & beverage"] },
   { name: "CandyCane", categories: ["Food & beverage"] },
@@ -2768,7 +2769,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Emoji", iconCount: 20 },
   { name: "File icons", iconCount: 165 },
   { name: "Finance", iconCount: 52 },
-  { name: "Food & beverage", iconCount: 68 },
+  { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 138 },
   { name: "Home", iconCount: 49 },
   { name: "Layout", iconCount: 136 },
@@ -2797,7 +2798,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1608;
+export const iconCount = 1609;
 export const categoryCount = 43;
 
 // Helper functions
