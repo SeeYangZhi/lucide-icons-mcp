@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-26T03:22:31.902Z
+// Generated from storage/datasets/default on 2025-06-28T03:18:10.634Z
 
 export interface IconMetadata {
   name: string;
@@ -1492,6 +1492,10 @@ export const iconMetadata: IconMetadata[] = [
     name: "Torus",
     categories: ["Design", "Food & beverage", "Shapes", "Tools"]
   },
+  {
+    name: "VectorSquare",
+    categories: ["Design", "Mathematics", "Shapes", "Tools"]
+  },
   { name: "View", categories: ["Design", "Photography"] },
   {
     name: "Ampersand",
@@ -1858,6 +1862,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Coding & development", "Science", "Tools"]
   },
   { name: "Terminal", categories: ["Coding & development"] },
+  { name: "ToolCase", categories: ["Coding & development", "Home", "Tools"] },
   { name: "ToyBrick", categories: ["Coding & development", "Gaming"] },
   {
     name: "TriangleAlert",
@@ -2763,18 +2768,18 @@ export const categories: CategoryMetadata[] = [
   { name: "Communication", iconCount: 52 },
   { name: "Connectivity", iconCount: 87 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 143 },
-  { name: "Coding & development", iconCount: 236 },
+  { name: "Design", iconCount: 144 },
+  { name: "Coding & development", iconCount: 237 },
   { name: "Devices", iconCount: 159 },
   { name: "Emoji", iconCount: 20 },
   { name: "File icons", iconCount: 165 },
   { name: "Finance", iconCount: 52 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 138 },
-  { name: "Home", iconCount: 49 },
+  { name: "Home", iconCount: 50 },
   { name: "Layout", iconCount: 136 },
   { name: "Mail", iconCount: 26 },
-  { name: "Mathematics", iconCount: 72 },
+  { name: "Mathematics", iconCount: 73 },
   { name: "Medical", iconCount: 41 },
   { name: "Multimedia", iconCount: 131 },
   { name: "Nature", iconCount: 19 },
@@ -2785,20 +2790,20 @@ export const categories: CategoryMetadata[] = [
   { name: "Science", iconCount: 30 },
   { name: "Seasons", iconCount: 4 },
   { name: "Security", iconCount: 55 },
-  { name: "Shapes", iconCount: 46 },
+  { name: "Shapes", iconCount: 47 },
   { name: "Shopping", iconCount: 25 },
   { name: "Social", iconCount: 115 },
   { name: "Sports", iconCount: 9 },
   { name: "Sustainability", iconCount: 20 },
   { name: "Text formatting", iconCount: 242 },
   { name: "Time & calendar", iconCount: 55 },
-  { name: "Tools", iconCount: 63 },
+  { name: "Tools", iconCount: 65 },
   { name: "Transportation", iconCount: 57 },
   { name: "Travel", iconCount: 63 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1609;
+export const iconCount = 1611;
 export const categoryCount = 43;
 
 // Helper functions
