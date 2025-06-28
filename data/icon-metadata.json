@@ -4994,6 +4994,15 @@
     ]
   },
   {
+    "name": "VectorSquare",
+    "categories": [
+      "Design",
+      "Mathematics",
+      "Shapes",
+      "Tools"
+    ]
+  },
+  {
     "name": "View",
     "categories": [
       "Design",
@@ -6070,6 +6079,14 @@
     "name": "Terminal",
     "categories": [
       "Coding & development"
+    ]
+  },
+  {
+    "name": "ToolCase",
+    "categories": [
+      "Coding & development",
+      "Home",
+      "Tools"
     ]
   },
   {
