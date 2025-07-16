@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-06-28T03:18:10.634Z
+// Generated from storage/datasets/default on 2025-07-16T03:40:10.534Z
 
 export interface IconMetadata {
   name: string;
@@ -2115,6 +2115,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "BadgePoundSterling", categories: ["Finance", "Shopping"] },
   { name: "BadgeRussianRuble", categories: ["Finance", "Shopping"] },
   { name: "BadgeSwissFranc", categories: ["Finance", "Shopping"] },
+  { name: "BadgeTurkishLira", categories: ["Finance", "Shopping"] },
   { name: "Banknote", categories: ["Finance"] },
   { name: "BanknoteArrowDown", categories: ["Finance"] },
   { name: "BanknoteArrowUp", categories: ["Finance"] },
@@ -2147,6 +2148,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "ReceiptRussianRuble", categories: ["Finance", "Travel"] },
   { name: "ReceiptSwissFranc", categories: ["Finance", "Travel"] },
   { name: "ReceiptText", categories: ["Finance", "Travel"] },
+  { name: "ReceiptTurkishLira", categories: ["Finance", "Travel"] },
   { name: "RussianRuble", categories: ["Finance"] },
   { name: "SaudiRiyal", categories: ["Finance"] },
   {
@@ -2154,6 +2156,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Finance", "Mathematics", "Shopping", "Social"]
   },
   { name: "SwissFranc", categories: ["Finance"] },
+  { name: "TurkishLira", categories: ["Finance"] },
   { name: "Amphora", categories: ["Food & beverage", "Gaming"] },
   { name: "Apple", categories: ["Food & beverage"] },
   { name: "Banana", categories: ["Food & beverage"] },
@@ -2773,7 +2776,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Devices", iconCount: 159 },
   { name: "Emoji", iconCount: 20 },
   { name: "File icons", iconCount: 165 },
-  { name: "Finance", iconCount: 52 },
+  { name: "Finance", iconCount: 55 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 138 },
   { name: "Home", iconCount: 50 },
@@ -2791,7 +2794,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Seasons", iconCount: 4 },
   { name: "Security", iconCount: 55 },
   { name: "Shapes", iconCount: 47 },
-  { name: "Shopping", iconCount: 25 },
+  { name: "Shopping", iconCount: 26 },
   { name: "Social", iconCount: 115 },
   { name: "Sports", iconCount: 9 },
   { name: "Sustainability", iconCount: 20 },
@@ -2799,11 +2802,11 @@ export const categories: CategoryMetadata[] = [
   { name: "Time & calendar", iconCount: 55 },
   { name: "Tools", iconCount: 65 },
   { name: "Transportation", iconCount: 57 },
-  { name: "Travel", iconCount: 63 },
+  { name: "Travel", iconCount: 64 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1611;
+export const iconCount = 1614;
 export const categoryCount = 43;
 
 // Helper functions
