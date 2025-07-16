@@ -7351,6 +7351,13 @@
     ]
   },
   {
+    "name": "BadgeTurkishLira",
+    "categories": [
+      "Finance",
+      "Shopping"
+    ]
+  },
+  {
     "name": "Banknote",
     "categories": [
       "Finance"
@@ -7522,6 +7529,13 @@
     ]
   },
   {
+    "name": "ReceiptTurkishLira",
+    "categories": [
+      "Finance",
+      "Travel"
+    ]
+  },
+  {
     "name": "RussianRuble",
     "categories": [
       "Finance"
@@ -7544,6 +7558,12 @@
   },
   {
     "name": "SwissFranc",
+    "categories": [
+      "Finance"
+    ]
+  },
+  {
+    "name": "TurkishLira",
     "categories": [
       "Finance"
     ]
