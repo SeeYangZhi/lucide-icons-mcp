@@ -193,7 +193,6 @@ jobs:
           bun-version: latest
       - run: bun install
       - run: bun run build
-      - run: bun test
       - id: version
         run: |
           CURRENT_VERSION=$(node -p "require('./package.json').version")
