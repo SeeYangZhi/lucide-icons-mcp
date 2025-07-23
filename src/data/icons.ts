@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-07-22T03:41:41.471Z
+// Generated from storage/datasets/default on 2025-07-23T03:43:23.228Z
 
 export interface IconMetadata {
   name: string;
