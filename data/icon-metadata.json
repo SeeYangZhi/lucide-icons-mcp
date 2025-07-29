@@ -458,6 +458,14 @@
     ]
   },
   {
+    "name": "HatGlasses",
+    "categories": [
+      "Accounts & access",
+      "Security",
+      "Social"
+    ]
+  },
+  {
     "name": "HeartHandshake",
     "categories": [
       "Accounts & access",
@@ -542,14 +550,6 @@
     ]
   },
   {
-    "name": "LocationEdit",
-    "categories": [
-      "Accounts & access",
-      "Navigation",
-      "Travel"
-    ]
-  },
-  {
     "name": "LogIn",
     "categories": [
       "Accounts & access",
@@ -613,6 +613,14 @@
   },
   {
     "name": "MapPinMinusInside",
+    "categories": [
+      "Accounts & access",
+      "Navigation",
+      "Travel"
+    ]
+  },
+  {
+    "name": "MapPinPen",
     "categories": [
       "Accounts & access",
       "Navigation",
@@ -1082,6 +1090,12 @@
     "categories": [
       "Accounts & access",
       "Social"
+    ]
+  },
+  {
+    "name": "UserStar",
+    "categories": [
+      "Accounts & access"
     ]
   },
   {
@@ -3570,6 +3584,15 @@
     ]
   },
   {
+    "name": "Spotlight",
+    "categories": [
+      "Communication",
+      "Devices",
+      "Multimedia",
+      "Photography"
+    ]
+  },
+  {
     "name": "SwitchCamera",
     "categories": [
       "Communication",
@@ -4021,6 +4044,13 @@
   },
   {
     "name": "WifiPen",
+    "categories": [
+      "Connectivity",
+      "Devices"
+    ]
+  },
+  {
+    "name": "WifiSync",
     "categories": [
       "Connectivity",
       "Devices"
@@ -5240,6 +5270,20 @@
     "categories": [
       "Coding & development",
       "Science"
+    ]
+  },
+  {
+    "name": "CaseLower",
+    "categories": [
+      "Coding & development",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "CaseUpper",
+    "categories": [
+      "Coding & development",
+      "Text formatting"
     ]
   },
   {
@@ -6830,6 +6874,12 @@
     ]
   },
   {
+    "name": "FilePlay",
+    "categories": [
+      "File icons"
+    ]
+  },
+  {
     "name": "FilePlus",
     "categories": [
       "File icons"
@@ -6899,13 +6949,7 @@
     ]
   },
   {
-    "name": "FileVideo",
-    "categories": [
-      "File icons"
-    ]
-  },
-  {
-    "name": "FileVideo2",
+    "name": "FileVideoCamera",
     "categories": [
       "File icons"
     ]
@@ -9316,6 +9360,25 @@
     ]
   },
   {
+    "name": "Square",
+    "categories": [
+      "Multimedia",
+      "Shapes"
+    ]
+  },
+  {
+    "name": "SquarePause",
+    "categories": [
+      "Multimedia"
+    ]
+  },
+  {
+    "name": "SquareStop",
+    "categories": [
+      "Multimedia"
+    ]
+  },
+  {
     "name": "StarHalf",
     "categories": [
       "Multimedia",
@@ -9512,6 +9575,13 @@
     "categories": [
       "Navigation",
       "Text formatting"
+    ]
+  },
+  {
+    "name": "MapMinus",
+    "categories": [
+      "Navigation",
+      "Travel"
     ]
   },
   {
@@ -9923,12 +9993,6 @@
     ]
   },
   {
-    "name": "Square",
-    "categories": [
-      "Shapes"
-    ]
-  },
-  {
     "name": "Squircle",
     "categories": [
       "Shapes"
@@ -9950,6 +10014,13 @@
     "name": "Barcode",
     "categories": [
       "Shopping"
+    ]
+  },
+  {
+    "name": "Handbag",
+    "categories": [
+      "Shopping",
+      "Transportation"
     ]
   },
   {
@@ -10286,19 +10357,7 @@
     ]
   },
   {
-    "name": "CaseLower",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
     "name": "CaseSensitive",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
-    "name": "CaseUpper",
     "categories": [
       "Text formatting"
     ]
@@ -10313,6 +10372,13 @@
     "name": "ClipboardCheck",
     "categories": [
       "Text formatting"
+    ]
+  },
+  {
+    "name": "ClipboardClock",
+    "categories": [
+      "Text formatting",
+      "Time & calendar"
     ]
   },
   {
