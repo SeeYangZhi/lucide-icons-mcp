@@ -38,6 +38,13 @@
     ]
   },
   {
+    "name": "ClosedCaption",
+    "categories": [
+      "Accessibility",
+      "Multimedia"
+    ]
+  },
+  {
     "name": "Contrast",
     "categories": [
       "Accessibility",
@@ -5541,13 +5548,15 @@
   {
     "name": "FlagTriangleLeft",
     "categories": [
-      "Coding & development"
+      "Coding & development",
+      "Navigation"
     ]
   },
   {
     "name": "FlagTriangleRight",
     "categories": [
-      "Coding & development"
+      "Coding & development",
+      "Navigation"
     ]
   },
   {

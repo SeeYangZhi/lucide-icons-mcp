@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-07-29T03:52:54.478Z
+// Generated from storage/datasets/default on 2025-07-30T03:46:53.525Z
 
 export interface IconMetadata {
   name: string;
@@ -26,6 +26,7 @@ export const iconMetadata: IconMetadata[] = [
     name: "CircleQuestionMark",
     categories: ["Accessibility", "Notification", "Text formatting"]
   },
+  { name: "ClosedCaption", categories: ["Accessibility", "Multimedia"] },
   { name: "Contrast", categories: ["Accessibility", "Design", "Photography"] },
   { name: "Ear", categories: ["Accessibility", "Medical"] },
   { name: "EarOff", categories: ["Accessibility", "Medical"] },
@@ -1655,8 +1656,14 @@ export const iconMetadata: IconMetadata[] = [
   { name: "FileSliders", categories: ["Coding & development", "File icons"] },
   { name: "FileStack", categories: ["Coding & development", "File icons"] },
   { name: "FileTerminal", categories: ["Coding & development", "File icons"] },
-  { name: "FlagTriangleLeft", categories: ["Coding & development"] },
-  { name: "FlagTriangleRight", categories: ["Coding & development"] },
+  {
+    name: "FlagTriangleLeft",
+    categories: ["Coding & development", "Navigation"]
+  },
+  {
+    name: "FlagTriangleRight",
+    categories: ["Coding & development", "Navigation"]
+  },
   { name: "FolderCode", categories: ["Coding & development", "File icons"] },
   { name: "FolderDot", categories: ["Coding & development", "File icons"] },
   { name: "FolderOpenDot", categories: ["Coding & development", "File icons"] },
@@ -2785,7 +2792,7 @@ export const iconMetadata: IconMetadata[] = [
 ];
 
 export const categories: CategoryMetadata[] = [
-  { name: "Accessibility", iconCount: 29 },
+  { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 133 },
   { name: "Animals", iconCount: 22 },
   { name: "Arrows", iconCount: 204 },
@@ -2808,9 +2815,9 @@ export const categories: CategoryMetadata[] = [
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 73 },
   { name: "Medical", iconCount: 41 },
-  { name: "Multimedia", iconCount: 135 },
+  { name: "Multimedia", iconCount: 136 },
   { name: "Nature", iconCount: 19 },
-  { name: "Navigation", iconCount: 137 },
+  { name: "Navigation", iconCount: 139 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
@@ -2830,7 +2837,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1623;
+export const iconCount = 1624;
 export const categoryCount = 43;
 
 // Helper functions
