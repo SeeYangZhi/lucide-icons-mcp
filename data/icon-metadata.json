@@ -3415,6 +3415,15 @@
     ]
   },
   {
+    "name": "HandFist",
+    "categories": [
+      "Communication",
+      "Emoji",
+      "Social",
+      "Sports"
+    ]
+  },
+  {
     "name": "HeadphoneOff",
     "categories": [
       "Communication",
@@ -4098,7 +4107,7 @@
     ]
   },
   {
-    "name": "Grab",
+    "name": "HandGrab",
     "categories": [
       "Cursors",
       "Design",
