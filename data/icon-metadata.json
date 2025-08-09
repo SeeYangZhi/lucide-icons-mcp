@@ -3778,6 +3778,14 @@
     ]
   },
   {
+    "name": "BrickWallShield",
+    "categories": [
+      "Connectivity",
+      "Home",
+      "Security"
+    ]
+  },
+  {
     "name": "Cable",
     "categories": [
       "Connectivity",
@@ -11079,6 +11087,12 @@
   },
   {
     "name": "Forklift",
+    "categories": [
+      "Transportation"
+    ]
+  },
+  {
+    "name": "Kayak",
     "categories": [
       "Transportation"
     ]

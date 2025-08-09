@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-08-08T03:47:56.265Z
+// Generated from storage/datasets/default on 2025-08-09T03:24:31.050Z
 
 export interface IconMetadata {
   name: string;
@@ -1140,6 +1140,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "BluetoothOff", categories: ["Connectivity", "Devices"] },
   { name: "BluetoothSearching", categories: ["Connectivity", "Devices"] },
   { name: "BrickWallFire", categories: ["Connectivity", "Home", "Security"] },
+  { name: "BrickWallShield", categories: ["Connectivity", "Home", "Security"] },
   { name: "Cable", categories: ["Connectivity", "Devices", "Multimedia"] },
   { name: "Cast", categories: ["Connectivity", "Devices"] },
   { name: "CirclePower", categories: ["Connectivity"] },
@@ -2752,6 +2753,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CarFront", categories: ["Transportation"] },
   { name: "CarTaxiFront", categories: ["Transportation"] },
   { name: "Forklift", categories: ["Transportation"] },
+  { name: "Kayak", categories: ["Transportation"] },
   { name: "Luggage", categories: ["Transportation", "Travel"] },
   { name: "OctagonMinus", categories: ["Transportation"] },
   { name: "Plane", categories: ["Transportation", "Travel"] },
@@ -2807,7 +2809,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
-  { name: "Connectivity", iconCount: 88 },
+  { name: "Connectivity", iconCount: 89 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 144 },
   { name: "Coding & development", iconCount: 239 },
@@ -2817,7 +2819,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Finance", iconCount: 55 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 140 },
-  { name: "Home", iconCount: 51 },
+  { name: "Home", iconCount: 52 },
   { name: "Layout", iconCount: 136 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 73 },
@@ -2830,7 +2832,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Photography", iconCount: 75 },
   { name: "Science", iconCount: 30 },
   { name: "Seasons", iconCount: 4 },
-  { name: "Security", iconCount: 56 },
+  { name: "Security", iconCount: 57 },
   { name: "Shapes", iconCount: 47 },
   { name: "Shopping", iconCount: 27 },
   { name: "Social", iconCount: 117 },
@@ -2839,12 +2841,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Text formatting", iconCount: 243 },
   { name: "Time & calendar", iconCount: 56 },
   { name: "Tools", iconCount: 65 },
-  { name: "Transportation", iconCount: 58 },
+  { name: "Transportation", iconCount: 59 },
   { name: "Travel", iconCount: 65 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1628;
+export const iconCount = 1630;
 export const categoryCount = 43;
 
 // Helper functions
