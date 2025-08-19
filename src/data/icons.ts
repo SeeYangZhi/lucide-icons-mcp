@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-08-09T03:24:31.050Z
+// Generated from storage/datasets/default on 2025-08-19T03:14:46.726Z
 
 export interface IconMetadata {
   name: string;
@@ -2322,6 +2322,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "LampWallDown", categories: ["Home"] },
   { name: "LampWallUp", categories: ["Home"] },
   { name: "RockingChair", categories: ["Home"] },
+  {
+    name: "Rose",
+    categories: ["Home", "Nature", "Seasons", "Social", "Sustainability"]
+  },
   { name: "ShowerHead", categories: ["Home", "Travel"] },
   { name: "SoapDispenserDroplet", categories: ["Home", "Travel"] },
   { name: "Sofa", categories: ["Home"] },
@@ -2819,25 +2823,25 @@ export const categories: CategoryMetadata[] = [
   { name: "Finance", iconCount: 55 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 140 },
-  { name: "Home", iconCount: 52 },
+  { name: "Home", iconCount: 53 },
   { name: "Layout", iconCount: 136 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 73 },
   { name: "Medical", iconCount: 41 },
   { name: "Multimedia", iconCount: 137 },
-  { name: "Nature", iconCount: 19 },
+  { name: "Nature", iconCount: 20 },
   { name: "Navigation", iconCount: 139 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
   { name: "Science", iconCount: 30 },
-  { name: "Seasons", iconCount: 4 },
+  { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 57 },
   { name: "Shapes", iconCount: 47 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 117 },
+  { name: "Social", iconCount: 118 },
   { name: "Sports", iconCount: 12 },
-  { name: "Sustainability", iconCount: 20 },
+  { name: "Sustainability", iconCount: 21 },
   { name: "Text formatting", iconCount: 243 },
   { name: "Time & calendar", iconCount: 56 },
   { name: "Tools", iconCount: 65 },
@@ -2846,7 +2850,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1630;
+export const iconCount = 1631;
 export const categoryCount = 43;
 
 // Helper functions
