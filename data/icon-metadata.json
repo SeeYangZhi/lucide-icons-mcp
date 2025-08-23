@@ -2869,7 +2869,7 @@
     ]
   },
   {
-    "name": "Chrome",
+    "name": "Chromium",
     "categories": [
       "Brands"
     ]
@@ -8777,6 +8777,12 @@
     ]
   },
   {
+    "name": "PanelLeftRightDashed",
+    "categories": [
+      "Layout"
+    ]
+  },
+  {
     "name": "PanelRight",
     "categories": [
       "Layout"
@@ -8784,6 +8790,12 @@
   },
   {
     "name": "PanelRightDashed",
+    "categories": [
+      "Layout"
+    ]
+  },
+  {
+    "name": "PanelTopBottomDashed",
     "categories": [
       "Layout"
     ]
