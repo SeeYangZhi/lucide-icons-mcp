@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-08-19T03:14:46.726Z
+// Generated from storage/datasets/default on 2025-08-23T03:06:53.487Z
 
 export interface IconMetadata {
   name: string;
@@ -878,7 +878,7 @@ export const iconMetadata: IconMetadata[] = [
     name: "Bitcoin",
     categories: ["Brands", "Coding & development", "Finance"]
   },
-  { name: "Chrome", categories: ["Brands"] },
+  { name: "Chromium", categories: ["Brands"] },
   { name: "Codepen", categories: ["Brands", "Coding & development"] },
   { name: "Codesandbox", categories: ["Brands", "Coding & development"] },
   { name: "Dribbble", categories: ["Brands", "Design", "Social"] },
@@ -2380,8 +2380,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "PanelBottomDashed", categories: ["Layout"] },
   { name: "PanelLeft", categories: ["Layout"] },
   { name: "PanelLeftDashed", categories: ["Layout"] },
+  { name: "PanelLeftRightDashed", categories: ["Layout"] },
   { name: "PanelRight", categories: ["Layout"] },
   { name: "PanelRightDashed", categories: ["Layout"] },
+  { name: "PanelTopBottomDashed", categories: ["Layout"] },
   { name: "PanelTopDashed", categories: ["Layout"] },
   { name: "PanelsLeftBottom", categories: ["Layout"] },
   { name: "PanelsRightBottom", categories: ["Layout"] },
@@ -2824,7 +2826,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 140 },
   { name: "Home", iconCount: 53 },
-  { name: "Layout", iconCount: 136 },
+  { name: "Layout", iconCount: 138 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 73 },
   { name: "Medical", iconCount: 41 },
@@ -2850,7 +2852,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1631;
+export const iconCount = 1633;
 export const categoryCount = 43;
 
 // Helper functions
