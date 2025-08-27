@@ -2194,6 +2194,13 @@
     ]
   },
   {
+    "name": "ListChevronsDownUp",
+    "categories": [
+      "Arrows",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "Maximize2",
     "categories": [
       "Arrows",
