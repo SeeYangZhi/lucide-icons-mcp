@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-08-23T03:06:53.487Z
+// Generated from storage/datasets/default on 2025-08-27T03:06:22.697Z
 
 export interface IconMetadata {
   name: string;
@@ -723,6 +723,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "IterationCcw", categories: ["Arrows", "Design"] },
   { name: "IterationCw", categories: ["Arrows", "Design"] },
   { name: "LassoSelect", categories: ["Arrows", "Cursors", "Design"] },
+  { name: "ListChevronsDownUp", categories: ["Arrows", "Text formatting"] },
   { name: "Maximize2", categories: ["Arrows", "Design", "Layout"] },
   { name: "Merge", categories: ["Arrows", "Coding & development"] },
   {
@@ -2810,7 +2811,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 133 },
   { name: "Animals", iconCount: 22 },
-  { name: "Arrows", iconCount: 204 },
+  { name: "Arrows", iconCount: 205 },
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
@@ -2844,7 +2845,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Social", iconCount: 118 },
   { name: "Sports", iconCount: 12 },
   { name: "Sustainability", iconCount: 21 },
-  { name: "Text formatting", iconCount: 243 },
+  { name: "Text formatting", iconCount: 244 },
   { name: "Time & calendar", iconCount: 56 },
   { name: "Tools", iconCount: 65 },
   { name: "Transportation", iconCount: 59 },
@@ -2852,7 +2853,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1633;
+export const iconCount = 1634;
 export const categoryCount = 43;
 
 // Helper functions
