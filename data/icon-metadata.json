@@ -2201,6 +2201,13 @@
     ]
   },
   {
+    "name": "ListChevronsUpDown",
+    "categories": [
+      "Arrows",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "Maximize2",
     "categories": [
       "Arrows",
@@ -2789,6 +2796,13 @@
     ]
   },
   {
+    "name": "TextWrap",
+    "categories": [
+      "Arrows",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "TrendingDown",
     "categories": [
       "Arrows",
@@ -2849,13 +2863,6 @@
     "categories": [
       "Arrows",
       "File icons"
-    ]
-  },
-  {
-    "name": "WrapText",
-    "categories": [
-      "Arrows",
-      "Text formatting"
     ]
   },
   {
@@ -3067,6 +3074,14 @@
     "categories": [
       "Buildings",
       "Home"
+    ]
+  },
+  {
+    "name": "HouseHeart",
+    "categories": [
+      "Buildings",
+      "Home",
+      "Medical"
     ]
   },
   {
@@ -4224,14 +4239,6 @@
       "Cursors",
       "Design",
       "Tools"
-    ]
-  },
-  {
-    "name": "Text",
-    "categories": [
-      "Cursors",
-      "File icons",
-      "Text formatting"
     ]
   },
   {
@@ -5709,20 +5716,6 @@
     ]
   },
   {
-    "name": "IndentDecrease",
-    "categories": [
-      "Coding & development",
-      "Text formatting"
-    ]
-  },
-  {
-    "name": "IndentIncrease",
-    "categories": [
-      "Coding & development",
-      "Text formatting"
-    ]
-  },
-  {
     "name": "Keyboard",
     "categories": [
       "Coding & development",
@@ -5755,6 +5748,20 @@
       "Multimedia",
       "Navigation",
       "Photography",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "ListIndentDecrease",
+    "categories": [
+      "Coding & development",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "ListIndentIncrease",
+    "categories": [
+      "Coding & development",
       "Text formatting"
     ]
   },
@@ -10390,30 +10397,6 @@
     ]
   },
   {
-    "name": "AlignCenter",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
-    "name": "AlignJustify",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
-    "name": "AlignLeft",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
-    "name": "AlignRight",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
     "name": "Anchor",
     "categories": [
       "Text formatting",
@@ -10572,12 +10555,6 @@
     ]
   },
   {
-    "name": "LetterText",
-    "categories": [
-      "Text formatting"
-    ]
-  },
-  {
     "name": "Ligature",
     "categories": [
       "Text formatting"
@@ -10729,6 +10706,36 @@
   },
   {
     "name": "TableOfContents",
+    "categories": [
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "TextAlignCenter",
+    "categories": [
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "TextAlignEnd",
+    "categories": [
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "TextAlignJustify",
+    "categories": [
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "TextAlignStart",
+    "categories": [
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "TextInitial",
     "categories": [
       "Text formatting"
     ]
