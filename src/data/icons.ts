@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-08-27T03:06:22.697Z
+// Generated from storage/datasets/default on 2025-09-10T02:59:02.122Z
 
 export interface IconMetadata {
   name: string;
@@ -724,6 +724,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "IterationCw", categories: ["Arrows", "Design"] },
   { name: "LassoSelect", categories: ["Arrows", "Cursors", "Design"] },
   { name: "ListChevronsDownUp", categories: ["Arrows", "Text formatting"] },
+  { name: "ListChevronsUpDown", categories: ["Arrows", "Text formatting"] },
   { name: "Maximize2", categories: ["Arrows", "Design", "Layout"] },
   { name: "Merge", categories: ["Arrows", "Coding & development"] },
   {
@@ -861,6 +862,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "StepForward", categories: ["Arrows", "Multimedia"] },
   { name: "Sunrise", categories: ["Arrows", "Time & calendar", "Weather"] },
   { name: "Sunset", categories: ["Arrows", "Weather"] },
+  { name: "TextWrap", categories: ["Arrows", "Text formatting"] },
   { name: "TrendingDown", categories: ["Arrows", "Charts"] },
   { name: "TrendingUp", categories: ["Arrows", "Charts"] },
   { name: "TrendingUpDown", categories: ["Arrows", "Charts"] },
@@ -870,7 +872,6 @@ export const iconMetadata: IconMetadata[] = [
   { name: "UnfoldHorizontal", categories: ["Arrows", "Layout"] },
   { name: "UnfoldVertical", categories: ["Arrows", "Layout"] },
   { name: "Upload", categories: ["Arrows", "File icons"] },
-  { name: "WrapText", categories: ["Arrows", "Text formatting"] },
   {
     name: "Airplay",
     categories: ["Brands", "Connectivity", "Devices", "Multimedia"]
@@ -909,6 +910,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "Hotel", categories: ["Buildings", "Navigation", "Travel"] },
   { name: "House", categories: ["Buildings", "Home"] },
+  { name: "HouseHeart", categories: ["Buildings", "Home", "Medical"] },
   { name: "HousePlug", categories: ["Buildings", "Home", "Sustainability"] },
   { name: "HousePlus", categories: ["Buildings", "Medical"] },
   { name: "HouseWifi", categories: ["Buildings", "Connectivity", "Home"] },
@@ -1264,7 +1266,6 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Cursors", "Gaming", "Multimedia", "Weather"]
   },
   { name: "Stamp", categories: ["Cursors", "Design", "Tools"] },
-  { name: "Text", categories: ["Cursors", "File icons", "Text formatting"] },
   { name: "TextCursor", categories: ["Cursors", "Text formatting"] },
   { name: "TextSelect", categories: ["Cursors", "Text formatting"] },
   { name: "Wand", categories: ["Cursors", "Design", "Gaming", "Photography"] },
@@ -1699,14 +1700,6 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "HardDrive", categories: ["Coding & development", "Devices"] },
   {
-    name: "IndentDecrease",
-    categories: ["Coding & development", "Text formatting"]
-  },
-  {
-    name: "IndentIncrease",
-    categories: ["Coding & development", "Text formatting"]
-  },
-  {
     name: "Keyboard",
     categories: ["Coding & development", "Devices", "Text formatting"]
   },
@@ -1733,6 +1726,14 @@ export const iconMetadata: IconMetadata[] = [
       "Photography",
       "Text formatting"
     ]
+  },
+  {
+    name: "ListIndentDecrease",
+    categories: ["Coding & development", "Text formatting"]
+  },
+  {
+    name: "ListIndentIncrease",
+    categories: ["Coding & development", "Text formatting"]
   },
   { name: "MessageCircleCode", categories: ["Coding & development", "Social"] },
   { name: "MessageSquareCode", categories: ["Coding & development", "Social"] },
@@ -2636,10 +2637,6 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Recycle", categories: ["Sustainability"] },
   { name: "Wind", categories: ["Sustainability", "Weather"] },
   { name: "WindArrowDown", categories: ["Sustainability", "Weather"] },
-  { name: "AlignCenter", categories: ["Text formatting"] },
-  { name: "AlignJustify", categories: ["Text formatting"] },
-  { name: "AlignLeft", categories: ["Text formatting"] },
-  { name: "AlignRight", categories: ["Text formatting"] },
   { name: "Anchor", categories: ["Text formatting", "Transportation"] },
   { name: "Baseline", categories: ["Text formatting"] },
   { name: "Bold", categories: ["Text formatting"] },
@@ -2669,7 +2666,6 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Heading6", categories: ["Text formatting"] },
   { name: "Italic", categories: ["Text formatting"] },
   { name: "Languages", categories: ["Text formatting"] },
-  { name: "LetterText", categories: ["Text formatting"] },
   { name: "Ligature", categories: ["Text formatting"] },
   { name: "Link2Off", categories: ["Text formatting"] },
   { name: "List", categories: ["Text formatting"] },
@@ -2696,6 +2692,11 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Subscript", categories: ["Text formatting"] },
   { name: "Superscript", categories: ["Text formatting"] },
   { name: "TableOfContents", categories: ["Text formatting"] },
+  { name: "TextAlignCenter", categories: ["Text formatting"] },
+  { name: "TextAlignEnd", categories: ["Text formatting"] },
+  { name: "TextAlignJustify", categories: ["Text formatting"] },
+  { name: "TextAlignStart", categories: ["Text formatting"] },
+  { name: "TextInitial", categories: ["Text formatting"] },
   { name: "TextQuote", categories: ["Text formatting"] },
   { name: "TextSearch", categories: ["Text formatting"] },
   { name: "Type", categories: ["Text formatting"] },
@@ -2811,26 +2812,26 @@ export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 133 },
   { name: "Animals", iconCount: 22 },
-  { name: "Arrows", iconCount: 205 },
+  { name: "Arrows", iconCount: 206 },
   { name: "Brands", iconCount: 21 },
-  { name: "Buildings", iconCount: 24 },
+  { name: "Buildings", iconCount: 25 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
   { name: "Connectivity", iconCount: 89 },
-  { name: "Cursors", iconCount: 33 },
+  { name: "Cursors", iconCount: 32 },
   { name: "Design", iconCount: 144 },
   { name: "Coding & development", iconCount: 239 },
   { name: "Devices", iconCount: 161 },
   { name: "Emoji", iconCount: 21 },
-  { name: "File icons", iconCount: 165 },
+  { name: "File icons", iconCount: 164 },
   { name: "Finance", iconCount: 55 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 140 },
-  { name: "Home", iconCount: 53 },
+  { name: "Home", iconCount: 54 },
   { name: "Layout", iconCount: 138 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 73 },
-  { name: "Medical", iconCount: 41 },
+  { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 137 },
   { name: "Nature", iconCount: 20 },
   { name: "Navigation", iconCount: 139 },
@@ -2853,7 +2854,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1634;
+export const iconCount = 1635;
 export const categoryCount = 43;
 
 // Helper functions
