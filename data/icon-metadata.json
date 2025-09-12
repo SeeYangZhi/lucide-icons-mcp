@@ -9604,6 +9604,13 @@
     ]
   },
   {
+    "name": "EvCharger",
+    "categories": [
+      "Navigation",
+      "Transportation"
+    ]
+  },
+  {
     "name": "FerrisWheel",
     "categories": [
       "Navigation"
