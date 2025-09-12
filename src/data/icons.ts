@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-09-10T02:59:02.122Z
+// Generated from storage/datasets/default on 2025-09-12T02:58:43.920Z
 
 export interface IconMetadata {
   name: string;
@@ -2512,6 +2512,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Compass", categories: ["Navigation", "Travel"] },
   { name: "Dumbbell", categories: ["Navigation", "Sports"] },
   { name: "Earth", categories: ["Navigation"] },
+  { name: "EvCharger", categories: ["Navigation", "Transportation"] },
   { name: "FerrisWheel", categories: ["Navigation"] },
   { name: "Footprints", categories: ["Navigation"] },
   { name: "Fuel", categories: ["Navigation", "Transportation"] },
@@ -2834,7 +2835,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 137 },
   { name: "Nature", iconCount: 20 },
-  { name: "Navigation", iconCount: 139 },
+  { name: "Navigation", iconCount: 140 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
@@ -2849,12 +2850,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Text formatting", iconCount: 244 },
   { name: "Time & calendar", iconCount: 56 },
   { name: "Tools", iconCount: 65 },
-  { name: "Transportation", iconCount: 59 },
+  { name: "Transportation", iconCount: 60 },
   { name: "Travel", iconCount: 65 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1635;
+export const iconCount = 1636;
 export const categoryCount = 43;
 
 // Helper functions
