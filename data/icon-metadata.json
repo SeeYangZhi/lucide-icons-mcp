@@ -11148,6 +11148,12 @@
     ]
   },
   {
+    "name": "Motorbike",
+    "categories": [
+      "Transportation"
+    ]
+  },
+  {
     "name": "OctagonMinus",
     "categories": [
       "Transportation"

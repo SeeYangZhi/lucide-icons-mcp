@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-09-12T02:58:43.920Z
+// Generated from storage/datasets/default on 2025-10-07T03:01:43.960Z
 
 export interface IconMetadata {
   name: string;
@@ -2764,6 +2764,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Forklift", categories: ["Transportation"] },
   { name: "Kayak", categories: ["Transportation"] },
   { name: "Luggage", categories: ["Transportation", "Travel"] },
+  { name: "Motorbike", categories: ["Transportation"] },
   { name: "OctagonMinus", categories: ["Transportation"] },
   { name: "Plane", categories: ["Transportation", "Travel"] },
   { name: "PlaneLanding", categories: ["Transportation", "Travel"] },
@@ -2850,12 +2851,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Text formatting", iconCount: 244 },
   { name: "Time & calendar", iconCount: 56 },
   { name: "Tools", iconCount: 65 },
-  { name: "Transportation", iconCount: 60 },
+  { name: "Transportation", iconCount: 61 },
   { name: "Travel", iconCount: 65 },
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1636;
+export const iconCount = 1637;
 export const categoryCount = 43;
 
 // Helper functions
