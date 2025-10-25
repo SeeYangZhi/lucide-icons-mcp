@@ -1216,6 +1216,15 @@
     ]
   },
   {
+    "name": "Birdhouse",
+    "categories": [
+      "Animals",
+      "Home",
+      "Nature",
+      "Navigation"
+    ]
+  },
+  {
     "name": "Bone",
     "categories": [
       "Animals",
@@ -6390,6 +6399,13 @@
   },
   {
     "name": "Gamepad2",
+    "categories": [
+      "Devices",
+      "Gaming"
+    ]
+  },
+  {
+    "name": "GamepadDirectional",
     "categories": [
       "Devices",
       "Gaming"
