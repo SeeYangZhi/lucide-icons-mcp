@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-10-17T03:06:09.129Z
+// Generated from storage/datasets/default on 2025-10-25T03:06:58.428Z
 
 export interface IconMetadata {
   name: string;
@@ -489,6 +489,10 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Accounts & access", "Coding & development", "Tools"]
   },
   { name: "Bird", categories: ["Animals"] },
+  {
+    name: "Birdhouse",
+    categories: ["Animals", "Home", "Nature", "Navigation"]
+  },
   { name: "Bone", categories: ["Animals", "Gaming", "Medical"] },
   { name: "Bug", categories: ["Animals", "Coding & development"] },
   { name: "BugOff", categories: ["Animals", "Coding & development"] },
@@ -1952,6 +1956,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "FlashlightOff", categories: ["Devices", "Photography"] },
   { name: "Gamepad", categories: ["Devices", "Gaming"] },
   { name: "Gamepad2", categories: ["Devices", "Gaming"] },
+  { name: "GamepadDirectional", categories: ["Devices", "Gaming"] },
   { name: "Gpu", categories: ["Devices", "Gaming"] },
   { name: "HdmiPort", categories: ["Devices", "Gaming", "Multimedia"] },
   { name: "Heater", categories: ["Devices", "Home", "Travel"] },
@@ -2817,7 +2822,7 @@ export const iconMetadata: IconMetadata[] = [
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 133 },
-  { name: "Animals", iconCount: 22 },
+  { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 206 },
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 25 },
@@ -2827,20 +2832,20 @@ export const categories: CategoryMetadata[] = [
   { name: "Cursors", iconCount: 32 },
   { name: "Design", iconCount: 144 },
   { name: "Coding & development", iconCount: 240 },
-  { name: "Devices", iconCount: 162 },
+  { name: "Devices", iconCount: 163 },
   { name: "Emoji", iconCount: 21 },
   { name: "File icons", iconCount: 164 },
   { name: "Finance", iconCount: 55 },
   { name: "Food & beverage", iconCount: 69 },
-  { name: "Gaming", iconCount: 140 },
-  { name: "Home", iconCount: 54 },
+  { name: "Gaming", iconCount: 141 },
+  { name: "Home", iconCount: 55 },
   { name: "Layout", iconCount: 138 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 73 },
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 137 },
-  { name: "Nature", iconCount: 20 },
-  { name: "Navigation", iconCount: 140 },
+  { name: "Nature", iconCount: 21 },
+  { name: "Navigation", iconCount: 141 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
@@ -2860,7 +2865,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 42 }
 ];
 
-export const iconCount = 1638;
+export const iconCount = 1640;
 export const categoryCount = 43;
 
 // Helper functions
