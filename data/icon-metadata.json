@@ -2263,6 +2263,13 @@
     ]
   },
   {
+    "name": "MousePointer2Off",
+    "categories": [
+      "Arrows",
+      "Cursors"
+    ]
+  },
+  {
     "name": "MousePointerBan",
     "categories": [
       "Arrows",
@@ -5531,6 +5538,20 @@
     ]
   },
   {
+    "name": "FileBraces",
+    "categories": [
+      "Coding & development",
+      "File icons"
+    ]
+  },
+  {
+    "name": "FileBracesCorner",
+    "categories": [
+      "Coding & development",
+      "File icons"
+    ]
+  },
+  {
     "name": "FileCode",
     "categories": [
       "Coding & development",
@@ -5538,7 +5559,7 @@
     ]
   },
   {
-    "name": "FileCode2",
+    "name": "FileCodeCorner",
     "categories": [
       "Coding & development",
       "File icons"
@@ -5553,20 +5574,6 @@
   },
   {
     "name": "FileDigit",
-    "categories": [
-      "Coding & development",
-      "File icons"
-    ]
-  },
-  {
-    "name": "FileJson",
-    "categories": [
-      "Coding & development",
-      "File icons"
-    ]
-  },
-  {
-    "name": "FileJson2",
     "categories": [
       "Coding & development",
       "File icons"
@@ -5645,6 +5652,12 @@
   },
   {
     "name": "GitBranch",
+    "categories": [
+      "Coding & development"
+    ]
+  },
+  {
+    "name": "GitBranchMinus",
     "categories": [
       "Coding & development"
     ]
@@ -6788,25 +6801,7 @@
     ]
   },
   {
-    "name": "FileAudio",
-    "categories": [
-      "File icons"
-    ]
-  },
-  {
-    "name": "FileAudio2",
-    "categories": [
-      "File icons"
-    ]
-  },
-  {
     "name": "FileBadge",
-    "categories": [
-      "File icons"
-    ]
-  },
-  {
-    "name": "FileBadge2",
     "categories": [
       "File icons"
     ]
@@ -6848,7 +6843,7 @@
     ]
   },
   {
-    "name": "FileCheck2",
+    "name": "FileCheckCorner",
     "categories": [
       "File icons"
     ]
@@ -6862,6 +6857,19 @@
   },
   {
     "name": "FileCog",
+    "categories": [
+      "File icons"
+    ]
+  },
+  {
+    "name": "FileExclamationPoint",
+    "categories": [
+      "File icons",
+      "Notification"
+    ]
+  },
+  {
+    "name": "FileHeadphone",
     "categories": [
       "File icons"
     ]
@@ -6886,21 +6894,7 @@
     ]
   },
   {
-    "name": "FileKey2",
-    "categories": [
-      "File icons",
-      "Security"
-    ]
-  },
-  {
     "name": "FileLock",
-    "categories": [
-      "File icons",
-      "Security"
-    ]
-  },
-  {
-    "name": "FileLock2",
     "categories": [
       "File icons",
       "Security"
@@ -6913,7 +6907,7 @@
     ]
   },
   {
-    "name": "FileMinus2",
+    "name": "FileMinusCorner",
     "categories": [
       "File icons"
     ]
@@ -6950,7 +6944,7 @@
     ]
   },
   {
-    "name": "FilePlus2",
+    "name": "FilePlusCorner",
     "categories": [
       "File icons"
     ]
@@ -6974,7 +6968,13 @@
     ]
   },
   {
-    "name": "FileSearch2",
+    "name": "FileSearchCorner",
+    "categories": [
+      "File icons"
+    ]
+  },
+  {
+    "name": "FileSignal",
     "categories": [
       "File icons"
     ]
@@ -7006,7 +7006,7 @@
     ]
   },
   {
-    "name": "FileType2",
+    "name": "FileTypeCorner",
     "categories": [
       "File icons",
       "Text formatting"
@@ -7025,26 +7025,13 @@
     ]
   },
   {
-    "name": "FileVolume2",
-    "categories": [
-      "File icons"
-    ]
-  },
-  {
-    "name": "FileWarning",
-    "categories": [
-      "File icons",
-      "Notification"
-    ]
-  },
-  {
     "name": "FileX",
     "categories": [
       "File icons"
     ]
   },
   {
-    "name": "FileX2",
+    "name": "FileXCorner",
     "categories": [
       "File icons"
     ]
@@ -8549,6 +8536,15 @@
     "name": "Sofa",
     "categories": [
       "Home"
+    ]
+  },
+  {
+    "name": "SolarPanel",
+    "categories": [
+      "Home",
+      "Science",
+      "Sustainability",
+      "Weather"
     ]
   },
   {
@@ -11030,6 +11026,12 @@
     ]
   },
   {
+    "name": "ClockCheck",
+    "categories": [
+      "Time & calendar"
+    ]
+  },
+  {
     "name": "ClockFading",
     "categories": [
       "Time & calendar"
@@ -11156,6 +11158,13 @@
     "name": "Forklift",
     "categories": [
       "Transportation"
+    ]
+  },
+  {
+    "name": "Helicopter",
+    "categories": [
+      "Transportation",
+      "Travel"
     ]
   },
   {
