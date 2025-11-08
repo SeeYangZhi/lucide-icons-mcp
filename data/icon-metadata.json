@@ -6678,6 +6678,48 @@
     ]
   },
   {
+    "name": "ChessBishop",
+    "categories": [
+      "Emoji",
+      "Gaming"
+    ]
+  },
+  {
+    "name": "ChessKing",
+    "categories": [
+      "Emoji",
+      "Gaming"
+    ]
+  },
+  {
+    "name": "ChessKnight",
+    "categories": [
+      "Emoji",
+      "Gaming"
+    ]
+  },
+  {
+    "name": "ChessPawn",
+    "categories": [
+      "Emoji",
+      "Gaming"
+    ]
+  },
+  {
+    "name": "ChessQueen",
+    "categories": [
+      "Emoji",
+      "Gaming"
+    ]
+  },
+  {
+    "name": "ChessRook",
+    "categories": [
+      "Emoji",
+      "Gaming"
+    ]
+  },
+  {
     "name": "HandHelping",
     "categories": [
       "Emoji"

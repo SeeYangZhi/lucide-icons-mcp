@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-11-05T03:16:36.861Z
+// Generated from storage/datasets/default on 2025-11-08T03:07:10.565Z
 
 export interface IconMetadata {
   name: string;
@@ -2005,6 +2005,12 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Angry", categories: ["Emoji"] },
   { name: "Annoyed", categories: ["Emoji"] },
   { name: "BicepsFlexed", categories: ["Emoji"] },
+  { name: "ChessBishop", categories: ["Emoji", "Gaming"] },
+  { name: "ChessKing", categories: ["Emoji", "Gaming"] },
+  { name: "ChessKnight", categories: ["Emoji", "Gaming"] },
+  { name: "ChessPawn", categories: ["Emoji", "Gaming"] },
+  { name: "ChessQueen", categories: ["Emoji", "Gaming"] },
+  { name: "ChessRook", categories: ["Emoji", "Gaming"] },
   { name: "HandHelping", categories: ["Emoji"] },
   { name: "HandMetal", categories: ["Emoji", "Multimedia"] },
   {
@@ -2843,11 +2849,11 @@ export const categories: CategoryMetadata[] = [
   { name: "Design", iconCount: 144 },
   { name: "Coding & development", iconCount: 241 },
   { name: "Devices", iconCount: 163 },
-  { name: "Emoji", iconCount: 21 },
+  { name: "Emoji", iconCount: 27 },
   { name: "File icons", iconCount: 160 },
   { name: "Finance", iconCount: 55 },
   { name: "Food & beverage", iconCount: 69 },
-  { name: "Gaming", iconCount: 141 },
+  { name: "Gaming", iconCount: 147 },
   { name: "Home", iconCount: 56 },
   { name: "Layout", iconCount: 138 },
   { name: "Mail", iconCount: 26 },
@@ -2875,7 +2881,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 43 }
 ];
 
-export const iconCount = 1641;
+export const iconCount = 1647;
 export const categoryCount = 43;
 
 // Helper functions
