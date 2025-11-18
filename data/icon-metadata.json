@@ -411,7 +411,7 @@
     ]
   },
   {
-    "name": "Fingerprint",
+    "name": "FingerprintPattern",
     "categories": [
       "Accounts & access",
       "Devices",
@@ -10967,6 +10967,12 @@
   },
   {
     "name": "CalendarX2",
+    "categories": [
+      "Time & calendar"
+    ]
+  },
+  {
+    "name": "Calendars",
     "categories": [
       "Time & calendar"
     ]
