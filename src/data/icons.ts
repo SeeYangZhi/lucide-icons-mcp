@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-11-08T03:07:10.565Z
+// Generated from storage/datasets/default on 2025-11-18T03:17:14.093Z
 
 export interface IconMetadata {
   name: string;
@@ -150,7 +150,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CreditCard", categories: ["Accounts & access", "Finance"] },
   { name: "FileUser", categories: ["Accounts & access", "File icons"] },
   {
-    name: "Fingerprint",
+    name: "FingerprintPattern",
     categories: ["Accounts & access", "Devices", "Medical", "Security"]
   },
   { name: "Flag", categories: ["Accounts & access", "Social"] },
@@ -2748,6 +2748,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CalendarSearch", categories: ["Time & calendar"] },
   { name: "CalendarX", categories: ["Time & calendar"] },
   { name: "CalendarX2", categories: ["Time & calendar"] },
+  { name: "Calendars", categories: ["Time & calendar"] },
   { name: "Clock", categories: ["Time & calendar"] },
   { name: "Clock1", categories: ["Time & calendar"] },
   { name: "Clock10", categories: ["Time & calendar"] },
@@ -2874,14 +2875,14 @@ export const categories: CategoryMetadata[] = [
   { name: "Sports", iconCount: 12 },
   { name: "Sustainability", iconCount: 22 },
   { name: "Text formatting", iconCount: 244 },
-  { name: "Time & calendar", iconCount: 57 },
+  { name: "Time & calendar", iconCount: 58 },
   { name: "Tools", iconCount: 65 },
   { name: "Transportation", iconCount: 62 },
   { name: "Travel", iconCount: 66 },
   { name: "Weather", iconCount: 43 }
 ];
 
-export const iconCount = 1647;
+export const iconCount = 1648;
 export const categoryCount = 43;
 
 // Helper functions
