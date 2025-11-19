@@ -191,8 +191,6 @@ jobs:
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-      - run: bun install
-      - run: bun run build
       - id: version
         run: |
           CURRENT_VERSION=$(node -p "require('./package.json').version")
@@ -216,6 +214,14 @@ jobs:
           git commit -m "chore: bump version to ${{ steps.version.outputs.new_version }}"
           git pull --rebase origin main
           git push
+      - name: Install dependencies for publish
+        run: |
+          echo "📦 Installing dependencies for release packaging..."
+          bun install
+      - name: Build package artifacts
+        run: |
+          echo "🏗️ Building package before publish..."
+          bun run build
       - id: create_release
         uses: softprops/action-gh-release@v2
         with:
