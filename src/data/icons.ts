@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-11-18T03:17:14.093Z
+// Generated from storage/datasets/default on 2025-11-27T03:16:25.547Z
 
 export interface IconMetadata {
   name: string;
@@ -210,50 +210,53 @@ export const iconMetadata: IconMetadata[] = [
     name: "Mail",
     categories: ["Accounts & access", "Mail", "Text formatting"]
   },
-  { name: "MapPin", categories: ["Accounts & access", "Navigation", "Travel"] },
+  {
+    name: "MapPin",
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+  },
   {
     name: "MapPinCheck",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinCheckInside",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinHouse",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinMinus",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinMinusInside",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinPen",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinPlus",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinPlusInside",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinX",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinXInside",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   {
     name: "MapPinned",
-    categories: ["Accounts & access", "Navigation", "Travel"]
+    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   { name: "Menu", categories: ["Accounts & access", "Layout"] },
   { name: "MessageCircleX", categories: ["Accounts & access", "Social"] },
@@ -261,7 +264,10 @@ export const iconMetadata: IconMetadata[] = [
     name: "NotebookTabs",
     categories: ["Accounts & access", "Communication", "Social"]
   },
-  { name: "Pin", categories: ["Accounts & access", "Navigation"] },
+  {
+    name: "Pin",
+    categories: ["Accounts & access", "Navigation, Maps, and POIs"]
+  },
   { name: "RotateCcwKey", categories: ["Accounts & access", "Security"] },
   {
     name: "ScanFace",
@@ -471,7 +477,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Accounts & access",
       "Coding & development",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Security",
       "Social"
     ]
@@ -491,7 +497,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Bird", categories: ["Animals"] },
   {
     name: "Birdhouse",
-    categories: ["Animals", "Home", "Nature", "Navigation"]
+    categories: ["Animals", "Home", "Nature", "Navigation, Maps, and POIs"]
   },
   { name: "Bone", categories: ["Animals", "Gaming", "Medical"] },
   { name: "Bug", categories: ["Animals", "Coding & development"] },
@@ -525,88 +531,67 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Squirrel", categories: ["Animals"] },
   { name: "Turtle", categories: ["Animals"] },
   { name: "Worm", categories: ["Animals", "Security"] },
-  { name: "ArrowBigDown", categories: ["Arrows", "Gaming", "Navigation"] },
-  {
-    name: "ArrowBigDownDash",
-    categories: ["Arrows", "File icons", "Gaming", "Navigation"]
-  },
-  { name: "ArrowBigLeft", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "ArrowBigLeftDash", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "ArrowBigRight", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "ArrowBigRightDash", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "ArrowBigDown", categories: ["Arrows", "Gaming"] },
+  { name: "ArrowBigDownDash", categories: ["Arrows", "File icons", "Gaming"] },
+  { name: "ArrowBigLeft", categories: ["Arrows", "Gaming"] },
+  { name: "ArrowBigLeftDash", categories: ["Arrows", "Gaming"] },
+  { name: "ArrowBigRight", categories: ["Arrows", "Gaming"] },
+  { name: "ArrowBigRightDash", categories: ["Arrows", "Gaming"] },
   {
     name: "ArrowBigUp",
-    categories: [
-      "Arrows",
-      "Coding & development",
-      "Gaming",
-      "Navigation",
-      "Text formatting"
-    ]
+    categories: ["Arrows", "Coding & development", "Gaming", "Text formatting"]
   },
   {
     name: "ArrowBigUpDash",
-    categories: [
-      "Arrows",
-      "Coding & development",
-      "Gaming",
-      "Navigation",
-      "Text formatting"
-    ]
+    categories: ["Arrows", "Coding & development", "Gaming", "Text formatting"]
   },
-  { name: "ArrowDown", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowDown", categories: ["Arrows"] },
   { name: "ArrowDown01", categories: ["Arrows", "Layout", "Text formatting"] },
   { name: "ArrowDown10", categories: ["Arrows", "Layout", "Text formatting"] },
   { name: "ArrowDownAZ", categories: ["Arrows", "Layout", "Text formatting"] },
-  {
-    name: "ArrowDownFromLine",
-    categories: ["Arrows", "File icons", "Navigation"]
-  },
-  { name: "ArrowDownLeft", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowDownFromLine", categories: ["Arrows", "File icons"] },
+  { name: "ArrowDownLeft", categories: ["Arrows"] },
   {
     name: "ArrowDownNarrowWide",
     categories: ["Arrows", "Layout", "Text formatting"]
   },
-  { name: "ArrowDownRight", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowDownToDot", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowDownRight", categories: ["Arrows"] },
+  { name: "ArrowDownToDot", categories: ["Arrows"] },
   {
     name: "ArrowDownToLine",
-    categories: ["Arrows", "Coding & development", "File icons", "Navigation"]
+    categories: ["Arrows", "Coding & development", "File icons"]
   },
-  { name: "ArrowDownUp", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowDownUp", categories: ["Arrows"] },
   {
     name: "ArrowDownWideNarrow",
     categories: ["Arrows", "Layout", "Text formatting"]
   },
   { name: "ArrowDownZA", categories: ["Arrows", "Layout", "Text formatting"] },
-  { name: "ArrowLeft", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowLeftFromLine", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowLeftRight", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowLeftToLine", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowRight", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowRightFromLine", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowRightLeft", categories: ["Arrows", "Navigation"] },
-  {
-    name: "ArrowRightToLine",
-    categories: ["Arrows", "Coding & development", "Navigation"]
-  },
-  { name: "ArrowUp", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowLeft", categories: ["Arrows"] },
+  { name: "ArrowLeftFromLine", categories: ["Arrows"] },
+  { name: "ArrowLeftRight", categories: ["Arrows"] },
+  { name: "ArrowLeftToLine", categories: ["Arrows"] },
+  { name: "ArrowRight", categories: ["Arrows"] },
+  { name: "ArrowRightFromLine", categories: ["Arrows"] },
+  { name: "ArrowRightLeft", categories: ["Arrows"] },
+  { name: "ArrowRightToLine", categories: ["Arrows", "Coding & development"] },
+  { name: "ArrowUp", categories: ["Arrows"] },
   { name: "ArrowUp01", categories: ["Arrows", "Layout", "Text formatting"] },
   { name: "ArrowUp10", categories: ["Arrows", "Layout", "Text formatting"] },
   { name: "ArrowUpAZ", categories: ["Arrows", "Layout", "Text formatting"] },
-  { name: "ArrowUpDown", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowUpFromDot", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowUpDown", categories: ["Arrows"] },
+  { name: "ArrowUpFromDot", categories: ["Arrows"] },
   {
     name: "ArrowUpFromLine",
-    categories: ["Arrows", "Coding & development", "File icons", "Navigation"]
+    categories: ["Arrows", "Coding & development", "File icons"]
   },
-  { name: "ArrowUpLeft", categories: ["Arrows", "Navigation"] },
+  { name: "ArrowUpLeft", categories: ["Arrows"] },
   {
     name: "ArrowUpNarrowWide",
     categories: ["Arrows", "Layout", "Text formatting"]
   },
-  { name: "ArrowUpRight", categories: ["Arrows", "Navigation"] },
-  { name: "ArrowUpToLine", categories: ["Arrows", "File icons", "Navigation"] },
+  { name: "ArrowUpRight", categories: ["Arrows"] },
+  { name: "ArrowUpToLine", categories: ["Arrows", "File icons"] },
   {
     name: "ArrowUpWideNarrow",
     categories: ["Arrows", "Layout", "Text formatting"]
@@ -617,41 +602,38 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Arrows", "Mail", "Transportation"]
   },
   { name: "CalendarSync", categories: ["Arrows", "Time & calendar"] },
-  { name: "ChevronDown", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "ChevronDown", categories: ["Arrows", "Gaming"] },
   { name: "ChevronFirst", categories: ["Arrows", "Multimedia"] },
   { name: "ChevronLast", categories: ["Arrows", "Multimedia"] },
-  { name: "ChevronLeft", categories: ["Arrows", "Navigation"] },
+  { name: "ChevronLeft", categories: ["Arrows"] },
   {
     name: "ChevronRight",
-    categories: ["Arrows", "Coding & development", "Mathematics", "Navigation"]
+    categories: ["Arrows", "Coding & development", "Mathematics"]
   },
-  {
-    name: "ChevronUp",
-    categories: ["Arrows", "Gaming", "Mathematics", "Navigation"]
-  },
-  { name: "ChevronsDown", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "ChevronUp", categories: ["Arrows", "Gaming", "Mathematics"] },
+  { name: "ChevronsDown", categories: ["Arrows", "Gaming"] },
   { name: "ChevronsDownUp", categories: ["Arrows"] },
-  { name: "ChevronsLeft", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "ChevronsLeft", categories: ["Arrows", "Gaming"] },
   { name: "ChevronsLeftRight", categories: ["Arrows"] },
-  { name: "ChevronsRight", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "ChevronsRight", categories: ["Arrows", "Gaming"] },
   { name: "ChevronsRightLeft", categories: ["Arrows"] },
-  { name: "ChevronsUp", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "ChevronsUp", categories: ["Arrows", "Gaming"] },
   { name: "ChevronsUpDown", categories: ["Arrows"] },
-  { name: "CircleArrowDown", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "CircleArrowLeft", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "CircleArrowOutDownLeft", categories: ["Arrows", "Navigation"] },
-  { name: "CircleArrowOutDownRight", categories: ["Arrows", "Navigation"] },
+  { name: "CircleArrowDown", categories: ["Arrows", "Gaming"] },
+  { name: "CircleArrowLeft", categories: ["Arrows", "Gaming"] },
+  { name: "CircleArrowOutDownLeft", categories: ["Arrows"] },
+  { name: "CircleArrowOutDownRight", categories: ["Arrows"] },
   {
     name: "CircleArrowOutUpLeft",
-    categories: ["Arrows", "Coding & development", "Navigation"]
+    categories: ["Arrows", "Coding & development"]
   },
-  { name: "CircleArrowOutUpRight", categories: ["Arrows", "Navigation"] },
-  { name: "CircleArrowRight", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "CircleArrowUp", categories: ["Arrows", "Gaming", "Navigation"] },
-  { name: "CircleChevronDown", categories: ["Arrows", "Navigation"] },
-  { name: "CircleChevronLeft", categories: ["Arrows", "Navigation"] },
-  { name: "CircleChevronRight", categories: ["Arrows", "Navigation"] },
-  { name: "CircleChevronUp", categories: ["Arrows", "Navigation"] },
+  { name: "CircleArrowOutUpRight", categories: ["Arrows"] },
+  { name: "CircleArrowRight", categories: ["Arrows", "Gaming"] },
+  { name: "CircleArrowUp", categories: ["Arrows", "Gaming"] },
+  { name: "CircleChevronDown", categories: ["Arrows"] },
+  { name: "CircleChevronLeft", categories: ["Arrows"] },
+  { name: "CircleChevronRight", categories: ["Arrows"] },
+  { name: "CircleChevronUp", categories: ["Arrows"] },
   {
     name: "CircleFadingArrowUp",
     categories: ["Arrows", "Coding & development"]
@@ -733,7 +715,12 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Merge", categories: ["Arrows", "Coding & development"] },
   {
     name: "Milestone",
-    categories: ["Arrows", "Coding & development", "Gaming", "Navigation"]
+    categories: [
+      "Arrows",
+      "Coding & development",
+      "Gaming",
+      "Navigation, Maps, and POIs"
+    ]
   },
   { name: "Minimize2", categories: ["Arrows", "Design", "Layout"] },
   { name: "MousePointer", categories: ["Arrows", "Cursors"] },
@@ -807,11 +794,21 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Shuffle", categories: ["Arrows", "Multimedia"] },
   {
     name: "Signpost",
-    categories: ["Arrows", "Coding & development", "Gaming", "Navigation"]
+    categories: [
+      "Arrows",
+      "Coding & development",
+      "Gaming",
+      "Navigation, Maps, and POIs"
+    ]
   },
   {
     name: "SignpostBig",
-    categories: ["Arrows", "Coding & development", "Gaming", "Navigation"]
+    categories: [
+      "Arrows",
+      "Coding & development",
+      "Gaming",
+      "Navigation, Maps, and POIs"
+    ]
   },
   { name: "SkipBack", categories: ["Arrows", "Multimedia"] },
   { name: "SkipForward", categories: ["Arrows", "Multimedia"] },
@@ -820,39 +817,33 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Arrows", "Cursors", "Design", "Tools"]
   },
   { name: "Split", categories: ["Arrows", "Coding & development"] },
-  { name: "SquareArrowDown", categories: ["Arrows", "Gaming", "Navigation"] },
+  { name: "SquareArrowDown", categories: ["Arrows", "Gaming"] },
+  { name: "SquareArrowDownLeft", categories: ["Arrows", "Gaming"] },
+  { name: "SquareArrowDownRight", categories: ["Arrows", "Gaming"] },
+  { name: "SquareArrowLeft", categories: ["Arrows"] },
+  { name: "SquareArrowOutDownLeft", categories: ["Arrows"] },
+  { name: "SquareArrowOutDownRight", categories: ["Arrows"] },
+  { name: "SquareArrowOutUpLeft", categories: ["Arrows"] },
+  { name: "SquareArrowOutUpRight", categories: ["Arrows", "Social"] },
+  { name: "SquareArrowRight", categories: ["Arrows"] },
+  { name: "SquareArrowUp", categories: ["Arrows"] },
+  { name: "SquareArrowUpLeft", categories: ["Arrows"] },
+  { name: "SquareArrowUpRight", categories: ["Arrows", "Social"] },
   {
-    name: "SquareArrowDownLeft",
-    categories: ["Arrows", "Gaming", "Navigation"]
+    name: "SquareChevronDown",
+    categories: ["Arrows", "Navigation, Maps, and POIs"]
   },
   {
-    name: "SquareArrowDownRight",
-    categories: ["Arrows", "Gaming", "Navigation"]
+    name: "SquareChevronLeft",
+    categories: ["Arrows", "Navigation, Maps, and POIs"]
   },
-  { name: "SquareArrowLeft", categories: ["Arrows", "Navigation"] },
-  { name: "SquareArrowOutDownLeft", categories: ["Arrows", "Navigation"] },
-  { name: "SquareArrowOutDownRight", categories: ["Arrows", "Navigation"] },
-  { name: "SquareArrowOutUpLeft", categories: ["Arrows", "Navigation"] },
-  {
-    name: "SquareArrowOutUpRight",
-    categories: ["Arrows", "Navigation", "Social"]
-  },
-  { name: "SquareArrowRight", categories: ["Arrows", "Navigation"] },
-  { name: "SquareArrowUp", categories: ["Arrows", "Navigation"] },
-  { name: "SquareArrowUpLeft", categories: ["Arrows", "Navigation"] },
-  {
-    name: "SquareArrowUpRight",
-    categories: ["Arrows", "Navigation", "Social"]
-  },
-  { name: "SquareChevronDown", categories: ["Arrows", "Navigation"] },
-  { name: "SquareChevronLeft", categories: ["Arrows", "Navigation"] },
   {
     name: "SquareChevronRight",
-    categories: ["Arrows", "Coding & development", "Navigation"]
+    categories: ["Arrows", "Coding & development", "Navigation, Maps, and POIs"]
   },
   {
     name: "SquareChevronUp",
-    categories: ["Arrows", "Mathematics", "Navigation"]
+    categories: ["Arrows", "Mathematics", "Navigation, Maps, and POIs"]
   },
   {
     name: "SquareDashedMousePointer",
@@ -902,30 +893,54 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Youtube", categories: ["Brands", "Multimedia", "Social"] },
   { name: "Anvil", categories: ["Buildings", "Gaming", "Tools"] },
   { name: "BrickWall", categories: ["Buildings", "Home"] },
-  { name: "Castle", categories: ["Buildings", "Gaming"] },
-  { name: "Church", categories: ["Buildings", "Navigation"] },
+  {
+    name: "Castle",
+    categories: ["Buildings", "Gaming", "Navigation, Maps, and POIs"]
+  },
+  { name: "Church", categories: ["Buildings", "Navigation, Maps, and POIs"] },
   { name: "Cuboid", categories: ["Buildings", "Mathematics", "Shapes"] },
-  { name: "Dam", categories: ["Buildings", "Sustainability"] },
-  { name: "Factory", categories: ["Buildings"] },
+  {
+    name: "Dam",
+    categories: ["Buildings", "Navigation, Maps, and POIs", "Sustainability"]
+  },
+  { name: "Factory", categories: ["Buildings", "Navigation, Maps, and POIs"] },
   { name: "Fence", categories: ["Buildings", "Home"] },
   { name: "GraduationCap", categories: ["Buildings"] },
   {
     name: "Hospital",
-    categories: ["Buildings", "Medical", "Navigation", "Travel"]
+    categories: ["Buildings", "Medical", "Navigation, Maps, and POIs", "Travel"]
   },
-  { name: "Hotel", categories: ["Buildings", "Navigation", "Travel"] },
-  { name: "House", categories: ["Buildings", "Home"] },
+  {
+    name: "Hotel",
+    categories: ["Buildings", "Navigation, Maps, and POIs", "Travel"]
+  },
+  {
+    name: "House",
+    categories: ["Buildings", "Home", "Navigation, Maps, and POIs"]
+  },
   { name: "HouseHeart", categories: ["Buildings", "Home", "Medical"] },
   { name: "HousePlug", categories: ["Buildings", "Home", "Sustainability"] },
   { name: "HousePlus", categories: ["Buildings", "Medical"] },
   { name: "HouseWifi", categories: ["Buildings", "Connectivity", "Home"] },
-  { name: "Landmark", categories: ["Buildings", "Finance", "Navigation"] },
-  { name: "School", categories: ["Buildings", "Navigation"] },
-  { name: "Store", categories: ["Buildings", "Navigation", "Shopping"] },
+  {
+    name: "Landmark",
+    categories: ["Buildings", "Finance", "Navigation, Maps, and POIs"]
+  },
+  { name: "School", categories: ["Buildings", "Navigation, Maps, and POIs"] },
+  {
+    name: "Store",
+    categories: ["Buildings", "Navigation, Maps, and POIs", "Shopping"]
+  },
   { name: "Theater", categories: ["Buildings", "Social"] },
-  { name: "University", categories: ["Buildings", "Navigation"] },
+  {
+    name: "University",
+    categories: ["Buildings", "Navigation, Maps, and POIs"]
+  },
   { name: "UtilityPole", categories: ["Buildings", "Home", "Sustainability"] },
-  { name: "Warehouse", categories: ["Buildings", "Navigation"] },
+  {
+    name: "Warehouse",
+    categories: ["Buildings", "Navigation, Maps, and POIs"]
+  },
   { name: "ChartArea", categories: ["Charts"] },
   { name: "ChartBar", categories: ["Charts"] },
   { name: "ChartBarBig", categories: ["Charts"] },
@@ -1069,7 +1084,10 @@ export const iconMetadata: IconMetadata[] = [
     name: "Projector",
     categories: ["Communication", "Devices", "Multimedia", "Photography"]
   },
-  { name: "Radar", categories: ["Communication", "Navigation", "Security"] },
+  {
+    name: "Radar",
+    categories: ["Communication", "Navigation, Maps, and POIs", "Security"]
+  },
   {
     name: "ScreenShare",
     categories: ["Communication", "Connectivity", "Devices"]
@@ -1542,7 +1560,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Nature",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Science",
       "Travel"
@@ -1597,6 +1615,10 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "BookPlus",
+    categories: ["Coding & development", "Gaming", "Text formatting"]
+  },
+  {
+    name: "BookSearch",
     categories: ["Coding & development", "Gaming", "Text formatting"]
   },
   { name: "BookUp", categories: ["Coding & development"] },
@@ -1680,27 +1702,28 @@ export const iconMetadata: IconMetadata[] = [
   { name: "FileTerminal", categories: ["Coding & development", "File icons"] },
   {
     name: "FlagTriangleLeft",
-    categories: ["Coding & development", "Navigation"]
+    categories: ["Coding & development", "Navigation, Maps, and POIs"]
   },
   {
     name: "FlagTriangleRight",
-    categories: ["Coding & development", "Navigation"]
+    categories: ["Coding & development", "Navigation, Maps, and POIs"]
   },
   { name: "FolderCode", categories: ["Coding & development", "File icons"] },
   { name: "FolderDot", categories: ["Coding & development", "File icons"] },
   { name: "FolderOpenDot", categories: ["Coding & development", "File icons"] },
   { name: "FolderRoot", categories: ["Coding & development", "File icons"] },
+  { name: "Form", categories: ["Coding & development"] },
   { name: "Gem", categories: ["Coding & development", "Finance", "Gaming"] },
   { name: "GitBranch", categories: ["Coding & development"] },
   { name: "GitBranchMinus", categories: ["Coding & development"] },
   { name: "GitBranchPlus", categories: ["Coding & development"] },
   {
     name: "GitCommitHorizontal",
-    categories: ["Coding & development", "Navigation"]
+    categories: ["Coding & development", "Navigation, Maps, and POIs"]
   },
   {
     name: "GitCommitVertical",
-    categories: ["Coding & development", "Navigation"]
+    categories: ["Coding & development", "Navigation, Maps, and POIs"]
   },
   { name: "GitCompare", categories: ["Coding & development"] },
   { name: "GitFork", categories: ["Coding & development"] },
@@ -1728,7 +1751,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
     ]
@@ -1738,7 +1761,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
     ]
@@ -1866,7 +1889,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
     ]
@@ -2203,6 +2226,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "RussianRuble", categories: ["Finance"] },
   { name: "SaudiRiyal", categories: ["Finance"] },
   {
+    name: "Scale",
+    categories: ["Finance", "Navigation, Maps, and POIs", "Science"]
+  },
+  {
     name: "SquarePercent",
     categories: ["Finance", "Mathematics", "Shopping", "Social"]
   },
@@ -2211,7 +2238,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Amphora", categories: ["Food & beverage", "Gaming"] },
   { name: "Apple", categories: ["Food & beverage"] },
   { name: "Banana", categories: ["Food & beverage"] },
-  { name: "Barrel", categories: ["Food & beverage", "Navigation"] },
+  {
+    name: "Barrel",
+    categories: ["Food & beverage", "Navigation, Maps, and POIs"]
+  },
   { name: "Bean", categories: ["Food & beverage"] },
   { name: "BeanOff", categories: ["Food & beverage"] },
   { name: "Beef", categories: ["Food & beverage"] },
@@ -2262,10 +2292,13 @@ export const iconMetadata: IconMetadata[] = [
     name: "Tractor",
     categories: ["Food & beverage", "Sustainability", "Transportation"]
   },
-  { name: "Utensils", categories: ["Food & beverage", "Navigation", "Travel"] },
+  {
+    name: "Utensils",
+    categories: ["Food & beverage", "Navigation, Maps, and POIs", "Travel"]
+  },
   {
     name: "UtensilsCrossed",
-    categories: ["Food & beverage", "Navigation", "Travel"]
+    categories: ["Food & beverage", "Navigation, Maps, and POIs", "Travel"]
   },
   { name: "Vegan", categories: ["Food & beverage", "Sustainability"] },
   { name: "Wheat", categories: ["Food & beverage"] },
@@ -2516,7 +2549,12 @@ export const iconMetadata: IconMetadata[] = [
   { name: "StarOff", categories: ["Multimedia", "Social"] },
   {
     name: "Waves",
-    categories: ["Multimedia", "Navigation", "Sustainability", "Weather"]
+    categories: [
+      "Multimedia",
+      "Navigation, Maps, and POIs",
+      "Sustainability",
+      "Weather"
+    ]
   },
   { name: "Cannabis", categories: ["Nature"] },
   { name: "Caravan", categories: ["Nature", "Transportation", "Travel"] },
@@ -2530,42 +2568,87 @@ export const iconMetadata: IconMetadata[] = [
   { name: "TreePalm", categories: ["Nature", "Sustainability"] },
   { name: "TreePine", categories: ["Nature", "Sustainability"] },
   { name: "Trees", categories: ["Nature", "Sustainability"] },
-  { name: "CircleParking", categories: ["Navigation", "Transportation"] },
-  { name: "CircleParkingOff", categories: ["Navigation", "Transportation"] },
-  { name: "Compass", categories: ["Navigation", "Travel"] },
-  { name: "Dumbbell", categories: ["Navigation", "Sports"] },
-  { name: "Earth", categories: ["Navigation"] },
-  { name: "EvCharger", categories: ["Navigation", "Transportation"] },
-  { name: "FerrisWheel", categories: ["Navigation"] },
-  { name: "Footprints", categories: ["Navigation"] },
-  { name: "Fuel", categories: ["Navigation", "Transportation"] },
-  { name: "Gavel", categories: ["Navigation", "Tools"] },
-  { name: "Globe", categories: ["Navigation"] },
-  { name: "Locate", categories: ["Navigation"] },
-  { name: "LocateFixed", categories: ["Navigation"] },
-  { name: "LocateOff", categories: ["Navigation"] },
-  { name: "Map", categories: ["Navigation", "Text formatting"] },
-  { name: "MapMinus", categories: ["Navigation", "Travel"] },
-  { name: "MapPinOff", categories: ["Navigation", "Travel"] },
-  { name: "MapPlus", categories: ["Navigation"] },
-  { name: "Navigation", categories: ["Navigation"] },
-  { name: "Navigation2", categories: ["Navigation"] },
-  { name: "Navigation2Off", categories: ["Navigation"] },
-  { name: "NavigationOff", categories: ["Navigation"] },
-  { name: "ParkingMeter", categories: ["Navigation", "Transportation"] },
-  { name: "PinOff", categories: ["Navigation"] },
-  { name: "RailSymbol", categories: ["Navigation", "Transportation"] },
-  { name: "RollerCoaster", categories: ["Navigation"] },
-  { name: "Route", categories: ["Navigation"] },
-  { name: "RouteOff", categories: ["Navigation"] },
-  { name: "Scale", categories: ["Navigation"] },
-  { name: "Ship", categories: ["Navigation", "Transportation", "Travel"] },
-  { name: "ShipWheel", categories: ["Navigation", "Transportation", "Travel"] },
-  { name: "SquareM", categories: ["Navigation", "Transportation"] },
-  { name: "SquareParking", categories: ["Navigation", "Transportation"] },
-  { name: "SquareParkingOff", categories: ["Navigation", "Transportation"] },
-  { name: "TrainFrontTunnel", categories: ["Navigation", "Transportation"] },
-  { name: "TrainTrack", categories: ["Navigation", "Transportation"] },
+  {
+    name: "CircleParking",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  {
+    name: "CircleParkingOff",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  { name: "Compass", categories: ["Navigation, Maps, and POIs", "Travel"] },
+  { name: "Dumbbell", categories: ["Navigation, Maps, and POIs", "Sports"] },
+  { name: "Earth", categories: ["Navigation, Maps, and POIs"] },
+  {
+    name: "EvCharger",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  { name: "FerrisWheel", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Footprints", categories: ["Navigation, Maps, and POIs"] },
+  {
+    name: "Fuel",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  { name: "Gavel", categories: ["Navigation, Maps, and POIs", "Tools"] },
+  { name: "Globe", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Locate", categories: ["Navigation, Maps, and POIs"] },
+  { name: "LocateFixed", categories: ["Navigation, Maps, and POIs"] },
+  { name: "LocateOff", categories: ["Navigation, Maps, and POIs"] },
+  {
+    name: "Map",
+    categories: ["Navigation, Maps, and POIs", "Text formatting"]
+  },
+  { name: "MapMinus", categories: ["Navigation, Maps, and POIs", "Travel"] },
+  { name: "MapPinOff", categories: ["Navigation, Maps, and POIs", "Travel"] },
+  { name: "MapPlus", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Navigation", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Navigation2", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Navigation2Off", categories: ["Navigation, Maps, and POIs"] },
+  { name: "NavigationOff", categories: ["Navigation, Maps, and POIs"] },
+  {
+    name: "ParkingMeter",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  { name: "PinOff", categories: ["Navigation, Maps, and POIs"] },
+  {
+    name: "Plane",
+    categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
+  },
+  {
+    name: "RailSymbol",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  { name: "RollerCoaster", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Route", categories: ["Navigation, Maps, and POIs"] },
+  { name: "RouteOff", categories: ["Navigation, Maps, and POIs"] },
+  {
+    name: "Ship",
+    categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
+  },
+  {
+    name: "ShipWheel",
+    categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
+  },
+  {
+    name: "SquareM",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  {
+    name: "SquareParking",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  {
+    name: "SquareParkingOff",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  {
+    name: "TrainFrontTunnel",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
+  {
+    name: "TrainTrack",
+    categories: ["Navigation, Maps, and POIs", "Transportation"]
+  },
   { name: "BellMinus", categories: ["Notification"] },
   { name: "BellOff", categories: ["Notification"] },
   { name: "BellPlus", categories: ["Notification"] },
@@ -2659,6 +2742,8 @@ export const iconMetadata: IconMetadata[] = [
   { name: "StickyNote", categories: ["Social", "Text formatting"] },
   { name: "Vote", categories: ["Social"] },
   { name: "Recycle", categories: ["Sustainability"] },
+  { name: "WavesArrowDown", categories: ["Sustainability", "Weather"] },
+  { name: "WavesArrowUp", categories: ["Sustainability", "Weather"] },
   { name: "Wind", categories: ["Sustainability", "Weather"] },
   { name: "WindArrowDown", categories: ["Sustainability", "Weather"] },
   { name: "Anchor", categories: ["Text formatting", "Transportation"] },
@@ -2792,7 +2877,6 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Luggage", categories: ["Transportation", "Travel"] },
   { name: "Motorbike", categories: ["Transportation"] },
   { name: "OctagonMinus", categories: ["Transportation"] },
-  { name: "Plane", categories: ["Transportation", "Travel"] },
   { name: "PlaneLanding", categories: ["Transportation", "Travel"] },
   { name: "PlaneTakeoff", categories: ["Transportation", "Travel"] },
   { name: "Sailboat", categories: ["Transportation", "Travel"] },
@@ -2848,13 +2932,13 @@ export const categories: CategoryMetadata[] = [
   { name: "Connectivity", iconCount: 90 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 144 },
-  { name: "Coding & development", iconCount: 241 },
+  { name: "Coding & development", iconCount: 243 },
   { name: "Devices", iconCount: 163 },
   { name: "Emoji", iconCount: 27 },
   { name: "File icons", iconCount: 160 },
-  { name: "Finance", iconCount: 55 },
+  { name: "Finance", iconCount: 56 },
   { name: "Food & beverage", iconCount: 69 },
-  { name: "Gaming", iconCount: 147 },
+  { name: "Gaming", iconCount: 148 },
   { name: "Home", iconCount: 56 },
   { name: "Layout", iconCount: 138 },
   { name: "Mail", iconCount: 26 },
@@ -2862,27 +2946,27 @@ export const categories: CategoryMetadata[] = [
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 137 },
   { name: "Nature", iconCount: 21 },
-  { name: "Navigation", iconCount: 141 },
+  { name: "Navigation, Maps, and POIs", iconCount: 84 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
-  { name: "Science", iconCount: 31 },
+  { name: "Science", iconCount: 32 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 55 },
   { name: "Shapes", iconCount: 47 },
   { name: "Shopping", iconCount: 27 },
   { name: "Social", iconCount: 118 },
   { name: "Sports", iconCount: 12 },
-  { name: "Sustainability", iconCount: 22 },
-  { name: "Text formatting", iconCount: 244 },
+  { name: "Sustainability", iconCount: 24 },
+  { name: "Text formatting", iconCount: 245 },
   { name: "Time & calendar", iconCount: 58 },
   { name: "Tools", iconCount: 65 },
   { name: "Transportation", iconCount: 62 },
   { name: "Travel", iconCount: 66 },
-  { name: "Weather", iconCount: 43 }
+  { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1648;
+export const iconCount = 1652;
 export const categoryCount = 43;
 
 // Helper functions
