@@ -582,7 +582,7 @@
     "name": "MapPin",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -590,7 +590,7 @@
     "name": "MapPinCheck",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -598,7 +598,7 @@
     "name": "MapPinCheckInside",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -606,7 +606,7 @@
     "name": "MapPinHouse",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -614,7 +614,7 @@
     "name": "MapPinMinus",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -622,7 +622,7 @@
     "name": "MapPinMinusInside",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -630,7 +630,7 @@
     "name": "MapPinPen",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -638,7 +638,7 @@
     "name": "MapPinPlus",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -646,7 +646,7 @@
     "name": "MapPinPlusInside",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -654,7 +654,7 @@
     "name": "MapPinX",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -662,7 +662,7 @@
     "name": "MapPinXInside",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -670,7 +670,7 @@
     "name": "MapPinned",
     "categories": [
       "Accounts & access",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -700,7 +700,7 @@
     "name": "Pin",
     "categories": [
       "Accounts & access",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -1180,7 +1180,7 @@
     "categories": [
       "Accounts & access",
       "Coding & development",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Security",
       "Social"
     ]
@@ -1221,7 +1221,7 @@
       "Animals",
       "Home",
       "Nature",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -1372,8 +1372,7 @@
     "name": "ArrowBigDown",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1381,40 +1380,35 @@
     "categories": [
       "Arrows",
       "File icons",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "ArrowBigLeft",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "ArrowBigLeftDash",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "ArrowBigRight",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "ArrowBigRightDash",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1423,7 +1417,6 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation",
       "Text formatting"
     ]
   },
@@ -1433,15 +1426,13 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation",
       "Text formatting"
     ]
   },
   {
     "name": "ArrowDown",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1472,15 +1463,13 @@
     "name": "ArrowDownFromLine",
     "categories": [
       "Arrows",
-      "File icons",
-      "Navigation"
+      "File icons"
     ]
   },
   {
     "name": "ArrowDownLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1494,15 +1483,13 @@
   {
     "name": "ArrowDownRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowDownToDot",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1510,15 +1497,13 @@
     "categories": [
       "Arrows",
       "Coding & development",
-      "File icons",
-      "Navigation"
+      "File icons"
     ]
   },
   {
     "name": "ArrowDownUp",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1540,65 +1525,56 @@
   {
     "name": "ArrowLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowLeftFromLine",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowLeftRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowLeftToLine",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowRightFromLine",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowRightLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowRightToLine",
     "categories": [
       "Arrows",
-      "Coding & development",
-      "Navigation"
+      "Coding & development"
     ]
   },
   {
     "name": "ArrowUp",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1628,15 +1604,13 @@
   {
     "name": "ArrowUpDown",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowUpFromDot",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1644,15 +1618,13 @@
     "categories": [
       "Arrows",
       "Coding & development",
-      "File icons",
-      "Navigation"
+      "File icons"
     ]
   },
   {
     "name": "ArrowUpLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1666,16 +1638,14 @@
   {
     "name": "ArrowUpRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "ArrowUpToLine",
     "categories": [
       "Arrows",
-      "File icons",
-      "Navigation"
+      "File icons"
     ]
   },
   {
@@ -1713,8 +1683,7 @@
     "name": "ChevronDown",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1734,8 +1703,7 @@
   {
     "name": "ChevronLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -1743,8 +1711,7 @@
     "categories": [
       "Arrows",
       "Coding & development",
-      "Mathematics",
-      "Navigation"
+      "Mathematics"
     ]
   },
   {
@@ -1752,16 +1719,14 @@
     "categories": [
       "Arrows",
       "Gaming",
-      "Mathematics",
-      "Navigation"
+      "Mathematics"
     ]
   },
   {
     "name": "ChevronsDown",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1774,8 +1739,7 @@
     "name": "ChevronsLeft",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1788,8 +1752,7 @@
     "name": "ChevronsRight",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1802,8 +1765,7 @@
     "name": "ChevronsUp",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
@@ -1816,89 +1778,77 @@
     "name": "CircleArrowDown",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "CircleArrowLeft",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "CircleArrowOutDownLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "CircleArrowOutDownRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "CircleArrowOutUpLeft",
     "categories": [
       "Arrows",
-      "Coding & development",
-      "Navigation"
+      "Coding & development"
     ]
   },
   {
     "name": "CircleArrowOutUpRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "CircleArrowRight",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "CircleArrowUp",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "CircleChevronDown",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "CircleChevronLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "CircleChevronRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "CircleChevronUp",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
@@ -2237,7 +2187,7 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -2596,7 +2546,7 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -2605,7 +2555,7 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -2642,88 +2592,76 @@
     "name": "SquareArrowDown",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "SquareArrowDownLeft",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "SquareArrowDownRight",
     "categories": [
       "Arrows",
-      "Gaming",
-      "Navigation"
+      "Gaming"
     ]
   },
   {
     "name": "SquareArrowLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowOutDownLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowOutDownRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowOutUpLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowOutUpRight",
     "categories": [
       "Arrows",
-      "Navigation",
       "Social"
     ]
   },
   {
     "name": "SquareArrowRight",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowUp",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowUpLeft",
     "categories": [
-      "Arrows",
-      "Navigation"
+      "Arrows"
     ]
   },
   {
     "name": "SquareArrowUpRight",
     "categories": [
       "Arrows",
-      "Navigation",
       "Social"
     ]
   },
@@ -2731,14 +2669,14 @@
     "name": "SquareChevronDown",
     "categories": [
       "Arrows",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "SquareChevronLeft",
     "categories": [
       "Arrows",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -2746,7 +2684,7 @@
     "categories": [
       "Arrows",
       "Coding & development",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -2754,7 +2692,7 @@
     "categories": [
       "Arrows",
       "Mathematics",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -3024,14 +2962,15 @@
     "name": "Castle",
     "categories": [
       "Buildings",
-      "Gaming"
+      "Gaming",
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Church",
     "categories": [
       "Buildings",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -3046,13 +2985,15 @@
     "name": "Dam",
     "categories": [
       "Buildings",
+      "Navigation, Maps, and POIs",
       "Sustainability"
     ]
   },
   {
     "name": "Factory",
     "categories": [
-      "Buildings"
+      "Buildings",
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -3073,7 +3014,7 @@
     "categories": [
       "Buildings",
       "Medical",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -3081,7 +3022,7 @@
     "name": "Hotel",
     "categories": [
       "Buildings",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -3089,7 +3030,8 @@
     "name": "House",
     "categories": [
       "Buildings",
-      "Home"
+      "Home",
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -3128,21 +3070,21 @@
     "categories": [
       "Buildings",
       "Finance",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "School",
     "categories": [
       "Buildings",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Store",
     "categories": [
       "Buildings",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Shopping"
     ]
   },
@@ -3157,7 +3099,7 @@
     "name": "University",
     "categories": [
       "Buildings",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -3172,7 +3114,7 @@
     "name": "Warehouse",
     "categories": [
       "Buildings",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -3576,7 +3518,7 @@
     "name": "Radar",
     "categories": [
       "Communication",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Security"
     ]
   },
@@ -5135,7 +5077,7 @@
     "categories": [
       "Coding & development",
       "Nature",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Science",
       "Travel"
@@ -5250,6 +5192,14 @@
   },
   {
     "name": "BookPlus",
+    "categories": [
+      "Coding & development",
+      "Gaming",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "BookSearch",
     "categories": [
       "Coding & development",
       "Gaming",
@@ -5604,14 +5554,14 @@
     "name": "FlagTriangleLeft",
     "categories": [
       "Coding & development",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "FlagTriangleRight",
     "categories": [
       "Coding & development",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -5640,6 +5590,12 @@
     "categories": [
       "Coding & development",
       "File icons"
+    ]
+  },
+  {
+    "name": "Form",
+    "categories": [
+      "Coding & development"
     ]
   },
   {
@@ -5672,14 +5628,14 @@
     "name": "GitCommitHorizontal",
     "categories": [
       "Coding & development",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "GitCommitVertical",
     "categories": [
       "Coding & development",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -5766,7 +5722,7 @@
     "categories": [
       "Coding & development",
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
     ]
@@ -5776,7 +5732,7 @@
     "categories": [
       "Coding & development",
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
     ]
@@ -6114,7 +6070,7 @@
     "categories": [
       "Coding & development",
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
     ]
@@ -7685,6 +7641,14 @@
     ]
   },
   {
+    "name": "Scale",
+    "categories": [
+      "Finance",
+      "Navigation, Maps, and POIs",
+      "Science"
+    ]
+  },
+  {
     "name": "SquarePercent",
     "categories": [
       "Finance",
@@ -7728,7 +7692,7 @@
     "name": "Barrel",
     "categories": [
       "Food & beverage",
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -8026,7 +7990,7 @@
     "name": "Utensils",
     "categories": [
       "Food & beverage",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -8034,7 +7998,7 @@
     "name": "UtensilsCrossed",
     "categories": [
       "Food & beverage",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
@@ -9541,7 +9505,7 @@
     "name": "Waves",
     "categories": [
       "Multimedia",
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Sustainability",
       "Weather"
     ]
@@ -9634,193 +9598,195 @@
   {
     "name": "CircleParking",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "CircleParkingOff",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "Compass",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
   {
     "name": "Dumbbell",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Sports"
     ]
   },
   {
     "name": "Earth",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "EvCharger",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "FerrisWheel",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Footprints",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Fuel",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "Gavel",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Tools"
     ]
   },
   {
     "name": "Globe",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Locate",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "LocateFixed",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "LocateOff",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Map",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Text formatting"
     ]
   },
   {
     "name": "MapMinus",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
   {
     "name": "MapPinOff",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Travel"
     ]
   },
   {
     "name": "MapPlus",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Navigation",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Navigation2",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Navigation2Off",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "NavigationOff",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "ParkingMeter",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "PinOff",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
+    ]
+  },
+  {
+    "name": "Plane",
+    "categories": [
+      "Navigation, Maps, and POIs",
+      "Transportation",
+      "Travel"
     ]
   },
   {
     "name": "RailSymbol",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "RollerCoaster",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Route",
     "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "RouteOff",
     "categories": [
-      "Navigation"
-    ]
-  },
-  {
-    "name": "Scale",
-    "categories": [
-      "Navigation"
+      "Navigation, Maps, and POIs"
     ]
   },
   {
     "name": "Ship",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation",
       "Travel"
     ]
@@ -9828,7 +9794,7 @@
   {
     "name": "ShipWheel",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation",
       "Travel"
     ]
@@ -9836,35 +9802,35 @@
   {
     "name": "SquareM",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "SquareParking",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "SquareParkingOff",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "TrainFrontTunnel",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
   {
     "name": "TrainTrack",
     "categories": [
-      "Navigation",
+      "Navigation, Maps, and POIs",
       "Transportation"
     ]
   },
@@ -10449,6 +10415,20 @@
     "name": "Recycle",
     "categories": [
       "Sustainability"
+    ]
+  },
+  {
+    "name": "WavesArrowDown",
+    "categories": [
+      "Sustainability",
+      "Weather"
+    ]
+  },
+  {
+    "name": "WavesArrowUp",
+    "categories": [
+      "Sustainability",
+      "Weather"
     ]
   },
   {
@@ -11238,13 +11218,6 @@
     "name": "OctagonMinus",
     "categories": [
       "Transportation"
-    ]
-  },
-  {
-    "name": "Plane",
-    "categories": [
-      "Transportation",
-      "Travel"
     ]
   },
   {
