@@ -9094,6 +9094,12 @@
     ]
   },
   {
+    "name": "WeightTilde",
+    "categories": [
+      "Mathematics"
+    ]
+  },
+  {
     "name": "X",
     "categories": [
       "Mathematics",
@@ -11242,6 +11248,12 @@
     ]
   },
   {
+    "name": "Scooter",
+    "categories": [
+      "Transportation"
+    ]
+  },
+  {
     "name": "TicketCheck",
     "categories": [
       "Transportation"
@@ -11311,6 +11323,12 @@
   },
   {
     "name": "TruckElectric",
+    "categories": [
+      "Transportation"
+    ]
+  },
+  {
+    "name": "Van",
     "categories": [
       "Transportation"
     ]

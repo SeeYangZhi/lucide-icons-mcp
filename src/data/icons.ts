@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-11-27T03:16:25.547Z
+// Generated from storage/datasets/default on 2025-12-06T03:14:53.792Z
 
 export interface IconMetadata {
   name: string;
@@ -2482,6 +2482,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SquareX", categories: ["Mathematics", "Notification"] },
   { name: "TriangleRight", categories: ["Mathematics", "Shapes"] },
   { name: "Weight", categories: ["Mathematics"] },
+  { name: "WeightTilde", categories: ["Mathematics"] },
   { name: "X", categories: ["Mathematics", "Notification"] },
   { name: "Ambulance", categories: ["Medical", "Transportation"] },
   { name: "Bandage", categories: ["Medical"] },
@@ -2880,6 +2881,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "PlaneLanding", categories: ["Transportation", "Travel"] },
   { name: "PlaneTakeoff", categories: ["Transportation", "Travel"] },
   { name: "Sailboat", categories: ["Transportation", "Travel"] },
+  { name: "Scooter", categories: ["Transportation"] },
   { name: "TicketCheck", categories: ["Transportation"] },
   { name: "TicketMinus", categories: ["Transportation"] },
   { name: "TicketPlus", categories: ["Transportation"] },
@@ -2892,6 +2894,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "TramFront", categories: ["Transportation"] },
   { name: "Truck", categories: ["Transportation"] },
   { name: "TruckElectric", categories: ["Transportation"] },
+  { name: "Van", categories: ["Transportation"] },
   { name: "Bath", categories: ["Travel"] },
   { name: "ConciergeBell", categories: ["Travel"] },
   { name: "Bubbles", categories: ["Weather"] },
@@ -2942,7 +2945,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Home", iconCount: 56 },
   { name: "Layout", iconCount: 138 },
   { name: "Mail", iconCount: 26 },
-  { name: "Mathematics", iconCount: 73 },
+  { name: "Mathematics", iconCount: 74 },
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 137 },
   { name: "Nature", iconCount: 21 },
@@ -2961,12 +2964,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Text formatting", iconCount: 245 },
   { name: "Time & calendar", iconCount: 58 },
   { name: "Tools", iconCount: 65 },
-  { name: "Transportation", iconCount: 62 },
+  { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 66 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1652;
+export const iconCount = 1655;
 export const categoryCount = 43;
 
 // Helper functions
