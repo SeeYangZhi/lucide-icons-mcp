@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-12-06T03:14:53.792Z
+// Generated from storage/datasets/default on 2025-12-11T03:38:31.808Z
 
 export interface IconMetadata {
   name: string;
@@ -640,7 +640,9 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "ClipboardCopy", categories: ["Arrows", "Text formatting"] },
   { name: "ClipboardPaste", categories: ["Arrows", "Text formatting"] },
+  { name: "CloudBackup", categories: ["Arrows", "File icons"] },
   { name: "CloudDownload", categories: ["Arrows", "File icons"] },
+  { name: "CloudSync", categories: ["Arrows", "File icons"] },
   { name: "CloudUpload", categories: ["Arrows", "File icons"] },
   { name: "CornerDownLeft", categories: ["Arrows"] },
   {
@@ -1421,6 +1423,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "Layers", categories: ["Design", "Layout"] },
   { name: "Layers2", categories: ["Design", "Layout"] },
+  { name: "LayersPlus", categories: ["Design", "Layout"] },
   { name: "LayoutDashboard", categories: ["Design", "Layout"] },
   { name: "LayoutGrid", categories: ["Design", "Layout"] },
   {
@@ -1989,6 +1992,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Gamepad2", categories: ["Devices", "Gaming"] },
   { name: "GamepadDirectional", categories: ["Devices", "Gaming"] },
   { name: "Gpu", categories: ["Devices", "Gaming"] },
+  { name: "Hd", categories: ["Devices", "Multimedia"] },
   { name: "HdmiPort", categories: ["Devices", "Gaming", "Multimedia"] },
   { name: "Heater", categories: ["Devices", "Home", "Travel"] },
   { name: "Joystick", categories: ["Devices", "Gaming"] },
@@ -2027,6 +2031,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "WashingMachine", categories: ["Devices", "Home", "Travel"] },
   { name: "Angry", categories: ["Emoji"] },
   { name: "Annoyed", categories: ["Emoji"] },
+  { name: "Balloon", categories: ["Emoji"] },
   { name: "BicepsFlexed", categories: ["Emoji"] },
   { name: "ChessBishop", categories: ["Emoji", "Gaming"] },
   { name: "ChessKing", categories: ["Emoji", "Gaming"] },
@@ -2689,6 +2694,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "LockOpen", categories: ["Security"] },
   { name: "Circle", categories: ["Shapes"] },
   { name: "CircleOff", categories: ["Shapes"] },
+  { name: "CirclePile", categories: ["Shapes"] },
   { name: "Cross", categories: ["Shapes"] },
   { name: "Dot", categories: ["Shapes", "Text formatting"] },
   { name: "Octagon", categories: ["Shapes"] },
@@ -2736,12 +2742,14 @@ export const iconMetadata: IconMetadata[] = [
   { name: "NotepadText", categories: ["Social", "Text formatting"] },
   { name: "NotepadTextDashed", categories: ["Social", "Text formatting"] },
   { name: "Search", categories: ["Social", "Text formatting"] },
+  { name: "SearchAlert", categories: ["Social", "Text formatting"] },
   { name: "SearchCheck", categories: ["Social", "Text formatting"] },
   { name: "SearchSlash", categories: ["Social", "Text formatting"] },
   { name: "SearchX", categories: ["Social", "Text formatting"] },
   { name: "Sticker", categories: ["Social"] },
   { name: "StickyNote", categories: ["Social", "Text formatting"] },
   { name: "Vote", categories: ["Social"] },
+  { name: "FishingHook", categories: ["Sports", "Travel"] },
   { name: "Recycle", categories: ["Sustainability"] },
   { name: "WavesArrowDown", categories: ["Sustainability", "Weather"] },
   { name: "WavesArrowUp", categories: ["Sustainability", "Weather"] },
@@ -2927,27 +2935,27 @@ export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 133 },
   { name: "Animals", iconCount: 23 },
-  { name: "Arrows", iconCount: 207 },
+  { name: "Arrows", iconCount: 209 },
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 25 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
   { name: "Connectivity", iconCount: 90 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 144 },
+  { name: "Design", iconCount: 145 },
   { name: "Coding & development", iconCount: 243 },
-  { name: "Devices", iconCount: 163 },
-  { name: "Emoji", iconCount: 27 },
-  { name: "File icons", iconCount: 160 },
+  { name: "Devices", iconCount: 164 },
+  { name: "Emoji", iconCount: 28 },
+  { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 148 },
   { name: "Home", iconCount: 56 },
-  { name: "Layout", iconCount: 138 },
+  { name: "Layout", iconCount: 139 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 74 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 137 },
+  { name: "Multimedia", iconCount: 138 },
   { name: "Nature", iconCount: 21 },
   { name: "Navigation, Maps, and POIs", iconCount: 84 },
   { name: "Notification", iconCount: 39 },
@@ -2956,20 +2964,20 @@ export const categories: CategoryMetadata[] = [
   { name: "Science", iconCount: 32 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 55 },
-  { name: "Shapes", iconCount: 47 },
+  { name: "Shapes", iconCount: 48 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 118 },
-  { name: "Sports", iconCount: 12 },
+  { name: "Social", iconCount: 119 },
+  { name: "Sports", iconCount: 13 },
   { name: "Sustainability", iconCount: 24 },
-  { name: "Text formatting", iconCount: 245 },
+  { name: "Text formatting", iconCount: 246 },
   { name: "Time & calendar", iconCount: 58 },
   { name: "Tools", iconCount: 65 },
   { name: "Transportation", iconCount: 64 },
-  { name: "Travel", iconCount: 66 },
+  { name: "Travel", iconCount: 67 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1655;
+export const iconCount = 1663;
 export const categoryCount = 43;
 
 // Helper functions

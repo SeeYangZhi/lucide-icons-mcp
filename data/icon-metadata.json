@@ -1873,7 +1873,21 @@
     ]
   },
   {
+    "name": "CloudBackup",
+    "categories": [
+      "Arrows",
+      "File icons"
+    ]
+  },
+  {
     "name": "CloudDownload",
+    "categories": [
+      "Arrows",
+      "File icons"
+    ]
+  },
+  {
+    "name": "CloudSync",
     "categories": [
       "Arrows",
       "File icons"
@@ -4597,6 +4611,13 @@
     ]
   },
   {
+    "name": "LayersPlus",
+    "categories": [
+      "Design",
+      "Layout"
+    ]
+  },
+  {
     "name": "LayoutDashboard",
     "categories": [
       "Design",
@@ -6388,6 +6409,13 @@
     ]
   },
   {
+    "name": "Hd",
+    "categories": [
+      "Devices",
+      "Multimedia"
+    ]
+  },
+  {
     "name": "HdmiPort",
     "categories": [
       "Devices",
@@ -6623,6 +6651,12 @@
   },
   {
     "name": "Annoyed",
+    "categories": [
+      "Emoji"
+    ]
+  },
+  {
+    "name": "Balloon",
     "categories": [
       "Emoji"
     ]
@@ -10086,6 +10120,12 @@
     ]
   },
   {
+    "name": "CirclePile",
+    "categories": [
+      "Shapes"
+    ]
+  },
+  {
     "name": "Cross",
     "categories": [
       "Shapes"
@@ -10378,6 +10418,13 @@
     ]
   },
   {
+    "name": "SearchAlert",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "SearchCheck",
     "categories": [
       "Social",
@@ -10415,6 +10462,13 @@
     "name": "Vote",
     "categories": [
       "Social"
+    ]
+  },
+  {
+    "name": "FishingHook",
+    "categories": [
+      "Sports",
+      "Travel"
     ]
   },
   {
