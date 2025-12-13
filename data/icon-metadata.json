@@ -9599,6 +9599,12 @@
     ]
   },
   {
+    "name": "Stone",
+    "categories": [
+      "Nature"
+    ]
+  },
+  {
     "name": "Tent",
     "categories": [
       "Nature",

@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-12-12T03:28:48.287Z
+// Generated from storage/datasets/default on 2025-12-13T03:20:59.228Z
 
 export interface IconMetadata {
   name: string;
@@ -2569,6 +2569,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Leaf", categories: ["Nature", "Seasons", "Sustainability"] },
   { name: "MountainSnow", categories: ["Nature"] },
   { name: "Shrub", categories: ["Nature"] },
+  { name: "Stone", categories: ["Nature"] },
   { name: "Tent", categories: ["Nature", "Sustainability", "Travel"] },
   { name: "TentTree", categories: ["Nature", "Travel"] },
   { name: "TreeDeciduous", categories: ["Nature", "Sustainability"] },
@@ -2957,7 +2958,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Mathematics", iconCount: 74 },
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 138 },
-  { name: "Nature", iconCount: 22 },
+  { name: "Nature", iconCount: 23 },
   { name: "Navigation, Maps, and POIs", iconCount: 84 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
@@ -2978,7 +2979,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1664;
+export const iconCount = 1665;
 export const categoryCount = 43;
 
 // Helper functions
