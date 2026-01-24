@@ -3808,6 +3808,14 @@
     ]
   },
   {
+    "name": "GlobeX",
+    "categories": [
+      "Connectivity",
+      "Devices",
+      "Navigation, Maps, and POIs"
+    ]
+  },
+  {
     "name": "Headphones",
     "categories": [
       "Connectivity",
@@ -6524,6 +6532,12 @@
   },
   {
     "name": "PrinterCheck",
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
+    "name": "PrinterX",
     "categories": [
       "Devices"
     ]

@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2025-12-19T03:28:59.931Z
+// Generated from storage/datasets/default on 2026-01-24T03:41:18.521Z
 
 export interface IconMetadata {
   name: string;
@@ -1174,6 +1174,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CirclePower", categories: ["Connectivity"] },
   { name: "CloudOff", categories: ["Connectivity", "Weather"] },
   {
+    name: "GlobeX",
+    categories: ["Connectivity", "Devices", "Navigation, Maps, and POIs"]
+  },
+  {
     name: "Headphones",
     categories: [
       "Connectivity",
@@ -2010,6 +2014,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "PlugZap", categories: ["Devices"] },
   { name: "Printer", categories: ["Devices"] },
   { name: "PrinterCheck", categories: ["Devices"] },
+  { name: "PrinterX", categories: ["Devices"] },
   { name: "Radio", categories: ["Devices", "Multimedia", "Social"] },
   { name: "RadioReceiver", categories: ["Devices"] },
   { name: "RadioTower", categories: ["Devices", "Multimedia", "Social"] },
@@ -2943,11 +2948,11 @@ export const categories: CategoryMetadata[] = [
   { name: "Buildings", iconCount: 25 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
-  { name: "Connectivity", iconCount: 90 },
+  { name: "Connectivity", iconCount: 91 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 145 },
   { name: "Coding & development", iconCount: 243 },
-  { name: "Devices", iconCount: 164 },
+  { name: "Devices", iconCount: 166 },
   { name: "Emoji", iconCount: 28 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
@@ -2960,7 +2965,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 138 },
   { name: "Nature", iconCount: 23 },
-  { name: "Navigation, Maps, and POIs", iconCount: 84 },
+  { name: "Navigation, Maps, and POIs", iconCount: 85 },
   { name: "Notification", iconCount: 39 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
@@ -2980,7 +2985,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1666;
+export const iconCount = 1668;
 export const categoryCount = 43;
 
 // Helper functions
