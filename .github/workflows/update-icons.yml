@@ -83,10 +83,15 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: "https://registry.npmjs.org"
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
       - name: Install dependencies
         run: |
           echo "📦 Installing dependencies..."
-          npm ci
+          bun install
 
       - name: Setup Python and Camoufox
         run: |
@@ -97,7 +102,7 @@ jobs:
       - name: Update icon data
         run: |
           echo "🔄 Updating icon data for Lucide ${{ needs.check-release.outputs.latest_version }}..."
-          npm run pre-build
+          bun run pre-build
 
           # Update version file
           mkdir -p data
@@ -106,9 +111,9 @@ jobs:
       - name: Build and lint
         run: |
           echo "🏗️ Building project..."
-          npm run build
+          bun run build
           echo "🧹 Running linter..."
-          npm run lint:fix
+          bun run lint:fix
 
       - name: Check for changes
         id: check_changes
@@ -229,15 +234,20 @@ jobs:
           git pull --rebase origin main
           git push
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
       - name: Install dependencies for publish
         run: |
           echo "📦 Installing dependencies for release packaging..."
-          npm ci
+          bun install
 
       - name: Build package artifacts
         run: |
           echo "🏗️ Building package before publish..."
-          npm run build
+          bun run build
 
       - id: create_release
         uses: softprops/action-gh-release@v2
