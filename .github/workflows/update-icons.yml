@@ -179,9 +179,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: [check-release, merge-pr]
     if: needs.merge-pr.outputs.merged == 'true'
-    # NODE_AUTH_TOKEN moved to job-level env so the 'if' condition on publish step can reference it
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    # OIDC permissions for trusted publishing to npm
+    permissions:
+      contents: write # For creating releases
+      id-token: write # REQUIRED for OIDC to npm
     steps:
       - uses: actions/checkout@v4
         with:
@@ -193,18 +194,6 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: "https://registry.npmjs.org"
-
-      - name: Verify npm authentication
-        run: |
-          echo "🔐 Verifying npm authentication..."
-          if [ -z "$NODE_AUTH_TOKEN" ]; then
-            echo "❌ ERROR: NODE_AUTH_TOKEN is not set!"
-            exit 1
-          fi
-          echo "✅ NODE_AUTH_TOKEN is set"
-          # Verify npm is configured correctly
-          npm config get registry
-          echo "✅ npm registry configured"
 
       - id: version
         run: |
@@ -282,7 +271,6 @@ jobs:
           generate_release_notes: true
 
       - name: Publish to npm
-        if: env.NODE_AUTH_TOKEN != ''
         run: |
           echo "📤 Publishing to npm..."
           echo "Package: lucide-icons-mcp@${{ steps.version.outputs.new_version }}"
