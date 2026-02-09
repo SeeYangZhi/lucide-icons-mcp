@@ -83,10 +83,15 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: "https://registry.npmjs.org"
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
       - name: Install dependencies
         run: |
           echo "📦 Installing dependencies..."
-          npm ci
+          bun install
 
       - name: Setup Python and Camoufox
         run: |
@@ -97,7 +102,7 @@ jobs:
       - name: Update icon data
         run: |
           echo "🔄 Updating icon data for Lucide ${{ needs.check-release.outputs.latest_version }}..."
-          npm run pre-build
+          bun run pre-build
 
           # Update version file
           mkdir -p data
@@ -106,9 +111,9 @@ jobs:
       - name: Build and lint
         run: |
           echo "🏗️ Building project..."
-          npm run build
+          bun run build
           echo "🧹 Running linter..."
-          npm run lint:fix
+          bun run lint:fix
 
       - name: Check for changes
         id: check_changes
@@ -174,33 +179,18 @@ jobs:
     runs-on: ubuntu-latest
     needs: [check-release, merge-pr]
     if: needs.merge-pr.outputs.merged == 'true'
-    # NODE_AUTH_TOKEN moved to job-level env so the 'if' condition on publish step can reference it
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: "https://registry.npmjs.org"
-
-      - name: Verify npm authentication
-        run: |
-          echo "🔐 Verifying npm authentication..."
-          if [ -z "$NODE_AUTH_TOKEN" ]; then
-            echo "❌ ERROR: NODE_AUTH_TOKEN is not set!"
-            exit 1
-          fi
-          echo "✅ NODE_AUTH_TOKEN is set"
-          # Verify npm is configured correctly
-          npm config get registry
-          echo "✅ npm registry configured"
-
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
       - id: version
         run: |
           CURRENT_VERSION=$(node -p "require('./package.json').version")
@@ -211,34 +201,27 @@ jobs:
           ")
           echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
           echo "current_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
-
-      - name: Bump package version
-        run: |
+      - run: |
           node -e "
             const pkg = require('./package.json');
             pkg.version = '${{ steps.version.outputs.new_version }}';
             require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2) + '\n');
-          
-
-      - name: Commit version bump
-        run: |
+          "
+      - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add package.json
           git commit -m "chore: bump version to ${{ steps.version.outputs.new_version }}"
           git pull --rebase origin main
           git push
-
       - name: Install dependencies for publish
         run: |
           echo "📦 Installing dependencies for release packaging..."
-          npm ci
-
+          bun install
       - name: Build package artifacts
         run: |
           echo "🏗️ Building package before publish..."
-          npm run build
-
+          bun run build
       - id: create_release
         uses: softprops/action-gh-release@v2
         with:
@@ -270,15 +253,7 @@ jobs:
           draft: false
           prerelease: false
           generate_release_notes: true
-
-      - name: Publish to npm
-        if: env.NODE_AUTH_TOKEN != ''
-        run: |
-          echo "📤 Publishing to npm..."
-          echo "Package: lucide-icons-mcp@${{ steps.version.outputs.new_version }}"
-          npm publish --access public 2>&1 || {
-            echo "❌ ERROR: npm publish failed!"
-            echo "Exit code: $?"
-            exit 1
-          }
-          echo "✅ Successfully published to npm"
+      - if: env.NODE_AUTH_TOKEN != ''
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
