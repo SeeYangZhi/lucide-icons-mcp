@@ -272,11 +272,7 @@ jobs:
 
       - name: Publish to npm
         run: |
-          echo "📤 Publishing to npm..."
-          echo "Package: lucide-icons-mcp@${{ steps.version.outputs.new_version }}"
-          npm publish --access public 2>&1 || {
-            echo "❌ ERROR: npm publish failed!"
-            echo "Exit code: $?"
-            exit 1
-          }
-          echo "✅ Successfully published to npm"
+          echo "📤 Publishing to npm with OIDC..."
+          npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ github.token }}
