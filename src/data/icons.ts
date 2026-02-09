@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-01-24T03:41:18.521Z
+// Generated from storage/datasets/default on 2026-02-09T03:36:11.019Z
 
 export interface IconMetadata {
   name: string;
@@ -1682,6 +1682,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Coding & development", "Mathematics", "Text formatting"]
   },
   { name: "Database", categories: ["Coding & development", "Devices"] },
+  { name: "DatabaseSearch", categories: ["Coding & development", "Devices"] },
   { name: "DatabaseZap", categories: ["Coding & development", "Devices"] },
   { name: "Diff", categories: ["Coding & development", "File icons"] },
   { name: "Divide", categories: ["Coding & development", "Mathematics"] },
@@ -2951,8 +2952,8 @@ export const categories: CategoryMetadata[] = [
   { name: "Connectivity", iconCount: 91 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 145 },
-  { name: "Coding & development", iconCount: 243 },
-  { name: "Devices", iconCount: 166 },
+  { name: "Coding & development", iconCount: 244 },
+  { name: "Devices", iconCount: 167 },
   { name: "Emoji", iconCount: 28 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
@@ -2985,7 +2986,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1668;
+export const iconCount = 1669;
 export const categoryCount = 43;
 
 // Helper functions
