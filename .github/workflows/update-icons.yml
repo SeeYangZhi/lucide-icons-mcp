@@ -212,7 +212,7 @@ jobs:
             const pkg = require('./package.json');
             pkg.version = '${{ steps.version.outputs.new_version }}';
             require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2) + '\n');
-          
+          "
 
       - name: Commit version bump
         run: |
