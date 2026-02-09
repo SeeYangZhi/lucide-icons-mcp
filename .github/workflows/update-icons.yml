@@ -272,7 +272,5 @@ jobs:
 
       - name: Publish to npm
         run: |
-          echo "📤 Publishing to npm with OIDC..."
-          npm publish --access public --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ github.token }}
+          echo "📤 Publishing to npm with OIDC trusted publishing..."
+          npm publish --access public
