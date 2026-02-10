@@ -1,0 +1,157 @@
+name: Update Lucide Icons and Release
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: "24"
+  LUCIDE_VERSION_FILE: "data/version.txt"
+
+permissions:
+  id-token: write # Required for OIDC npm publish
+  contents: write # Required for git push and releases
+
+jobs:
+  check-release:
+    name: Check for new Lucide release
+    runs-on: ubuntu-latest
+    outputs:
+      needs_update: ${{ steps.version_check.outputs.needs_update }}
+      latest_version: ${{ steps.version_check.outputs.latest_version }}
+      current_version: ${{ steps.version_check.outputs.current_version }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for new Lucide release
+        id: version_check
+        run: |
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/lucide-icons/lucide/releases/latest | jq -r '.tag_name')
+          echo "Latest Lucide release: $LATEST_RELEASE"
+
+          if [ -f "${{ env.LUCIDE_VERSION_FILE }}" ]; then
+            CURRENT_VERSION=$(cat ${{ env.LUCIDE_VERSION_FILE }})
+          else
+            CURRENT_VERSION="none"
+          fi
+          echo "Current version: $CURRENT_VERSION"
+
+          echo "latest_version=$LATEST_RELEASE" >> $GITHUB_OUTPUT
+          echo "current_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+
+          if [ "$LATEST_RELEASE" != "$CURRENT_VERSION" ]; then
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          else
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+          fi
+
+  update-and-release:
+    name: Update, release, and publish
+    runs-on: ubuntu-latest
+    needs: check-release
+    if: needs.check-release.outputs.needs_update == 'true'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: "https://registry.npmjs.org"
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Setup Python and Camoufox
+        run: |
+          pip install -U camoufox[geoip]
+          python -m camoufox fetch
+
+      - name: Update icon data
+        run: |
+          bun run pre-build
+          mkdir -p data
+          echo "${{ needs.check-release.outputs.latest_version }}" > ${{ env.LUCIDE_VERSION_FILE }}
+
+      - name: Build and lint
+        run: |
+          bun run build
+          bun run lint:fix
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Bump version
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: version
+        run: |
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          NEW_VERSION=$(node -p "
+            const semver = '$CURRENT_VERSION'.split('.');
+            semver[2] = String(parseInt(semver[2]) + 1);
+            semver.join('.');
+          ")
+          node -e "
+            const pkg = require('./package.json');
+            pkg.version = '$NEW_VERSION';
+            require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2) + '\n');
+          "
+          git add package.json
+          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "feat: update Lucide icons to ${{ needs.check-release.outputs.latest_version }}"
+          git push
+
+      - name: Rebuild with new version
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: bun run build
+
+      - name: Create GitHub release
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.new_version }}
+          name: Release v${{ steps.version.outputs.new_version }}
+          body: |
+            ## Release v${{ steps.version.outputs.new_version }}
+
+            ### Updated Lucide Icons
+            - **Lucide version:** `${{ needs.check-release.outputs.latest_version }}`
+
+            ### Installation
+            ```bash
+            npm install -g lucide-icons-mcp@${{ steps.version.outputs.new_version }}
+            npm install lucide-icons-mcp@${{ steps.version.outputs.new_version }}
+            ```
+
+            ### Changes
+            - Updated Lucide icons to ${{ needs.check-release.outputs.latest_version }}
+            - Refreshed icon metadata and categories
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+
+      - name: Publish to npm
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: npm publish
