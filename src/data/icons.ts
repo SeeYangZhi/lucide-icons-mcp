@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-02-09T06:16:22.110Z
+// Generated from storage/datasets/default on 2026-02-14T04:14:53.449Z
 
 export interface IconMetadata {
   name: string;
@@ -442,6 +442,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "User", categories: ["Accounts & access"] },
   { name: "UserCheck", categories: ["Accounts & access"] },
   { name: "UserCog", categories: ["Accounts & access"] },
+  { name: "UserKey", categories: ["Accounts & access"] },
   { name: "UserLock", categories: ["Accounts & access", "Security"] },
   { name: "UserMinus", categories: ["Accounts & access"] },
   { name: "UserPen", categories: ["Accounts & access"] },
@@ -449,6 +450,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "UserRound", categories: ["Accounts & access"] },
   { name: "UserRoundCheck", categories: ["Accounts & access"] },
   { name: "UserRoundCog", categories: ["Accounts & access"] },
+  { name: "UserRoundKey", categories: ["Accounts & access"] },
   { name: "UserRoundMinus", categories: ["Accounts & access"] },
   { name: "UserRoundPen", categories: ["Accounts & access"] },
   { name: "UserRoundPlus", categories: ["Accounts & access"] },
@@ -2942,7 +2944,7 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 133 },
+  { name: "Accounts & access", iconCount: 135 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 209 },
   { name: "Brands", iconCount: 21 },
@@ -2986,7 +2988,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1669;
+export const iconCount = 1671;
 export const categoryCount = 43;
 
 // Helper functions

@@ -1019,6 +1019,12 @@
     ]
   },
   {
+    "name": "UserKey",
+    "categories": [
+      "Accounts & access"
+    ]
+  },
+  {
     "name": "UserLock",
     "categories": [
       "Accounts & access",
@@ -1057,6 +1063,12 @@
   },
   {
     "name": "UserRoundCog",
+    "categories": [
+      "Accounts & access"
+    ]
+  },
+  {
+    "name": "UserRoundKey",
     "categories": [
       "Accounts & access"
     ]
