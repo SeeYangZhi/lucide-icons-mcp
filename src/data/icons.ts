@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-02-14T04:14:53.449Z
+// Generated from storage/datasets/default on 2026-02-18T04:26:25.900Z
 
 export interface IconMetadata {
   name: string;
@@ -259,7 +259,9 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
   },
   { name: "Menu", categories: ["Accounts & access", "Layout"] },
+  { name: "MessageCircleCheck", categories: ["Accounts & access", "Social"] },
   { name: "MessageCircleX", categories: ["Accounts & access", "Social"] },
+  { name: "MessageSquareCheck", categories: ["Accounts & access", "Social"] },
   {
     name: "NotebookTabs",
     categories: ["Accounts & access", "Communication", "Social"]
@@ -1176,6 +1178,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CirclePower", categories: ["Connectivity"] },
   { name: "CloudOff", categories: ["Connectivity", "Weather"] },
   {
+    name: "GlobeOff",
+    categories: ["Connectivity", "Devices", "Navigation, Maps, and POIs"]
+  },
+  {
     name: "GlobeX",
     categories: ["Connectivity", "Devices", "Navigation, Maps, and POIs"]
   },
@@ -1739,6 +1745,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "GitFork", categories: ["Coding & development"] },
   { name: "GitGraph", categories: ["Coding & development"] },
   { name: "GitMerge", categories: ["Coding & development"] },
+  { name: "GitMergeConflict", categories: ["Coding & development"] },
   { name: "GitPullRequest", categories: ["Coding & development"] },
   { name: "GitPullRequestClosed", categories: ["Coding & development"] },
   { name: "GitPullRequestCreate", categories: ["Coding & development"] },
@@ -1775,6 +1782,10 @@ export const iconMetadata: IconMetadata[] = [
       "Photography",
       "Text formatting"
     ]
+  },
+  {
+    name: "LineDotRightHorizontal",
+    categories: ["Coding & development", "Navigation, Maps, and POIs"]
   },
   {
     name: "ListIndentDecrease",
@@ -2011,7 +2022,9 @@ export const iconMetadata: IconMetadata[] = [
   { name: "MicVocal", categories: ["Devices", "Multimedia"] },
   { name: "Microchip", categories: ["Devices"] },
   { name: "Mouse", categories: ["Devices"] },
+  { name: "MouseLeft", categories: ["Devices"] },
   { name: "MouseOff", categories: ["Devices"] },
+  { name: "MouseRight", categories: ["Devices"] },
   { name: "PcCase", categories: ["Devices", "Gaming"] },
   { name: "Piano", categories: ["Devices", "Multimedia"] },
   { name: "PlugZap", categories: ["Devices"] },
@@ -2388,11 +2401,14 @@ export const iconMetadata: IconMetadata[] = [
   { name: "LampFloor", categories: ["Home"] },
   { name: "LampWallDown", categories: ["Home"] },
   { name: "LampWallUp", categories: ["Home"] },
+  { name: "MirrorRectangular", categories: ["Home", "Science", "Tools"] },
+  { name: "MirrorRound", categories: ["Home", "Science", "Tools"] },
   { name: "RockingChair", categories: ["Home"] },
   {
     name: "Rose",
     categories: ["Home", "Nature", "Seasons", "Social", "Sustainability"]
   },
+  { name: "ShelvingUnit", categories: ["Home"] },
   { name: "ShowerHead", categories: ["Home", "Travel"] },
   { name: "SoapDispenserDroplet", categories: ["Home", "Travel"] },
   { name: "Sofa", categories: ["Home"] },
@@ -2401,6 +2417,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Home", "Science", "Sustainability", "Weather"]
   },
   { name: "Toolbox", categories: ["Home", "Tools"] },
+  { name: "TowelRack", categories: ["Home", "Travel"] },
   { name: "Turntable", categories: ["Home", "Multimedia"] },
   { name: "Vault", categories: ["Home", "Security", "Travel"] },
   { name: "WavesLadder", categories: ["Home", "Sports"] },
@@ -2498,6 +2515,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Weight", categories: ["Mathematics"] },
   { name: "WeightTilde", categories: ["Mathematics"] },
   { name: "X", categories: ["Mathematics", "Notification"] },
+  { name: "XLineTop", categories: ["Mathematics", "Notification"] },
   { name: "Ambulance", categories: ["Medical", "Transportation"] },
   { name: "Bandage", categories: ["Medical"] },
   { name: "Brain", categories: ["Medical", "Science"] },
@@ -2692,6 +2710,8 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Biohazard", categories: ["Science"] },
   { name: "CircleGauge", categories: ["Science", "Sports", "Transportation"] },
   { name: "Gauge", categories: ["Science", "Sports", "Transportation"] },
+  { name: "LensConcave", categories: ["Science", "Shapes", "Tools"] },
+  { name: "LensConvex", categories: ["Science", "Shapes", "Tools"] },
   { name: "Orbit", categories: ["Science"] },
   { name: "Radiation", categories: ["Science"] },
   { name: "TestTube", categories: ["Science"] },
@@ -2944,51 +2964,51 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 135 },
+  { name: "Accounts & access", iconCount: 137 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 209 },
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 25 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
-  { name: "Connectivity", iconCount: 91 },
+  { name: "Connectivity", iconCount: 92 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 145 },
-  { name: "Coding & development", iconCount: 244 },
-  { name: "Devices", iconCount: 167 },
+  { name: "Coding & development", iconCount: 246 },
+  { name: "Devices", iconCount: 170 },
   { name: "Emoji", iconCount: 28 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 148 },
-  { name: "Home", iconCount: 57 },
+  { name: "Home", iconCount: 61 },
   { name: "Layout", iconCount: 139 },
   { name: "Mail", iconCount: 26 },
-  { name: "Mathematics", iconCount: 74 },
+  { name: "Mathematics", iconCount: 75 },
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 138 },
   { name: "Nature", iconCount: 23 },
-  { name: "Navigation, Maps, and POIs", iconCount: 85 },
-  { name: "Notification", iconCount: 39 },
+  { name: "Navigation, Maps, and POIs", iconCount: 87 },
+  { name: "Notification", iconCount: 40 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
-  { name: "Science", iconCount: 32 },
+  { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 55 },
-  { name: "Shapes", iconCount: 48 },
+  { name: "Shapes", iconCount: 50 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 119 },
+  { name: "Social", iconCount: 121 },
   { name: "Sports", iconCount: 13 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 246 },
   { name: "Time & calendar", iconCount: 58 },
-  { name: "Tools", iconCount: 66 },
+  { name: "Tools", iconCount: 70 },
   { name: "Transportation", iconCount: 64 },
-  { name: "Travel", iconCount: 67 },
+  { name: "Travel", iconCount: 68 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1671;
+export const iconCount = 1685;
 export const categoryCount = 43;
 
 // Helper functions

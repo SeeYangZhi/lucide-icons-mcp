@@ -682,7 +682,21 @@
     ]
   },
   {
+    "name": "MessageCircleCheck",
+    "categories": [
+      "Accounts & access",
+      "Social"
+    ]
+  },
+  {
     "name": "MessageCircleX",
+    "categories": [
+      "Accounts & access",
+      "Social"
+    ]
+  },
+  {
+    "name": "MessageSquareCheck",
     "categories": [
       "Accounts & access",
       "Social"
@@ -3820,6 +3834,14 @@
     ]
   },
   {
+    "name": "GlobeOff",
+    "categories": [
+      "Connectivity",
+      "Devices",
+      "Navigation, Maps, and POIs"
+    ]
+  },
+  {
     "name": "GlobeX",
     "categories": [
       "Connectivity",
@@ -5711,6 +5733,12 @@
     ]
   },
   {
+    "name": "GitMergeConflict",
+    "categories": [
+      "Coding & development"
+    ]
+  },
+  {
     "name": "GitPullRequest",
     "categories": [
       "Coding & development"
@@ -5783,6 +5811,13 @@
       "Navigation, Maps, and POIs",
       "Photography",
       "Text formatting"
+    ]
+  },
+  {
+    "name": "LineDotRightHorizontal",
+    "categories": [
+      "Coding & development",
+      "Navigation, Maps, and POIs"
     ]
   },
   {
@@ -6518,7 +6553,19 @@
     ]
   },
   {
+    "name": "MouseLeft",
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
     "name": "MouseOff",
+    "categories": [
+      "Devices"
+    ]
+  },
+  {
+    "name": "MouseRight",
     "categories": [
       "Devices"
     ]
@@ -8576,6 +8623,22 @@
     ]
   },
   {
+    "name": "MirrorRectangular",
+    "categories": [
+      "Home",
+      "Science",
+      "Tools"
+    ]
+  },
+  {
+    "name": "MirrorRound",
+    "categories": [
+      "Home",
+      "Science",
+      "Tools"
+    ]
+  },
+  {
     "name": "RockingChair",
     "categories": [
       "Home"
@@ -8589,6 +8652,12 @@
       "Seasons",
       "Social",
       "Sustainability"
+    ]
+  },
+  {
+    "name": "ShelvingUnit",
+    "categories": [
+      "Home"
     ]
   },
   {
@@ -8625,6 +8694,13 @@
     "categories": [
       "Home",
       "Tools"
+    ]
+  },
+  {
+    "name": "TowelRack",
+    "categories": [
+      "Home",
+      "Travel"
     ]
   },
   {
@@ -9175,6 +9251,13 @@
   },
   {
     "name": "X",
+    "categories": [
+      "Mathematics",
+      "Notification"
+    ]
+  },
+  {
+    "name": "XLineTop",
     "categories": [
       "Mathematics",
       "Notification"
@@ -10089,6 +10172,22 @@
       "Science",
       "Sports",
       "Transportation"
+    ]
+  },
+  {
+    "name": "LensConcave",
+    "categories": [
+      "Science",
+      "Shapes",
+      "Tools"
+    ]
+  },
+  {
+    "name": "LensConvex",
+    "categories": [
+      "Science",
+      "Shapes",
+      "Tools"
     ]
   },
   {
