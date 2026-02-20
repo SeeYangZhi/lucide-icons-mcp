@@ -2687,6 +2687,24 @@
     ]
   },
   {
+    "name": "SquareArrowRightEnter",
+    "categories": [
+      "Arrows",
+      "Layout",
+      "Multimedia",
+      "Shapes"
+    ]
+  },
+  {
+    "name": "SquareArrowRightExit",
+    "categories": [
+      "Arrows",
+      "Layout",
+      "Multimedia",
+      "Shapes"
+    ]
+  },
+  {
     "name": "SquareArrowUp",
     "categories": [
       "Arrows"
@@ -4500,21 +4518,7 @@
     ]
   },
   {
-    "name": "FlipHorizontal",
-    "categories": [
-      "Design",
-      "Photography"
-    ]
-  },
-  {
     "name": "FlipHorizontal2",
-    "categories": [
-      "Design",
-      "Photography"
-    ]
-  },
-  {
-    "name": "FlipVertical",
     "categories": [
       "Design",
       "Photography"
@@ -4988,6 +4992,20 @@
       "File icons",
       "Text formatting",
       "Tools"
+    ]
+  },
+  {
+    "name": "SquareCenterlineDashedHorizontal",
+    "categories": [
+      "Design",
+      "Photography"
+    ]
+  },
+  {
+    "name": "SquareCenterlineDashedVertical",
+    "categories": [
+      "Design",
+      "Photography"
     ]
   },
   {
@@ -9591,6 +9609,13 @@
     "categories": [
       "Multimedia",
       "Notification"
+    ]
+  },
+  {
+    "name": "Metronome",
+    "categories": [
+      "Multimedia",
+      "Time & calendar"
     ]
   },
   {

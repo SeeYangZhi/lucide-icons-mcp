@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-02-18T04:26:25.900Z
+// Generated from storage/datasets/default on 2026-02-20T04:20:48.628Z
 
 export interface IconMetadata {
   name: string;
@@ -832,6 +832,14 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SquareArrowOutUpLeft", categories: ["Arrows"] },
   { name: "SquareArrowOutUpRight", categories: ["Arrows", "Social"] },
   { name: "SquareArrowRight", categories: ["Arrows"] },
+  {
+    name: "SquareArrowRightEnter",
+    categories: ["Arrows", "Layout", "Multimedia", "Shapes"]
+  },
+  {
+    name: "SquareArrowRightExit",
+    categories: ["Arrows", "Layout", "Multimedia", "Shapes"]
+  },
   { name: "SquareArrowUp", categories: ["Arrows"] },
   { name: "SquareArrowUpLeft", categories: ["Arrows"] },
   { name: "SquareArrowUpRight", categories: ["Arrows", "Social"] },
@@ -1358,9 +1366,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "DraftingCompass", categories: ["Design", "Mathematics", "Tools"] },
   { name: "FileAxis3d", categories: ["Design", "File icons"] },
-  { name: "FlipHorizontal", categories: ["Design", "Photography"] },
   { name: "FlipHorizontal2", categories: ["Design", "Photography"] },
-  { name: "FlipVertical", categories: ["Design", "Photography"] },
   { name: "FlipVertical2", categories: ["Design", "Photography"] },
   { name: "Frame", categories: ["Design", "Photography"] },
   {
@@ -1514,6 +1520,14 @@ export const iconMetadata: IconMetadata[] = [
       "Text formatting",
       "Tools"
     ]
+  },
+  {
+    name: "SquareCenterlineDashedHorizontal",
+    categories: ["Design", "Photography"]
+  },
+  {
+    name: "SquareCenterlineDashedVertical",
+    categories: ["Design", "Photography"]
   },
   { name: "SquareDashed", categories: ["Design", "Text formatting"] },
   {
@@ -2569,6 +2583,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "ListX", categories: ["Multimedia", "Text formatting"] },
   { name: "Megaphone", categories: ["Multimedia", "Notification"] },
   { name: "MegaphoneOff", categories: ["Multimedia", "Notification"] },
+  { name: "Metronome", categories: ["Multimedia", "Time & calendar"] },
   { name: "OctagonPause", categories: ["Multimedia", "Shapes"] },
   { name: "Pause", categories: ["Multimedia"] },
   { name: "PictureInPicture", categories: ["Multimedia"] },
@@ -2966,7 +2981,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 137 },
   { name: "Animals", iconCount: 23 },
-  { name: "Arrows", iconCount: 209 },
+  { name: "Arrows", iconCount: 211 },
   { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 25 },
   { name: "Charts", iconCount: 31 },
@@ -2982,11 +2997,11 @@ export const categories: CategoryMetadata[] = [
   { name: "Food & beverage", iconCount: 69 },
   { name: "Gaming", iconCount: 148 },
   { name: "Home", iconCount: 61 },
-  { name: "Layout", iconCount: 139 },
+  { name: "Layout", iconCount: 141 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 75 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 138 },
+  { name: "Multimedia", iconCount: 141 },
   { name: "Nature", iconCount: 23 },
   { name: "Navigation, Maps, and POIs", iconCount: 87 },
   { name: "Notification", iconCount: 40 },
@@ -2995,20 +3010,20 @@ export const categories: CategoryMetadata[] = [
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 55 },
-  { name: "Shapes", iconCount: 50 },
+  { name: "Shapes", iconCount: 52 },
   { name: "Shopping", iconCount: 27 },
   { name: "Social", iconCount: 121 },
   { name: "Sports", iconCount: 13 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 246 },
-  { name: "Time & calendar", iconCount: 58 },
+  { name: "Time & calendar", iconCount: 59 },
   { name: "Tools", iconCount: 70 },
   { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 68 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1685;
+export const iconCount = 1688;
 export const categoryCount = 43;
 
 // Helper functions
