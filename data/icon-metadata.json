@@ -3032,14 +3032,6 @@
     ]
   },
   {
-    "name": "Cuboid",
-    "categories": [
-      "Buildings",
-      "Mathematics",
-      "Shapes"
-    ]
-  },
-  {
     "name": "Dam",
     "categories": [
       "Buildings",
@@ -6879,6 +6871,97 @@
     ]
   },
   {
+    "name": "ZodiacAquarius",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacAries",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacCancer",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacCapricorn",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacGemini",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacLeo",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacLibra",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacOphiuchus",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacPisces",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacSagittarius",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacScorpio",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacTaurus",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
+    "name": "ZodiacVirgo",
+    "categories": [
+      "Emoji",
+      "Social"
+    ]
+  },
+  {
     "name": "Archive",
     "categories": [
       "File icons",
@@ -7929,6 +8012,14 @@
     "name": "Croissant",
     "categories": [
       "Food & beverage"
+    ]
+  },
+  {
+    "name": "Cuboid",
+    "categories": [
+      "Food & beverage",
+      "Mathematics",
+      "Shapes"
     ]
   },
   {
@@ -10642,6 +10733,13 @@
   },
   {
     "name": "FishingHook",
+    "categories": [
+      "Sports",
+      "Travel"
+    ]
+  },
+  {
+    "name": "FishingRod",
     "categories": [
       "Sports",
       "Travel"

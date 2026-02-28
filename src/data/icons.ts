@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-02-20T04:20:48.628Z
+// Generated from storage/datasets/default on 2026-02-28T03:59:43.515Z
 
 export interface IconMetadata {
   name: string;
@@ -912,7 +912,6 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Buildings", "Gaming", "Navigation, Maps, and POIs"]
   },
   { name: "Church", categories: ["Buildings", "Navigation, Maps, and POIs"] },
-  { name: "Cuboid", categories: ["Buildings", "Mathematics", "Shapes"] },
   {
     name: "Dam",
     categories: ["Buildings", "Navigation, Maps, and POIs", "Sustainability"]
@@ -2090,6 +2089,19 @@ export const iconMetadata: IconMetadata[] = [
   { name: "PartyPopper", categories: ["Emoji"] },
   { name: "Ribbon", categories: ["Emoji", "Medical", "Social"] },
   { name: "Salad", categories: ["Emoji", "Food & beverage"] },
+  { name: "ZodiacAquarius", categories: ["Emoji", "Social"] },
+  { name: "ZodiacAries", categories: ["Emoji", "Social"] },
+  { name: "ZodiacCancer", categories: ["Emoji", "Social"] },
+  { name: "ZodiacCapricorn", categories: ["Emoji", "Social"] },
+  { name: "ZodiacGemini", categories: ["Emoji", "Social"] },
+  { name: "ZodiacLeo", categories: ["Emoji", "Social"] },
+  { name: "ZodiacLibra", categories: ["Emoji", "Social"] },
+  { name: "ZodiacOphiuchus", categories: ["Emoji", "Social"] },
+  { name: "ZodiacPisces", categories: ["Emoji", "Social"] },
+  { name: "ZodiacSagittarius", categories: ["Emoji", "Social"] },
+  { name: "ZodiacScorpio", categories: ["Emoji", "Social"] },
+  { name: "ZodiacTaurus", categories: ["Emoji", "Social"] },
+  { name: "ZodiacVirgo", categories: ["Emoji", "Social"] },
   { name: "Archive", categories: ["File icons", "Mail"] },
   { name: "ArchiveRestore", categories: ["File icons", "Mail"] },
   { name: "ArchiveX", categories: ["File icons", "Mail"] },
@@ -2299,6 +2311,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Coffee", categories: ["Food & beverage"] },
   { name: "CookingPot", categories: ["Food & beverage", "Home"] },
   { name: "Croissant", categories: ["Food & beverage"] },
+  { name: "Cuboid", categories: ["Food & beverage", "Mathematics", "Shapes"] },
   { name: "CupSoda", categories: ["Food & beverage"] },
   { name: "Dessert", categories: ["Food & beverage"] },
   { name: "DnaOff", categories: ["Food & beverage", "Medical"] },
@@ -2796,6 +2809,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "StickyNote", categories: ["Social", "Text formatting"] },
   { name: "Vote", categories: ["Social"] },
   { name: "FishingHook", categories: ["Sports", "Travel"] },
+  { name: "FishingRod", categories: ["Sports", "Travel"] },
   { name: "Recycle", categories: ["Sustainability"] },
   { name: "WavesArrowDown", categories: ["Sustainability", "Weather"] },
   { name: "WavesArrowUp", categories: ["Sustainability", "Weather"] },
@@ -2983,7 +2997,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 211 },
   { name: "Brands", iconCount: 21 },
-  { name: "Buildings", iconCount: 25 },
+  { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
   { name: "Connectivity", iconCount: 92 },
@@ -2991,10 +3005,10 @@ export const categories: CategoryMetadata[] = [
   { name: "Design", iconCount: 145 },
   { name: "Coding & development", iconCount: 246 },
   { name: "Devices", iconCount: 170 },
-  { name: "Emoji", iconCount: 28 },
+  { name: "Emoji", iconCount: 41 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
-  { name: "Food & beverage", iconCount: 69 },
+  { name: "Food & beverage", iconCount: 70 },
   { name: "Gaming", iconCount: 148 },
   { name: "Home", iconCount: 61 },
   { name: "Layout", iconCount: 141 },
@@ -3012,18 +3026,18 @@ export const categories: CategoryMetadata[] = [
   { name: "Security", iconCount: 55 },
   { name: "Shapes", iconCount: 52 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 121 },
-  { name: "Sports", iconCount: 13 },
+  { name: "Social", iconCount: 134 },
+  { name: "Sports", iconCount: 14 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 246 },
   { name: "Time & calendar", iconCount: 59 },
   { name: "Tools", iconCount: 70 },
   { name: "Transportation", iconCount: 64 },
-  { name: "Travel", iconCount: 68 },
+  { name: "Travel", iconCount: 69 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1688;
+export const iconCount = 1702;
 export const categoryCount = 43;
 
 // Helper functions
