@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-02-28T03:59:43.515Z
+// Generated from storage/datasets/default on 2026-03-05T04:17:21.199Z
 
 export interface IconMetadata {
   name: string;
@@ -2756,6 +2756,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CirclePile", categories: ["Shapes"] },
   { name: "Cross", categories: ["Shapes"] },
   { name: "Dot", categories: ["Shapes", "Text formatting"] },
+  { name: "Ellipse", categories: ["Shapes"] },
   { name: "Octagon", categories: ["Shapes"] },
   { name: "Pentagon", categories: ["Shapes"] },
   { name: "Sparkle", categories: ["Shapes"] },
@@ -3024,7 +3025,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 55 },
-  { name: "Shapes", iconCount: 52 },
+  { name: "Shapes", iconCount: 53 },
   { name: "Shopping", iconCount: 27 },
   { name: "Social", iconCount: 134 },
   { name: "Sports", iconCount: 14 },
@@ -3037,7 +3038,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1702;
+export const iconCount = 1703;
 export const categoryCount = 43;
 
 // Helper functions
