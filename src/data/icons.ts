@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-03-05T04:17:21.199Z
+// Generated from storage/datasets/default on 2026-03-22T04:25:17.288Z
 
 export interface IconMetadata {
   name: string;
@@ -389,15 +389,6 @@ export const iconMetadata: IconMetadata[] = [
       "Security"
     ]
   },
-  {
-    name: "Slack",
-    categories: [
-      "Accounts & access",
-      "Brands",
-      "Coding & development",
-      "Social"
-    ]
-  },
   { name: "SlidersHorizontal", categories: ["Accounts & access"] },
   { name: "SlidersVertical", categories: ["Accounts & access"] },
   { name: "Smile", categories: ["Accounts & access", "Emoji"] },
@@ -432,15 +423,6 @@ export const iconMetadata: IconMetadata[] = [
     name: "ToggleRight",
     categories: ["Accounts & access", "Coding & development", "Layout"]
   },
-  {
-    name: "Trello",
-    categories: ["Accounts & access", "Brands", "Coding & development"]
-  },
-  {
-    name: "Twitch",
-    categories: ["Accounts & access", "Brands", "Gaming", "Social"]
-  },
-  { name: "Twitter", categories: ["Accounts & access", "Brands", "Social"] },
   { name: "User", categories: ["Accounts & access"] },
   { name: "UserCheck", categories: ["Accounts & access"] },
   { name: "UserCog", categories: ["Accounts & access"] },
@@ -882,29 +864,6 @@ export const iconMetadata: IconMetadata[] = [
   { name: "UnfoldHorizontal", categories: ["Arrows", "Layout"] },
   { name: "UnfoldVertical", categories: ["Arrows", "Layout"] },
   { name: "Upload", categories: ["Arrows", "File icons"] },
-  {
-    name: "Airplay",
-    categories: ["Brands", "Connectivity", "Devices", "Multimedia"]
-  },
-  {
-    name: "Bitcoin",
-    categories: ["Brands", "Coding & development", "Finance"]
-  },
-  { name: "Chromium", categories: ["Brands"] },
-  { name: "Codepen", categories: ["Brands", "Coding & development"] },
-  { name: "Codesandbox", categories: ["Brands", "Coding & development"] },
-  { name: "Dribbble", categories: ["Brands", "Design", "Social"] },
-  { name: "Facebook", categories: ["Brands", "Social"] },
-  { name: "Figma", categories: ["Brands", "Design"] },
-  { name: "Framer", categories: ["Brands", "Design"] },
-  { name: "Github", categories: ["Brands", "Coding & development"] },
-  { name: "Gitlab", categories: ["Brands", "Coding & development"] },
-  { name: "Hexagon", categories: ["Brands", "Coding & development", "Shapes"] },
-  { name: "Instagram", categories: ["Brands", "Photography", "Social"] },
-  { name: "Linkedin", categories: ["Brands", "Social"] },
-  { name: "Pocket", categories: ["Brands"] },
-  { name: "Target", categories: ["Brands", "Gaming"] },
-  { name: "Youtube", categories: ["Brands", "Multimedia", "Social"] },
   { name: "Anvil", categories: ["Buildings", "Gaming", "Tools"] },
   { name: "BrickWall", categories: ["Buildings", "Home"] },
   {
@@ -1168,6 +1127,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Communication", "Connectivity", "Multimedia"]
   },
   { name: "Webcam", categories: ["Communication", "Connectivity", "Devices"] },
+  { name: "Airplay", categories: ["Connectivity", "Multimedia"] },
   { name: "Battery", categories: ["Connectivity", "Devices"] },
   { name: "BatteryCharging", categories: ["Connectivity", "Devices"] },
   { name: "BatteryFull", categories: ["Connectivity", "Devices"] },
@@ -1594,6 +1554,7 @@ export const iconMetadata: IconMetadata[] = [
       "Travel"
     ]
   },
+  { name: "Bitcoin", categories: ["Coding & development", "Finance"] },
   { name: "Blocks", categories: ["Coding & development", "Layout", "Shapes"] },
   {
     name: "Book",
@@ -1768,6 +1729,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Coding & development", "Devices", "Security"]
   },
   { name: "HardDrive", categories: ["Coding & development", "Devices"] },
+  { name: "Hexagon", categories: ["Coding & development", "Shapes"] },
   {
     name: "Keyboard",
     categories: ["Coding & development", "Devices", "Text formatting"]
@@ -2407,6 +2369,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Tally3", categories: ["Gaming", "Mathematics"] },
   { name: "Tally4", categories: ["Gaming", "Mathematics"] },
   { name: "Tally5", categories: ["Gaming", "Mathematics"] },
+  { name: "Target", categories: ["Gaming"] },
   { name: "Trophy", categories: ["Gaming", "Sports"] },
   { name: "Volleyball", categories: ["Gaming", "Sports", "Travel"] },
   { name: "AirVent", categories: ["Home"] },
@@ -2676,10 +2639,6 @@ export const iconMetadata: IconMetadata[] = [
   {
     name: "Plane",
     categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
-  },
-  {
-    name: "RailSymbol",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
   },
   { name: "RollerCoaster", categories: ["Navigation, Maps, and POIs"] },
   { name: "Route", categories: ["Navigation, Maps, and POIs"] },
@@ -2994,52 +2953,51 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 137 },
+  { name: "Accounts & access", iconCount: 133 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 211 },
-  { name: "Brands", iconCount: 21 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 54 },
   { name: "Connectivity", iconCount: 92 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 145 },
-  { name: "Coding & development", iconCount: 246 },
-  { name: "Devices", iconCount: 170 },
+  { name: "Design", iconCount: 142 },
+  { name: "Coding & development", iconCount: 240 },
+  { name: "Devices", iconCount: 169 },
   { name: "Emoji", iconCount: 41 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
   { name: "Food & beverage", iconCount: 70 },
-  { name: "Gaming", iconCount: 148 },
+  { name: "Gaming", iconCount: 147 },
   { name: "Home", iconCount: 61 },
   { name: "Layout", iconCount: 141 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 75 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 141 },
+  { name: "Multimedia", iconCount: 140 },
   { name: "Nature", iconCount: 23 },
-  { name: "Navigation, Maps, and POIs", iconCount: 87 },
+  { name: "Navigation, Maps, and POIs", iconCount: 86 },
   { name: "Notification", iconCount: 40 },
   { name: "People", iconCount: 3 },
-  { name: "Photography", iconCount: 75 },
+  { name: "Photography", iconCount: 74 },
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 55 },
   { name: "Shapes", iconCount: 53 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 134 },
+  { name: "Social", iconCount: 126 },
   { name: "Sports", iconCount: 14 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 246 },
   { name: "Time & calendar", iconCount: 59 },
   { name: "Tools", iconCount: 70 },
-  { name: "Transportation", iconCount: 64 },
+  { name: "Transportation", iconCount: 63 },
   { name: "Travel", iconCount: 69 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1703;
-export const categoryCount = 43;
+export const iconCount = 1685;
+export const categoryCount = 42;
 
 // Helper functions
 export function getIconsByCategory(categoryName: string): string[] {

@@ -879,15 +879,6 @@
     ]
   },
   {
-    "name": "Slack",
-    "categories": [
-      "Accounts & access",
-      "Brands",
-      "Coding & development",
-      "Social"
-    ]
-  },
-  {
     "name": "SlidersHorizontal",
     "categories": [
       "Accounts & access"
@@ -987,31 +978,6 @@
       "Accounts & access",
       "Coding & development",
       "Layout"
-    ]
-  },
-  {
-    "name": "Trello",
-    "categories": [
-      "Accounts & access",
-      "Brands",
-      "Coding & development"
-    ]
-  },
-  {
-    "name": "Twitch",
-    "categories": [
-      "Accounts & access",
-      "Brands",
-      "Gaming",
-      "Social"
-    ]
-  },
-  {
-    "name": "Twitter",
-    "categories": [
-      "Accounts & access",
-      "Brands",
-      "Social"
     ]
   },
   {
@@ -2878,130 +2844,6 @@
     ]
   },
   {
-    "name": "Airplay",
-    "categories": [
-      "Brands",
-      "Connectivity",
-      "Devices",
-      "Multimedia"
-    ]
-  },
-  {
-    "name": "Bitcoin",
-    "categories": [
-      "Brands",
-      "Coding & development",
-      "Finance"
-    ]
-  },
-  {
-    "name": "Chromium",
-    "categories": [
-      "Brands"
-    ]
-  },
-  {
-    "name": "Codepen",
-    "categories": [
-      "Brands",
-      "Coding & development"
-    ]
-  },
-  {
-    "name": "Codesandbox",
-    "categories": [
-      "Brands",
-      "Coding & development"
-    ]
-  },
-  {
-    "name": "Dribbble",
-    "categories": [
-      "Brands",
-      "Design",
-      "Social"
-    ]
-  },
-  {
-    "name": "Facebook",
-    "categories": [
-      "Brands",
-      "Social"
-    ]
-  },
-  {
-    "name": "Figma",
-    "categories": [
-      "Brands",
-      "Design"
-    ]
-  },
-  {
-    "name": "Framer",
-    "categories": [
-      "Brands",
-      "Design"
-    ]
-  },
-  {
-    "name": "Github",
-    "categories": [
-      "Brands",
-      "Coding & development"
-    ]
-  },
-  {
-    "name": "Gitlab",
-    "categories": [
-      "Brands",
-      "Coding & development"
-    ]
-  },
-  {
-    "name": "Hexagon",
-    "categories": [
-      "Brands",
-      "Coding & development",
-      "Shapes"
-    ]
-  },
-  {
-    "name": "Instagram",
-    "categories": [
-      "Brands",
-      "Photography",
-      "Social"
-    ]
-  },
-  {
-    "name": "Linkedin",
-    "categories": [
-      "Brands",
-      "Social"
-    ]
-  },
-  {
-    "name": "Pocket",
-    "categories": [
-      "Brands"
-    ]
-  },
-  {
-    "name": "Target",
-    "categories": [
-      "Brands",
-      "Gaming"
-    ]
-  },
-  {
-    "name": "Youtube",
-    "categories": [
-      "Brands",
-      "Multimedia",
-      "Social"
-    ]
-  },
-  {
     "name": "Anvil",
     "categories": [
       "Buildings",
@@ -3727,6 +3569,13 @@
       "Communication",
       "Connectivity",
       "Devices"
+    ]
+  },
+  {
+    "name": "Airplay",
+    "categories": [
+      "Connectivity",
+      "Multimedia"
     ]
   },
   {
@@ -5157,6 +5006,13 @@
     ]
   },
   {
+    "name": "Bitcoin",
+    "categories": [
+      "Coding & development",
+      "Finance"
+    ]
+  },
+  {
     "name": "Blocks",
     "categories": [
       "Coding & development",
@@ -5785,6 +5641,13 @@
     "categories": [
       "Coding & development",
       "Devices"
+    ]
+  },
+  {
+    "name": "Hexagon",
+    "categories": [
+      "Coding & development",
+      "Shapes"
     ]
   },
   {
@@ -8593,6 +8456,12 @@
     ]
   },
   {
+    "name": "Target",
+    "categories": [
+      "Gaming"
+    ]
+  },
+  {
     "name": "Trophy",
     "categories": [
       "Gaming",
@@ -10047,13 +9916,6 @@
       "Navigation, Maps, and POIs",
       "Transportation",
       "Travel"
-    ]
-  },
-  {
-    "name": "RailSymbol",
-    "categories": [
-      "Navigation, Maps, and POIs",
-      "Transportation"
     ]
   },
   {
