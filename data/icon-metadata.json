@@ -3262,6 +3262,16 @@
     ]
   },
   {
+    "name": "CctvOff",
+    "categories": [
+      "Communication",
+      "Connectivity",
+      "Devices",
+      "Photography",
+      "Security"
+    ]
+  },
+  {
     "name": "ChevronsLeftRightEllipsis",
     "categories": [
       "Communication",

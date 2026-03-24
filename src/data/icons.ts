@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-03-23T04:33:54.901Z
+// Generated from storage/datasets/default on 2026-03-24T04:24:37.561Z
 
 export interface IconMetadata {
   name: string;
@@ -980,6 +980,16 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "Cctv",
+    categories: [
+      "Communication",
+      "Connectivity",
+      "Devices",
+      "Photography",
+      "Security"
+    ]
+  },
+  {
+    name: "CctvOff",
     categories: [
       "Communication",
       "Connectivity",
@@ -2958,12 +2968,12 @@ export const categories: CategoryMetadata[] = [
   { name: "Arrows", iconCount: 211 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
-  { name: "Communication", iconCount: 54 },
-  { name: "Connectivity", iconCount: 92 },
+  { name: "Communication", iconCount: 55 },
+  { name: "Connectivity", iconCount: 93 },
   { name: "Cursors", iconCount: 33 },
   { name: "Design", iconCount: 142 },
   { name: "Coding & development", iconCount: 240 },
-  { name: "Devices", iconCount: 169 },
+  { name: "Devices", iconCount: 170 },
   { name: "Emoji", iconCount: 41 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
@@ -2979,10 +2989,10 @@ export const categories: CategoryMetadata[] = [
   { name: "Navigation, Maps, and POIs", iconCount: 86 },
   { name: "Notification", iconCount: 40 },
   { name: "People", iconCount: 3 },
-  { name: "Photography", iconCount: 74 },
+  { name: "Photography", iconCount: 75 },
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
-  { name: "Security", iconCount: 55 },
+  { name: "Security", iconCount: 56 },
   { name: "Shapes", iconCount: 53 },
   { name: "Shopping", iconCount: 27 },
   { name: "Social", iconCount: 126 },
@@ -2996,7 +3006,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1685;
+export const iconCount = 1686;
 export const categoryCount = 42;
 
 // Helper functions
