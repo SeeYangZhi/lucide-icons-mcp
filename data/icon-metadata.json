@@ -807,6 +807,26 @@
     ]
   },
   {
+    "name": "ShieldCog",
+    "categories": [
+      "Accounts & access",
+      "Coding & development",
+      "Gaming",
+      "Security",
+      "Shapes"
+    ]
+  },
+  {
+    "name": "ShieldCogCorner",
+    "categories": [
+      "Accounts & access",
+      "Coding & development",
+      "Gaming",
+      "Security",
+      "Shapes"
+    ]
+  },
+  {
     "name": "ShieldEllipsis",
     "categories": [
       "Accounts & access",
@@ -4553,6 +4573,13 @@
     ]
   },
   {
+    "name": "LineStyle",
+    "categories": [
+      "Design",
+      "Tools"
+    ]
+  },
+  {
     "name": "Magnet",
     "categories": [
       "Design"
@@ -6500,6 +6527,14 @@
     ]
   },
   {
+    "name": "RadioOff",
+    "categories": [
+      "Devices",
+      "Multimedia",
+      "Social"
+    ]
+  },
+  {
     "name": "RadioReceiver",
     "categories": [
       "Devices"
@@ -7797,6 +7832,12 @@
   },
   {
     "name": "Beef",
+    "categories": [
+      "Food & beverage"
+    ]
+  },
+  {
+    "name": "BeefOff",
     "categories": [
       "Food & beverage"
     ]
@@ -10624,6 +10665,12 @@
     ]
   },
   {
+    "name": "SportShoe",
+    "categories": [
+      "Sports"
+    ]
+  },
+  {
     "name": "Recycle",
     "categories": [
       "Sustainability"
@@ -11444,6 +11491,12 @@
     "categories": [
       "Transportation",
       "Travel"
+    ]
+  },
+  {
+    "name": "Road",
+    "categories": [
+      "Transportation"
     ]
   },
   {

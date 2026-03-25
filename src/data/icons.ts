@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-03-24T04:24:37.561Z
+// Generated from storage/datasets/default on 2026-03-25T04:26:04.851Z
 
 export interface IconMetadata {
   name: string;
@@ -319,6 +319,26 @@ export const iconMetadata: IconMetadata[] = [
       "Coding & development",
       "Gaming",
       "Security"
+    ]
+  },
+  {
+    name: "ShieldCog",
+    categories: [
+      "Accounts & access",
+      "Coding & development",
+      "Gaming",
+      "Security",
+      "Shapes"
+    ]
+  },
+  {
+    name: "ShieldCogCorner",
+    categories: [
+      "Accounts & access",
+      "Coding & development",
+      "Gaming",
+      "Security",
+      "Shapes"
     ]
   },
   {
@@ -1419,6 +1439,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "LayoutPanelLeft", categories: ["Design", "Layout"] },
   { name: "LineSquiggle", categories: ["Design", "Mathematics", "Shapes"] },
+  { name: "LineStyle", categories: ["Design", "Tools"] },
   { name: "Magnet", categories: ["Design"] },
   { name: "Maximize", categories: ["Design", "Layout"] },
   { name: "Minimize", categories: ["Design", "Layout"] },
@@ -2017,6 +2038,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "PrinterCheck", categories: ["Devices"] },
   { name: "PrinterX", categories: ["Devices"] },
   { name: "Radio", categories: ["Devices", "Multimedia", "Social"] },
+  { name: "RadioOff", categories: ["Devices", "Multimedia", "Social"] },
   { name: "RadioReceiver", categories: ["Devices"] },
   { name: "RadioTower", categories: ["Devices", "Multimedia", "Social"] },
   {
@@ -2269,6 +2291,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Bean", categories: ["Food & beverage"] },
   { name: "BeanOff", categories: ["Food & beverage"] },
   { name: "Beef", categories: ["Food & beverage"] },
+  { name: "BeefOff", categories: ["Food & beverage"] },
   { name: "Beer", categories: ["Food & beverage"] },
   { name: "BeerOff", categories: ["Food & beverage"] },
   { name: "BottleWine", categories: ["Food & beverage"] },
@@ -2780,6 +2803,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Vote", categories: ["Social"] },
   { name: "FishingHook", categories: ["Sports", "Travel"] },
   { name: "FishingRod", categories: ["Sports", "Travel"] },
+  { name: "SportShoe", categories: ["Sports"] },
   { name: "Recycle", categories: ["Sustainability"] },
   { name: "WavesArrowDown", categories: ["Sustainability", "Weather"] },
   { name: "WavesArrowUp", categories: ["Sustainability", "Weather"] },
@@ -2918,6 +2942,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "OctagonMinus", categories: ["Transportation"] },
   { name: "PlaneLanding", categories: ["Transportation", "Travel"] },
   { name: "PlaneTakeoff", categories: ["Transportation", "Travel"] },
+  { name: "Road", categories: ["Transportation"] },
   { name: "Sailboat", categories: ["Transportation", "Travel"] },
   { name: "Scooter", categories: ["Transportation"] },
   { name: "TicketCheck", categories: ["Transportation"] },
@@ -2963,7 +2988,7 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 133 },
+  { name: "Accounts & access", iconCount: 135 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 211 },
   { name: "Buildings", iconCount: 24 },
@@ -2971,20 +2996,20 @@ export const categories: CategoryMetadata[] = [
   { name: "Communication", iconCount: 55 },
   { name: "Connectivity", iconCount: 93 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 142 },
-  { name: "Coding & development", iconCount: 240 },
-  { name: "Devices", iconCount: 170 },
+  { name: "Design", iconCount: 143 },
+  { name: "Coding & development", iconCount: 242 },
+  { name: "Devices", iconCount: 171 },
   { name: "Emoji", iconCount: 41 },
   { name: "File icons", iconCount: 162 },
   { name: "Finance", iconCount: 56 },
-  { name: "Food & beverage", iconCount: 70 },
-  { name: "Gaming", iconCount: 147 },
+  { name: "Food & beverage", iconCount: 71 },
+  { name: "Gaming", iconCount: 149 },
   { name: "Home", iconCount: 61 },
   { name: "Layout", iconCount: 141 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 75 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 140 },
+  { name: "Multimedia", iconCount: 141 },
   { name: "Nature", iconCount: 23 },
   { name: "Navigation, Maps, and POIs", iconCount: 86 },
   { name: "Notification", iconCount: 40 },
@@ -2992,21 +3017,21 @@ export const categories: CategoryMetadata[] = [
   { name: "Photography", iconCount: 75 },
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
-  { name: "Security", iconCount: 56 },
-  { name: "Shapes", iconCount: 53 },
+  { name: "Security", iconCount: 58 },
+  { name: "Shapes", iconCount: 55 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 126 },
-  { name: "Sports", iconCount: 14 },
+  { name: "Social", iconCount: 127 },
+  { name: "Sports", iconCount: 15 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 246 },
   { name: "Time & calendar", iconCount: 59 },
-  { name: "Tools", iconCount: 70 },
-  { name: "Transportation", iconCount: 63 },
+  { name: "Tools", iconCount: 71 },
+  { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 69 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1686;
+export const iconCount = 1693;
 export const categoryCount = 42;
 
 // Helper functions
