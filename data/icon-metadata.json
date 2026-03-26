@@ -651,6 +651,15 @@
     ]
   },
   {
+    "name": "MapPinSearch",
+    "categories": [
+      "Accounts & access",
+      "Navigation, Maps, and POIs",
+      "Text formatting",
+      "Travel"
+    ]
+  },
+  {
     "name": "MapPinX",
     "categories": [
       "Accounts & access",

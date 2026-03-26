@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-03-25T04:26:04.851Z
+// Generated from storage/datasets/default on 2026-03-26T04:37:46.280Z
 
 export interface IconMetadata {
   name: string;
@@ -245,6 +245,15 @@ export const iconMetadata: IconMetadata[] = [
   {
     name: "MapPinPlusInside",
     categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+  },
+  {
+    name: "MapPinSearch",
+    categories: [
+      "Accounts & access",
+      "Navigation, Maps, and POIs",
+      "Text formatting",
+      "Travel"
+    ]
   },
   {
     name: "MapPinX",
@@ -2988,7 +2997,7 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 135 },
+  { name: "Accounts & access", iconCount: 136 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 211 },
   { name: "Buildings", iconCount: 24 },
@@ -3011,7 +3020,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 141 },
   { name: "Nature", iconCount: 23 },
-  { name: "Navigation, Maps, and POIs", iconCount: 86 },
+  { name: "Navigation, Maps, and POIs", iconCount: 87 },
   { name: "Notification", iconCount: 40 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
@@ -3023,15 +3032,15 @@ export const categories: CategoryMetadata[] = [
   { name: "Social", iconCount: 127 },
   { name: "Sports", iconCount: 15 },
   { name: "Sustainability", iconCount: 24 },
-  { name: "Text formatting", iconCount: 246 },
+  { name: "Text formatting", iconCount: 247 },
   { name: "Time & calendar", iconCount: 59 },
   { name: "Tools", iconCount: 71 },
   { name: "Transportation", iconCount: 64 },
-  { name: "Travel", iconCount: 69 },
+  { name: "Travel", iconCount: 70 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1693;
+export const iconCount = 1694;
 export const categoryCount = 42;
 
 // Helper functions
