@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-03-26T04:37:46.280Z
+// Generated from storage/datasets/default on 2026-04-10T04:51:39.785Z
 
 export interface IconMetadata {
   name: string;
@@ -127,6 +127,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Bookmark", categories: ["Accounts & access"] },
   { name: "BookmarkCheck", categories: ["Accounts & access"] },
   { name: "BookmarkMinus", categories: ["Accounts & access"] },
+  { name: "BookmarkOff", categories: ["Accounts & access"] },
   { name: "BookmarkPlus", categories: ["Accounts & access"] },
   { name: "BookmarkX", categories: ["Accounts & access"] },
   { name: "Building", categories: ["Accounts & access", "Buildings"] },
@@ -1312,9 +1313,9 @@ export const iconMetadata: IconMetadata[] = [
     name: "Sparkles",
     categories: ["Cursors", "Gaming", "Multimedia", "Weather"]
   },
+  { name: "SquareDashedText", categories: ["Cursors", "Text formatting"] },
   { name: "Stamp", categories: ["Cursors", "Design", "Tools"] },
   { name: "TextCursor", categories: ["Cursors", "Text formatting"] },
-  { name: "TextSelect", categories: ["Cursors", "Text formatting"] },
   { name: "Wand", categories: ["Cursors", "Design", "Gaming", "Photography"] },
   {
     name: "WandSparkles",
@@ -2997,7 +2998,7 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 136 },
+  { name: "Accounts & access", iconCount: 137 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 211 },
   { name: "Buildings", iconCount: 24 },
@@ -3040,7 +3041,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1694;
+export const iconCount = 1695;
 export const categoryCount = 42;
 
 // Helper functions

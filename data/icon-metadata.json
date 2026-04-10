@@ -320,6 +320,12 @@
     ]
   },
   {
+    "name": "BookmarkOff",
+    "categories": [
+      "Accounts & access"
+    ]
+  },
+  {
     "name": "BookmarkPlus",
     "categories": [
       "Accounts & access"
@@ -4154,6 +4160,13 @@
     ]
   },
   {
+    "name": "SquareDashedText",
+    "categories": [
+      "Cursors",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "Stamp",
     "categories": [
       "Cursors",
@@ -4163,13 +4176,6 @@
   },
   {
     "name": "TextCursor",
-    "categories": [
-      "Cursors",
-      "Text formatting"
-    ]
-  },
-  {
-    "name": "TextSelect",
     "categories": [
       "Cursors",
       "Text formatting"
