@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-04-10T04:51:39.785Z
+// Generated from storage/datasets/default on 2026-04-24T05:13:20.860Z
 
 export interface IconMetadata {
   name: string;
@@ -2926,6 +2926,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "ClockCheck", categories: ["Time & calendar"] },
   { name: "ClockFading", categories: ["Time & calendar"] },
   { name: "ClockPlus", categories: ["Time & calendar"] },
+  { name: "Timeline", categories: ["Time & calendar"] },
   { name: "Timer", categories: ["Time & calendar"] },
   { name: "TimerOff", categories: ["Time & calendar"] },
   { name: "TimerReset", categories: ["Time & calendar"] },
@@ -3034,14 +3035,14 @@ export const categories: CategoryMetadata[] = [
   { name: "Sports", iconCount: 15 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 247 },
-  { name: "Time & calendar", iconCount: 59 },
+  { name: "Time & calendar", iconCount: 60 },
   { name: "Tools", iconCount: 71 },
   { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 70 },
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1695;
+export const iconCount = 1696;
 export const categoryCount = 42;
 
 // Helper functions
