@@ -286,6 +286,13 @@
     ]
   },
   {
+    "name": "BellCheck",
+    "categories": [
+      "Accounts & access",
+      "Notification"
+    ]
+  },
+  {
     "name": "BellDot",
     "categories": [
       "Accounts & access",
@@ -4512,6 +4519,15 @@
     ]
   },
   {
+    "name": "HeartX",
+    "categories": [
+      "Design",
+      "Multimedia",
+      "Shapes",
+      "Social"
+    ]
+  },
+  {
     "name": "Highlighter",
     "categories": [
       "Design",
@@ -4537,6 +4553,13 @@
   },
   {
     "name": "Layers2",
+    "categories": [
+      "Design",
+      "Layout"
+    ]
+  },
+  {
+    "name": "LayersMinus",
     "categories": [
       "Design",
       "Layout"

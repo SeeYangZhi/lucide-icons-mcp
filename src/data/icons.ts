@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-04-24T05:13:20.860Z
+// Generated from storage/datasets/default on 2026-04-25T04:40:18.037Z
 
 export interface IconMetadata {
   name: string;
@@ -119,6 +119,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "BadgeAlert", categories: ["Accounts & access", "Social"] },
   { name: "Ban", categories: ["Accounts & access"] },
   { name: "Bell", categories: ["Accounts & access", "Notification"] },
+  { name: "BellCheck", categories: ["Accounts & access", "Notification"] },
   { name: "BellDot", categories: ["Accounts & access", "Notification"] },
   {
     name: "BookUser",
@@ -1433,6 +1434,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Design", "Layout", "Mathematics", "Text formatting"]
   },
   { name: "Grid3x3", categories: ["Design", "Layout", "Text formatting"] },
+  { name: "HeartX", categories: ["Design", "Multimedia", "Shapes", "Social"] },
   { name: "Highlighter", categories: ["Design", "Text formatting"] },
   {
     name: "LandPlot",
@@ -1440,6 +1442,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "Layers", categories: ["Design", "Layout"] },
   { name: "Layers2", categories: ["Design", "Layout"] },
+  { name: "LayersMinus", categories: ["Design", "Layout"] },
   { name: "LayersPlus", categories: ["Design", "Layout"] },
   { name: "LayoutDashboard", categories: ["Design", "Layout"] },
   { name: "LayoutGrid", categories: ["Design", "Layout"] },
@@ -2999,7 +3002,7 @@ export const iconMetadata: IconMetadata[] = [
 
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 137 },
+  { name: "Accounts & access", iconCount: 138 },
   { name: "Animals", iconCount: 23 },
   { name: "Arrows", iconCount: 211 },
   { name: "Buildings", iconCount: 24 },
@@ -3007,7 +3010,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Communication", iconCount: 55 },
   { name: "Connectivity", iconCount: 93 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 143 },
+  { name: "Design", iconCount: 145 },
   { name: "Coding & development", iconCount: 242 },
   { name: "Devices", iconCount: 171 },
   { name: "Emoji", iconCount: 41 },
@@ -3016,22 +3019,22 @@ export const categories: CategoryMetadata[] = [
   { name: "Food & beverage", iconCount: 71 },
   { name: "Gaming", iconCount: 149 },
   { name: "Home", iconCount: 61 },
-  { name: "Layout", iconCount: 141 },
+  { name: "Layout", iconCount: 142 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 75 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 141 },
+  { name: "Multimedia", iconCount: 142 },
   { name: "Nature", iconCount: 23 },
   { name: "Navigation, Maps, and POIs", iconCount: 87 },
-  { name: "Notification", iconCount: 40 },
+  { name: "Notification", iconCount: 41 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 58 },
-  { name: "Shapes", iconCount: 55 },
+  { name: "Shapes", iconCount: 56 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 127 },
+  { name: "Social", iconCount: 128 },
   { name: "Sports", iconCount: 15 },
   { name: "Sustainability", iconCount: 24 },
   { name: "Text formatting", iconCount: 247 },
@@ -3042,7 +3045,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 45 }
 ];
 
-export const iconCount = 1696;
+export const iconCount = 1699;
 export const categoryCount = 42;
 
 // Helper functions
