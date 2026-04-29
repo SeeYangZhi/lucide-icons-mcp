@@ -7214,6 +7214,12 @@
     ]
   },
   {
+    "name": "FolderBookmark",
+    "categories": [
+      "File icons"
+    ]
+  },
+  {
     "name": "FolderCheck",
     "categories": [
       "File icons"
@@ -9194,6 +9200,13 @@
     "name": "ReplyAll",
     "categories": [
       "Mail"
+    ]
+  },
+  {
+    "name": "Astroid",
+    "categories": [
+      "Mathematics",
+      "Shapes"
     ]
   },
   {
