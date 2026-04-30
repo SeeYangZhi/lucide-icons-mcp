@@ -2516,6 +2516,13 @@
     ]
   },
   {
+    "name": "RepeatOff",
+    "categories": [
+      "Arrows",
+      "Multimedia"
+    ]
+  },
+  {
     "name": "Rewind",
     "categories": [
       "Arrows",
@@ -9752,7 +9759,7 @@
     ]
   },
   {
-    "name": "Waves",
+    "name": "WavesHorizontal",
     "categories": [
       "Multimedia",
       "Navigation, Maps, and POIs",
@@ -10736,6 +10743,13 @@
   },
   {
     "name": "WavesArrowUp",
+    "categories": [
+      "Sustainability",
+      "Weather"
+    ]
+  },
+  {
+    "name": "WavesVertical",
     "categories": [
       "Sustainability",
       "Weather"

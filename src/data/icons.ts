@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-04-29T05:31:47.433Z
+// Generated from storage/datasets/default on 2026-04-30T05:35:20.904Z
 
 export interface IconMetadata {
   name: string;
@@ -790,6 +790,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "RefreshCwOff", categories: ["Arrows"] },
   { name: "Repeat", categories: ["Arrows", "Multimedia"] },
   { name: "Repeat2", categories: ["Arrows", "Multimedia", "Social"] },
+  { name: "RepeatOff", categories: ["Arrows", "Multimedia"] },
   { name: "Rewind", categories: ["Arrows", "Multimedia"] },
   { name: "RotateCcw", categories: ["Arrows", "Design", "Photography"] },
   {
@@ -2620,7 +2621,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "StarHalf", categories: ["Multimedia", "Social"] },
   { name: "StarOff", categories: ["Multimedia", "Social"] },
   {
-    name: "Waves",
+    name: "WavesHorizontal",
     categories: [
       "Multimedia",
       "Navigation, Maps, and POIs",
@@ -2822,6 +2823,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Recycle", categories: ["Sustainability"] },
   { name: "WavesArrowDown", categories: ["Sustainability", "Weather"] },
   { name: "WavesArrowUp", categories: ["Sustainability", "Weather"] },
+  { name: "WavesVertical", categories: ["Sustainability", "Weather"] },
   { name: "Wind", categories: ["Sustainability", "Weather"] },
   { name: "WindArrowDown", categories: ["Sustainability", "Weather"] },
   { name: "Anchor", categories: ["Text formatting", "Transportation"] },
@@ -3006,7 +3008,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 30 },
   { name: "Accounts & access", iconCount: 138 },
   { name: "Animals", iconCount: 23 },
-  { name: "Arrows", iconCount: 211 },
+  { name: "Arrows", iconCount: 212 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 55 },
@@ -3025,7 +3027,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 76 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 142 },
+  { name: "Multimedia", iconCount: 143 },
   { name: "Nature", iconCount: 23 },
   { name: "Navigation, Maps, and POIs", iconCount: 87 },
   { name: "Notification", iconCount: 41 },
@@ -3038,16 +3040,16 @@ export const categories: CategoryMetadata[] = [
   { name: "Shopping", iconCount: 27 },
   { name: "Social", iconCount: 128 },
   { name: "Sports", iconCount: 15 },
-  { name: "Sustainability", iconCount: 24 },
+  { name: "Sustainability", iconCount: 25 },
   { name: "Text formatting", iconCount: 247 },
   { name: "Time & calendar", iconCount: 60 },
   { name: "Tools", iconCount: 71 },
   { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 70 },
-  { name: "Weather", iconCount: 45 }
+  { name: "Weather", iconCount: 46 }
 ];
 
-export const iconCount = 1701;
+export const iconCount = 1703;
 export const categoryCount = 42;
 
 // Helper functions
