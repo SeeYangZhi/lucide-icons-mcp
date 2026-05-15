@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-04-30T05:35:20.904Z
+// Generated from storage/datasets/default on 2026-05-15T05:59:39.212Z
 
 export interface IconMetadata {
   name: string;
@@ -2309,7 +2309,9 @@ export const iconMetadata: IconMetadata[] = [
   { name: "BeefOff", categories: ["Food & beverage"] },
   { name: "Beer", categories: ["Food & beverage"] },
   { name: "BeerOff", categories: ["Food & beverage"] },
+  { name: "Blender", categories: ["Food & beverage", "Home"] },
   { name: "BottleWine", categories: ["Food & beverage"] },
+  { name: "Broccoli", categories: ["Food & beverage"] },
   { name: "CakeSlice", categories: ["Food & beverage", "Social"] },
   { name: "Candy", categories: ["Food & beverage"] },
   { name: "CandyCane", categories: ["Food & beverage"] },
@@ -2816,6 +2818,12 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SearchX", categories: ["Social", "Text formatting"] },
   { name: "Sticker", categories: ["Social"] },
   { name: "StickyNote", categories: ["Social", "Text formatting"] },
+  { name: "StickyNoteCheck", categories: ["Social", "Text formatting"] },
+  { name: "StickyNoteMinus", categories: ["Social", "Text formatting"] },
+  { name: "StickyNoteOff", categories: ["Social", "Text formatting"] },
+  { name: "StickyNotePlus", categories: ["Social", "Text formatting"] },
+  { name: "StickyNoteX", categories: ["Social", "Text formatting"] },
+  { name: "StickyNotes", categories: ["Social", "Text formatting"] },
   { name: "Vote", categories: ["Social"] },
   { name: "FishingHook", categories: ["Sports", "Travel"] },
   { name: "FishingRod", categories: ["Sports", "Travel"] },
@@ -3020,9 +3028,9 @@ export const categories: CategoryMetadata[] = [
   { name: "Emoji", iconCount: 41 },
   { name: "File icons", iconCount: 163 },
   { name: "Finance", iconCount: 56 },
-  { name: "Food & beverage", iconCount: 71 },
+  { name: "Food & beverage", iconCount: 73 },
   { name: "Gaming", iconCount: 149 },
-  { name: "Home", iconCount: 61 },
+  { name: "Home", iconCount: 62 },
   { name: "Layout", iconCount: 142 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 76 },
@@ -3038,10 +3046,10 @@ export const categories: CategoryMetadata[] = [
   { name: "Security", iconCount: 58 },
   { name: "Shapes", iconCount: 57 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 128 },
+  { name: "Social", iconCount: 134 },
   { name: "Sports", iconCount: 15 },
   { name: "Sustainability", iconCount: 25 },
-  { name: "Text formatting", iconCount: 247 },
+  { name: "Text formatting", iconCount: 253 },
   { name: "Time & calendar", iconCount: 60 },
   { name: "Tools", iconCount: 71 },
   { name: "Transportation", iconCount: 64 },
@@ -3049,7 +3057,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 46 }
 ];
 
-export const iconCount = 1703;
+export const iconCount = 1711;
 export const categoryCount = 42;
 
 // Helper functions

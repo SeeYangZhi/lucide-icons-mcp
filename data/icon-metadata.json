@@ -7906,7 +7906,20 @@
     ]
   },
   {
+    "name": "Blender",
+    "categories": [
+      "Food & beverage",
+      "Home"
+    ]
+  },
+  {
     "name": "BottleWine",
+    "categories": [
+      "Food & beverage"
+    ]
+  },
+  {
+    "name": "Broccoli",
     "categories": [
       "Food & beverage"
     ]
@@ -10697,6 +10710,48 @@
   },
   {
     "name": "StickyNote",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "StickyNoteCheck",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "StickyNoteMinus",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "StickyNoteOff",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "StickyNotePlus",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "StickyNoteX",
+    "categories": [
+      "Social",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "StickyNotes",
     "categories": [
       "Social",
       "Text formatting"
