@@ -9726,6 +9726,12 @@
     ]
   },
   {
+    "name": "PlayOff",
+    "categories": [
+      "Multimedia"
+    ]
+  },
+  {
     "name": "Podcast",
     "categories": [
       "Multimedia",
@@ -9946,6 +9952,12 @@
   },
   {
     "name": "Globe",
+    "categories": [
+      "Navigation, Maps, and POIs"
+    ]
+  },
+  {
+    "name": "GlobeCheck",
     "categories": [
       "Navigation, Maps, and POIs"
     ]
@@ -11728,6 +11740,13 @@
     "name": "ConciergeBell",
     "categories": [
       "Travel"
+    ]
+  },
+  {
+    "name": "Parasol",
+    "categories": [
+      "Travel",
+      "Weather"
     ]
   },
   {

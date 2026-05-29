@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-05-20T06:14:29.560Z
+// Generated from storage/datasets/default on 2026-05-29T06:20:17.327Z
 
 export interface IconMetadata {
   name: string;
@@ -2615,6 +2615,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Pause", categories: ["Multimedia"] },
   { name: "PictureInPicture", categories: ["Multimedia"] },
   { name: "PictureInPicture2", categories: ["Multimedia"] },
+  { name: "PlayOff", categories: ["Multimedia"] },
   { name: "Podcast", categories: ["Multimedia", "Social"] },
   { name: "Repeat1", categories: ["Multimedia"] },
   { name: "Square", categories: ["Multimedia", "Shapes"] },
@@ -2668,6 +2669,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "Gavel", categories: ["Navigation, Maps, and POIs", "Tools"] },
   { name: "Globe", categories: ["Navigation, Maps, and POIs"] },
+  { name: "GlobeCheck", categories: ["Navigation, Maps, and POIs"] },
   { name: "Locate", categories: ["Navigation, Maps, and POIs"] },
   { name: "LocateFixed", categories: ["Navigation, Maps, and POIs"] },
   { name: "LocateOff", categories: ["Navigation, Maps, and POIs"] },
@@ -2986,6 +2988,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Van", categories: ["Transportation"] },
   { name: "Bath", categories: ["Travel"] },
   { name: "ConciergeBell", categories: ["Travel"] },
+  { name: "Parasol", categories: ["Travel", "Weather"] },
   { name: "Bubbles", categories: ["Weather"] },
   { name: "Cloud", categories: ["Weather"] },
   { name: "CloudDrizzle", categories: ["Weather"] },
@@ -3035,9 +3038,9 @@ export const categories: CategoryMetadata[] = [
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 76 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 143 },
+  { name: "Multimedia", iconCount: 144 },
   { name: "Nature", iconCount: 23 },
-  { name: "Navigation, Maps, and POIs", iconCount: 87 },
+  { name: "Navigation, Maps, and POIs", iconCount: 88 },
   { name: "Notification", iconCount: 41 },
   { name: "People", iconCount: 3 },
   { name: "Photography", iconCount: 75 },
@@ -3053,11 +3056,11 @@ export const categories: CategoryMetadata[] = [
   { name: "Time & calendar", iconCount: 60 },
   { name: "Tools", iconCount: 71 },
   { name: "Transportation", iconCount: 64 },
-  { name: "Travel", iconCount: 70 },
-  { name: "Weather", iconCount: 46 }
+  { name: "Travel", iconCount: 71 },
+  { name: "Weather", iconCount: 47 }
 ];
 
-export const iconCount = 1711;
+export const iconCount = 1714;
 export const categoryCount = 42;
 
 // Helper functions
