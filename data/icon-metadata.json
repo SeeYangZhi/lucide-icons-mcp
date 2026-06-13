@@ -3631,6 +3631,14 @@
     ]
   },
   {
+    "name": "WebcamOff",
+    "categories": [
+      "Communication",
+      "Connectivity",
+      "Devices"
+    ]
+  },
+  {
     "name": "Airplay",
     "categories": [
       "Connectivity",
