@@ -95,6 +95,15 @@
     ]
   },
   {
+    "name": "EyeDashed",
+    "categories": [
+      "Accessibility",
+      "Design",
+      "Photography",
+      "Security"
+    ]
+  },
+  {
     "name": "EyeOff",
     "categories": [
       "Accessibility",
@@ -964,7 +973,67 @@
     ]
   },
   {
+    "name": "StarCheck",
+    "categories": [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
+    "name": "StarMinus",
+    "categories": [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
+    "name": "StarPlus",
+    "categories": [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
+    "name": "StarX",
+    "categories": [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
     "name": "Tag",
+    "categories": [
+      "Accounts & access"
+    ]
+  },
+  {
+    "name": "TagPlus",
+    "categories": [
+      "Accounts & access"
+    ]
+  },
+  {
+    "name": "TagX",
     "categories": [
       "Accounts & access"
     ]
@@ -1075,6 +1144,14 @@
     "name": "UserRound",
     "categories": [
       "Accounts & access"
+    ]
+  },
+  {
+    "name": "UserRoundArrowLeft",
+    "categories": [
+      "Accounts & access",
+      "Arrows",
+      "People"
     ]
   },
   {
@@ -1237,6 +1314,14 @@
   },
   {
     "name": "Wrench",
+    "categories": [
+      "Accounts & access",
+      "Coding & development",
+      "Tools"
+    ]
+  },
+  {
+    "name": "WrenchOff",
     "categories": [
       "Accounts & access",
       "Coding & development",
@@ -1904,6 +1989,14 @@
     "categories": [
       "Arrows",
       "Text formatting"
+    ]
+  },
+  {
+    "name": "ClockArrowRight",
+    "categories": [
+      "Arrows",
+      "People",
+      "Time & calendar"
     ]
   },
   {
@@ -5996,6 +6089,14 @@
     ]
   },
   {
+    "name": "SaveCheck",
+    "categories": [
+      "Coding & development",
+      "File icons",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "Scroll",
     "categories": [
       "Coding & development",
@@ -7484,6 +7585,20 @@
     ]
   },
   {
+    "name": "SavePen",
+    "categories": [
+      "File icons",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "SavePlus",
+    "categories": [
+      "File icons",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "Sheet",
     "categories": [
       "File icons",
@@ -7646,6 +7761,12 @@
   },
   {
     "name": "BanknoteArrowUp",
+    "categories": [
+      "Finance"
+    ]
+  },
+  {
+    "name": "BanknoteCheck",
     "categories": [
       "Finance"
     ]
@@ -8487,6 +8608,13 @@
     ]
   },
   {
+    "name": "Podium",
+    "categories": [
+      "Gaming",
+      "Sports"
+    ]
+  },
+  {
     "name": "Shapes",
     "categories": [
       "Gaming",
@@ -9044,6 +9172,20 @@
     ]
   },
   {
+    "name": "ListSortAscending",
+    "categories": [
+      "Layout",
+      "Text formatting"
+    ]
+  },
+  {
+    "name": "ListSortDescending",
+    "categories": [
+      "Layout",
+      "Text formatting"
+    ]
+  },
+  {
     "name": "PanelBottom",
     "categories": [
       "Layout"
@@ -9535,6 +9677,13 @@
     "name": "VenusAndMars",
     "categories": [
       "Medical"
+    ]
+  },
+  {
+    "name": "Ad",
+    "categories": [
+      "Multimedia",
+      "Notification"
     ]
   },
   {
@@ -11147,6 +11296,12 @@
     ]
   },
   {
+    "name": "Summary",
+    "categories": [
+      "Text formatting"
+    ]
+  },
+  {
     "name": "Superscript",
     "categories": [
       "Text formatting"
@@ -11442,6 +11597,12 @@
   },
   {
     "name": "ClockArrowDown",
+    "categories": [
+      "Time & calendar"
+    ]
+  },
+  {
+    "name": "ClockArrowLeft",
     "categories": [
       "Time & calendar"
     ]

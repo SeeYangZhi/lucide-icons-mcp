@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-06-13T06:22:43.874Z
+// Generated from storage/datasets/default on 2026-06-14T06:47:23.706Z
 
 export interface IconMetadata {
   name: string;
@@ -46,6 +46,10 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "EyeClosed",
+    categories: ["Accessibility", "Design", "Photography", "Security"]
+  },
+  {
+    name: "EyeDashed",
     categories: ["Accessibility", "Design", "Photography", "Security"]
   },
   {
@@ -437,7 +441,57 @@ export const iconMetadata: IconMetadata[] = [
       "Weather"
     ]
   },
+  {
+    name: "StarCheck",
+    categories: [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
+    name: "StarMinus",
+    categories: [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
+    name: "StarPlus",
+    categories: [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
+  {
+    name: "StarX",
+    categories: [
+      "Accounts & access",
+      "Emoji",
+      "Gaming",
+      "Multimedia",
+      "Shapes",
+      "Social",
+      "Weather"
+    ]
+  },
   { name: "Tag", categories: ["Accounts & access"] },
+  { name: "TagPlus", categories: ["Accounts & access"] },
+  { name: "TagX", categories: ["Accounts & access"] },
   { name: "Tags", categories: ["Accounts & access"] },
   { name: "ThumbsDown", categories: ["Accounts & access", "Emoji", "Social"] },
   { name: "ThumbsUp", categories: ["Accounts & access", "Emoji", "Social"] },
@@ -463,6 +517,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "UserPen", categories: ["Accounts & access"] },
   { name: "UserPlus", categories: ["Accounts & access"] },
   { name: "UserRound", categories: ["Accounts & access"] },
+  {
+    name: "UserRoundArrowLeft",
+    categories: ["Accounts & access", "Arrows", "People"]
+  },
   { name: "UserRoundCheck", categories: ["Accounts & access"] },
   { name: "UserRoundCog", categories: ["Accounts & access"] },
   { name: "UserRoundKey", categories: ["Accounts & access"] },
@@ -509,6 +567,10 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "Wrench",
+    categories: ["Accounts & access", "Coding & development", "Tools"]
+  },
+  {
+    name: "WrenchOff",
     categories: ["Accounts & access", "Coding & development", "Tools"]
   },
   { name: "Bird", categories: ["Animals"] },
@@ -657,6 +719,10 @@ export const iconMetadata: IconMetadata[] = [
   },
   { name: "ClipboardCopy", categories: ["Arrows", "Text formatting"] },
   { name: "ClipboardPaste", categories: ["Arrows", "Text formatting"] },
+  {
+    name: "ClockArrowRight",
+    categories: ["Arrows", "People", "Time & calendar"]
+  },
   { name: "CloudBackup", categories: ["Arrows", "File icons"] },
   { name: "CloudDownload", categories: ["Arrows", "File icons"] },
   { name: "CloudSync", categories: ["Arrows", "File icons"] },
@@ -1879,6 +1945,10 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Rocket", categories: ["Coding & development", "Gaming"] },
   { name: "Rss", categories: ["Coding & development", "Social"] },
   {
+    name: "SaveCheck",
+    categories: ["Coding & development", "File icons", "Text formatting"]
+  },
+  {
     name: "Scroll",
     categories: ["Coding & development", "Gaming", "Text formatting"]
   },
@@ -2231,6 +2301,8 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Save", categories: ["File icons", "Text formatting"] },
   { name: "SaveAll", categories: ["File icons", "Text formatting"] },
   { name: "SaveOff", categories: ["File icons", "Text formatting"] },
+  { name: "SavePen", categories: ["File icons", "Text formatting"] },
+  { name: "SavePlus", categories: ["File icons", "Text formatting"] },
   { name: "Sheet", categories: ["File icons", "Text formatting"] },
   { name: "Shredder", categories: ["File icons", "Mail"] },
   { name: "Table", categories: ["File icons", "Text formatting"] },
@@ -2258,6 +2330,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Banknote", categories: ["Finance"] },
   { name: "BanknoteArrowDown", categories: ["Finance"] },
   { name: "BanknoteArrowUp", categories: ["Finance"] },
+  { name: "BanknoteCheck", categories: ["Finance"] },
   { name: "BanknoteX", categories: ["Finance"] },
   { name: "CircleDollarSign", categories: ["Finance"] },
   {
@@ -2410,6 +2483,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Medal", categories: ["Gaming", "Sports"] },
   { name: "Mountain", categories: ["Gaming", "Nature"] },
   { name: "Pickaxe", categories: ["Gaming", "Tools"] },
+  { name: "Podium", categories: ["Gaming", "Sports"] },
   { name: "Shapes", categories: ["Gaming", "Shapes"] },
   { name: "Shovel", categories: ["Gaming", "Nature", "Tools"] },
   { name: "Skull", categories: ["Gaming"] },
@@ -2509,6 +2583,8 @@ export const iconMetadata: IconMetadata[] = [
   { name: "LayoutPanelTop", categories: ["Layout"] },
   { name: "LayoutTemplate", categories: ["Layout"] },
   { name: "ListFilterPlus", categories: ["Layout", "Text formatting"] },
+  { name: "ListSortAscending", categories: ["Layout", "Text formatting"] },
+  { name: "ListSortDescending", categories: ["Layout", "Text formatting"] },
   { name: "PanelBottom", categories: ["Layout"] },
   { name: "PanelBottomDashed", categories: ["Layout"] },
   { name: "PanelLeft", categories: ["Layout"] },
@@ -2589,6 +2665,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Tablets", categories: ["Medical"] },
   { name: "Venus", categories: ["Medical"] },
   { name: "VenusAndMars", categories: ["Medical"] },
+  { name: "Ad", categories: ["Multimedia", "Notification"] },
   { name: "Album", categories: ["Multimedia", "Photography"] },
   { name: "BookAudio", categories: ["Multimedia", "Text formatting"] },
   { name: "BookHeadphones", categories: ["Multimedia", "Text formatting"] },
@@ -2893,6 +2970,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SquarePilcrow", categories: ["Text formatting"] },
   { name: "Strikethrough", categories: ["Text formatting"] },
   { name: "Subscript", categories: ["Text formatting"] },
+  { name: "Summary", categories: ["Text formatting"] },
   { name: "Superscript", categories: ["Text formatting"] },
   { name: "TableOfContents", categories: ["Text formatting"] },
   { name: "TextAlignCenter", categories: ["Text formatting"] },
@@ -2943,6 +3021,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Clock9", categories: ["Time & calendar"] },
   { name: "ClockAlert", categories: ["Time & calendar"] },
   { name: "ClockArrowDown", categories: ["Time & calendar"] },
+  { name: "ClockArrowLeft", categories: ["Time & calendar"] },
   { name: "ClockArrowUp", categories: ["Time & calendar"] },
   { name: "ClockCheck", categories: ["Time & calendar"] },
   { name: "ClockFading", categories: ["Time & calendar"] },
@@ -3020,51 +3099,51 @@ export const iconMetadata: IconMetadata[] = [
 ];
 
 export const categories: CategoryMetadata[] = [
-  { name: "Accessibility", iconCount: 30 },
-  { name: "Accounts & access", iconCount: 138 },
+  { name: "Accessibility", iconCount: 31 },
+  { name: "Accounts & access", iconCount: 146 },
   { name: "Animals", iconCount: 23 },
-  { name: "Arrows", iconCount: 212 },
+  { name: "Arrows", iconCount: 214 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 56 },
   { name: "Connectivity", iconCount: 94 },
   { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 145 },
-  { name: "Coding & development", iconCount: 242 },
+  { name: "Design", iconCount: 146 },
+  { name: "Coding & development", iconCount: 244 },
   { name: "Devices", iconCount: 172 },
-  { name: "Emoji", iconCount: 41 },
-  { name: "File icons", iconCount: 163 },
-  { name: "Finance", iconCount: 56 },
+  { name: "Emoji", iconCount: 45 },
+  { name: "File icons", iconCount: 166 },
+  { name: "Finance", iconCount: 57 },
   { name: "Food & beverage", iconCount: 73 },
-  { name: "Gaming", iconCount: 149 },
+  { name: "Gaming", iconCount: 154 },
   { name: "Home", iconCount: 62 },
-  { name: "Layout", iconCount: 142 },
+  { name: "Layout", iconCount: 144 },
   { name: "Mail", iconCount: 26 },
   { name: "Mathematics", iconCount: 76 },
   { name: "Medical", iconCount: 42 },
-  { name: "Multimedia", iconCount: 144 },
+  { name: "Multimedia", iconCount: 149 },
   { name: "Nature", iconCount: 23 },
   { name: "Navigation, Maps, and POIs", iconCount: 88 },
-  { name: "Notification", iconCount: 41 },
-  { name: "People", iconCount: 3 },
-  { name: "Photography", iconCount: 75 },
+  { name: "Notification", iconCount: 42 },
+  { name: "People", iconCount: 5 },
+  { name: "Photography", iconCount: 76 },
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
-  { name: "Security", iconCount: 58 },
-  { name: "Shapes", iconCount: 57 },
+  { name: "Security", iconCount: 59 },
+  { name: "Shapes", iconCount: 61 },
   { name: "Shopping", iconCount: 27 },
-  { name: "Social", iconCount: 134 },
-  { name: "Sports", iconCount: 15 },
+  { name: "Social", iconCount: 138 },
+  { name: "Sports", iconCount: 16 },
   { name: "Sustainability", iconCount: 25 },
-  { name: "Text formatting", iconCount: 253 },
-  { name: "Time & calendar", iconCount: 60 },
-  { name: "Tools", iconCount: 71 },
+  { name: "Text formatting", iconCount: 259 },
+  { name: "Time & calendar", iconCount: 62 },
+  { name: "Tools", iconCount: 72 },
   { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 71 },
-  { name: "Weather", iconCount: 47 }
+  { name: "Weather", iconCount: 51 }
 ];
 
-export const iconCount = 1715;
+export const iconCount = 1735;
 export const categoryCount = 42;
 
 // Helper functions
