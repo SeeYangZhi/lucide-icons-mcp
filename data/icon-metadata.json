@@ -604,7 +604,7 @@
     "name": "MapPin",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -612,7 +612,7 @@
     "name": "MapPinCheck",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -620,7 +620,7 @@
     "name": "MapPinCheckInside",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -628,7 +628,7 @@
     "name": "MapPinHouse",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -636,7 +636,7 @@
     "name": "MapPinMinus",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -644,7 +644,7 @@
     "name": "MapPinMinusInside",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -652,7 +652,7 @@
     "name": "MapPinPen",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -660,7 +660,7 @@
     "name": "MapPinPlus",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -668,7 +668,7 @@
     "name": "MapPinPlusInside",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -676,7 +676,7 @@
     "name": "MapPinSearch",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Text formatting",
       "Travel"
     ]
@@ -685,7 +685,7 @@
     "name": "MapPinX",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -693,7 +693,7 @@
     "name": "MapPinXInside",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -701,7 +701,7 @@
     "name": "MapPinned",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -745,7 +745,7 @@
     "name": "Pin",
     "categories": [
       "Accounts & access",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -1291,7 +1291,7 @@
     "categories": [
       "Accounts & access",
       "Coding & development",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Security",
       "Social"
     ]
@@ -1340,7 +1340,7 @@
       "Animals",
       "Home",
       "Nature",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -2328,7 +2328,7 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -2694,7 +2694,7 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -2703,7 +2703,7 @@
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -2835,14 +2835,14 @@
     "name": "SquareChevronDown",
     "categories": [
       "Arrows",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "SquareChevronLeft",
     "categories": [
       "Arrows",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -2850,7 +2850,7 @@
     "categories": [
       "Arrows",
       "Coding & development",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -2858,7 +2858,7 @@
     "categories": [
       "Arrows",
       "Mathematics",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -3005,21 +3005,21 @@
     "categories": [
       "Buildings",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Church",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Dam",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Sustainability"
     ]
   },
@@ -3027,7 +3027,7 @@
     "name": "Factory",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -3048,7 +3048,7 @@
     "categories": [
       "Buildings",
       "Medical",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -3056,7 +3056,7 @@
     "name": "Hotel",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -3065,7 +3065,7 @@
     "categories": [
       "Buildings",
       "Home",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -3104,21 +3104,21 @@
     "categories": [
       "Buildings",
       "Finance",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "School",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Store",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Shopping"
     ]
   },
@@ -3133,7 +3133,7 @@
     "name": "University",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -3148,7 +3148,7 @@
     "name": "Warehouse",
     "categories": [
       "Buildings",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -3562,7 +3562,7 @@
     "name": "Radar",
     "categories": [
       "Communication",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Security"
     ]
   },
@@ -3857,7 +3857,7 @@
     "categories": [
       "Connectivity",
       "Devices",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -3865,7 +3865,7 @@
     "categories": [
       "Connectivity",
       "Devices",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -4238,6 +4238,16 @@
     "categories": [
       "Cursors",
       "Design",
+      "Text formatting",
+      "Tools"
+    ]
+  },
+  {
+    "name": "PencilSparkles",
+    "categories": [
+      "Cursors",
+      "Design",
+      "Photography",
       "Text formatting",
       "Tools"
     ]
@@ -5182,7 +5192,7 @@
     "categories": [
       "Coding & development",
       "Nature",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Science",
       "Travel"
@@ -5673,14 +5683,14 @@
     "name": "FlagTriangleLeft",
     "categories": [
       "Coding & development",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "FlagTriangleRight",
     "categories": [
       "Coding & development",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -5747,14 +5757,14 @@
     "name": "GitCommitHorizontal",
     "categories": [
       "Coding & development",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "GitCommitVertical",
     "categories": [
       "Coding & development",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -5854,7 +5864,7 @@
     "categories": [
       "Coding & development",
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Text formatting"
     ]
@@ -5864,7 +5874,7 @@
     "categories": [
       "Coding & development",
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Text formatting"
     ]
@@ -5873,7 +5883,7 @@
     "name": "LineDotRightHorizontal",
     "categories": [
       "Coding & development",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -6217,7 +6227,7 @@
     "categories": [
       "Coding & development",
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Text formatting"
     ]
@@ -7947,7 +7957,7 @@
     "name": "Scale",
     "categories": [
       "Finance",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Science"
     ]
   },
@@ -7995,7 +8005,7 @@
     "name": "Barrel",
     "categories": [
       "Food & beverage",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -8320,7 +8330,7 @@
     "name": "Utensils",
     "categories": [
       "Food & beverage",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -8328,7 +8338,7 @@
     "name": "UtensilsCrossed",
     "categories": [
       "Food & beverage",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
@@ -9938,7 +9948,7 @@
     "name": "WavesHorizontal",
     "categories": [
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Sustainability",
       "Weather"
     ]
@@ -10043,168 +10053,168 @@
   {
     "name": "CircleParking",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "CircleParkingOff",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "Compass",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
   {
     "name": "Dumbbell",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Sports"
     ]
   },
   {
     "name": "Earth",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "EvCharger",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "FerrisWheel",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Footprints",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Fuel",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "Gavel",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Tools"
     ]
   },
   {
     "name": "Globe",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "GlobeCheck",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Locate",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "LocateFixed",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "LocateOff",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Map",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Text formatting"
     ]
   },
   {
     "name": "MapMinus",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
   {
     "name": "MapPinOff",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Travel"
     ]
   },
   {
     "name": "MapPlus",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Navigation",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Navigation2",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Navigation2Off",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "NavigationOff",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "ParkingMeter",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "PinOff",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Plane",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation",
       "Travel"
     ]
@@ -10212,25 +10222,25 @@
   {
     "name": "RollerCoaster",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Route",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "RouteOff",
     "categories": [
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
     "name": "Ship",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation",
       "Travel"
     ]
@@ -10238,7 +10248,7 @@
   {
     "name": "ShipWheel",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation",
       "Travel"
     ]
@@ -10246,35 +10256,35 @@
   {
     "name": "SquareM",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "SquareParking",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "SquareParkingOff",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "TrainFrontTunnel",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },
   {
     "name": "TrainTrack",
     "categories": [
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Transportation"
     ]
   },

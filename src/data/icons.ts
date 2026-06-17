@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-06-14T06:47:23.706Z
+// Generated from storage/datasets/default on 2026-06-17T07:17:45.987Z
 
 export interface IconMetadata {
   name: string;
@@ -218,60 +218,60 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "MapPin",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinCheck",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinCheckInside",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinHouse",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinMinus",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinMinusInside",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinPen",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinPlus",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinPlusInside",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinSearch",
     categories: [
       "Accounts & access",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Text formatting",
       "Travel"
     ]
   },
   {
     name: "MapPinX",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinXInside",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   {
     name: "MapPinned",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Accounts & access", "Navigation & Places", "Travel"]
   },
   { name: "Menu", categories: ["Accounts & access", "Layout"] },
   { name: "MessageCircleCheck", categories: ["Accounts & access", "Social"] },
@@ -281,10 +281,7 @@ export const iconMetadata: IconMetadata[] = [
     name: "NotebookTabs",
     categories: ["Accounts & access", "Communication", "Social"]
   },
-  {
-    name: "Pin",
-    categories: ["Accounts & access", "Navigation, Maps, and POIs"]
-  },
+  { name: "Pin", categories: ["Accounts & access", "Navigation & Places"] },
   { name: "RotateCcwKey", categories: ["Accounts & access", "Security"] },
   {
     name: "ScanFace",
@@ -552,7 +549,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Accounts & access",
       "Coding & development",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Security",
       "Social"
     ]
@@ -576,7 +573,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Bird", categories: ["Animals"] },
   {
     name: "Birdhouse",
-    categories: ["Animals", "Home", "Nature", "Navigation, Maps, and POIs"]
+    categories: ["Animals", "Home", "Nature", "Navigation & Places"]
   },
   { name: "Bone", categories: ["Animals", "Gaming", "Medical"] },
   { name: "Bug", categories: ["Animals", "Coding & development"] },
@@ -804,7 +801,7 @@ export const iconMetadata: IconMetadata[] = [
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   { name: "Minimize2", categories: ["Arrows", "Design", "Layout"] },
@@ -884,7 +881,7 @@ export const iconMetadata: IconMetadata[] = [
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   {
@@ -893,7 +890,7 @@ export const iconMetadata: IconMetadata[] = [
       "Arrows",
       "Coding & development",
       "Gaming",
-      "Navigation, Maps, and POIs"
+      "Navigation & Places"
     ]
   },
   { name: "SkipBack", categories: ["Arrows", "Multimedia"] },
@@ -923,21 +920,15 @@ export const iconMetadata: IconMetadata[] = [
   { name: "SquareArrowUp", categories: ["Arrows"] },
   { name: "SquareArrowUpLeft", categories: ["Arrows"] },
   { name: "SquareArrowUpRight", categories: ["Arrows", "Social"] },
-  {
-    name: "SquareChevronDown",
-    categories: ["Arrows", "Navigation, Maps, and POIs"]
-  },
-  {
-    name: "SquareChevronLeft",
-    categories: ["Arrows", "Navigation, Maps, and POIs"]
-  },
+  { name: "SquareChevronDown", categories: ["Arrows", "Navigation & Places"] },
+  { name: "SquareChevronLeft", categories: ["Arrows", "Navigation & Places"] },
   {
     name: "SquareChevronRight",
-    categories: ["Arrows", "Coding & development", "Navigation, Maps, and POIs"]
+    categories: ["Arrows", "Coding & development", "Navigation & Places"]
   },
   {
     name: "SquareChevronUp",
-    categories: ["Arrows", "Mathematics", "Navigation, Maps, and POIs"]
+    categories: ["Arrows", "Mathematics", "Navigation & Places"]
   },
   {
     name: "SquareDashedMousePointer",
@@ -966,51 +957,39 @@ export const iconMetadata: IconMetadata[] = [
   { name: "BrickWall", categories: ["Buildings", "Home"] },
   {
     name: "Castle",
-    categories: ["Buildings", "Gaming", "Navigation, Maps, and POIs"]
+    categories: ["Buildings", "Gaming", "Navigation & Places"]
   },
-  { name: "Church", categories: ["Buildings", "Navigation, Maps, and POIs"] },
+  { name: "Church", categories: ["Buildings", "Navigation & Places"] },
   {
     name: "Dam",
-    categories: ["Buildings", "Navigation, Maps, and POIs", "Sustainability"]
+    categories: ["Buildings", "Navigation & Places", "Sustainability"]
   },
-  { name: "Factory", categories: ["Buildings", "Navigation, Maps, and POIs"] },
+  { name: "Factory", categories: ["Buildings", "Navigation & Places"] },
   { name: "Fence", categories: ["Buildings", "Home"] },
   { name: "GraduationCap", categories: ["Buildings"] },
   {
     name: "Hospital",
-    categories: ["Buildings", "Medical", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Buildings", "Medical", "Navigation & Places", "Travel"]
   },
-  {
-    name: "Hotel",
-    categories: ["Buildings", "Navigation, Maps, and POIs", "Travel"]
-  },
-  {
-    name: "House",
-    categories: ["Buildings", "Home", "Navigation, Maps, and POIs"]
-  },
+  { name: "Hotel", categories: ["Buildings", "Navigation & Places", "Travel"] },
+  { name: "House", categories: ["Buildings", "Home", "Navigation & Places"] },
   { name: "HouseHeart", categories: ["Buildings", "Home", "Medical"] },
   { name: "HousePlug", categories: ["Buildings", "Home", "Sustainability"] },
   { name: "HousePlus", categories: ["Buildings", "Medical"] },
   { name: "HouseWifi", categories: ["Buildings", "Connectivity", "Home"] },
   {
     name: "Landmark",
-    categories: ["Buildings", "Finance", "Navigation, Maps, and POIs"]
+    categories: ["Buildings", "Finance", "Navigation & Places"]
   },
-  { name: "School", categories: ["Buildings", "Navigation, Maps, and POIs"] },
+  { name: "School", categories: ["Buildings", "Navigation & Places"] },
   {
     name: "Store",
-    categories: ["Buildings", "Navigation, Maps, and POIs", "Shopping"]
+    categories: ["Buildings", "Navigation & Places", "Shopping"]
   },
   { name: "Theater", categories: ["Buildings", "Social"] },
-  {
-    name: "University",
-    categories: ["Buildings", "Navigation, Maps, and POIs"]
-  },
+  { name: "University", categories: ["Buildings", "Navigation & Places"] },
   { name: "UtilityPole", categories: ["Buildings", "Home", "Sustainability"] },
-  {
-    name: "Warehouse",
-    categories: ["Buildings", "Navigation, Maps, and POIs"]
-  },
+  { name: "Warehouse", categories: ["Buildings", "Navigation & Places"] },
   { name: "ChartArea", categories: ["Charts"] },
   { name: "ChartBar", categories: ["Charts"] },
   { name: "ChartBarBig", categories: ["Charts"] },
@@ -1166,7 +1145,7 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "Radar",
-    categories: ["Communication", "Navigation, Maps, and POIs", "Security"]
+    categories: ["Communication", "Navigation & Places", "Security"]
   },
   {
     name: "ScreenShare",
@@ -1258,11 +1237,11 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CloudOff", categories: ["Connectivity", "Weather"] },
   {
     name: "GlobeOff",
-    categories: ["Connectivity", "Devices", "Navigation, Maps, and POIs"]
+    categories: ["Connectivity", "Devices", "Navigation & Places"]
   },
   {
     name: "GlobeX",
-    categories: ["Connectivity", "Devices", "Navigation, Maps, and POIs"]
+    categories: ["Connectivity", "Devices", "Navigation & Places"]
   },
   {
     name: "Headphones",
@@ -1367,6 +1346,10 @@ export const iconMetadata: IconMetadata[] = [
   {
     name: "PencilOff",
     categories: ["Cursors", "Design", "Text formatting", "Tools"]
+  },
+  {
+    name: "PencilSparkles",
+    categories: ["Cursors", "Design", "Photography", "Text formatting", "Tools"]
   },
   {
     name: "Plus",
@@ -1663,7 +1646,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Nature",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Science",
       "Travel"
@@ -1807,11 +1790,11 @@ export const iconMetadata: IconMetadata[] = [
   { name: "FileTerminal", categories: ["Coding & development", "File icons"] },
   {
     name: "FlagTriangleLeft",
-    categories: ["Coding & development", "Navigation, Maps, and POIs"]
+    categories: ["Coding & development", "Navigation & Places"]
   },
   {
     name: "FlagTriangleRight",
-    categories: ["Coding & development", "Navigation, Maps, and POIs"]
+    categories: ["Coding & development", "Navigation & Places"]
   },
   { name: "FolderCode", categories: ["Coding & development", "File icons"] },
   { name: "FolderDot", categories: ["Coding & development", "File icons"] },
@@ -1824,11 +1807,11 @@ export const iconMetadata: IconMetadata[] = [
   { name: "GitBranchPlus", categories: ["Coding & development"] },
   {
     name: "GitCommitHorizontal",
-    categories: ["Coding & development", "Navigation, Maps, and POIs"]
+    categories: ["Coding & development", "Navigation & Places"]
   },
   {
     name: "GitCommitVertical",
-    categories: ["Coding & development", "Navigation, Maps, and POIs"]
+    categories: ["Coding & development", "Navigation & Places"]
   },
   { name: "GitCompare", categories: ["Coding & development"] },
   { name: "GitFork", categories: ["Coding & development"] },
@@ -1858,7 +1841,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Text formatting"
     ]
@@ -1868,14 +1851,14 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Text formatting"
     ]
   },
   {
     name: "LineDotRightHorizontal",
-    categories: ["Coding & development", "Navigation, Maps, and POIs"]
+    categories: ["Coding & development", "Navigation & Places"]
   },
   {
     name: "ListIndentDecrease",
@@ -2004,7 +1987,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: [
       "Coding & development",
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Photography",
       "Text formatting"
     ]
@@ -2363,10 +2346,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "ReceiptTurkishLira", categories: ["Finance", "Travel"] },
   { name: "RussianRuble", categories: ["Finance"] },
   { name: "SaudiRiyal", categories: ["Finance"] },
-  {
-    name: "Scale",
-    categories: ["Finance", "Navigation, Maps, and POIs", "Science"]
-  },
+  { name: "Scale", categories: ["Finance", "Navigation & Places", "Science"] },
   {
     name: "SquarePercent",
     categories: ["Finance", "Mathematics", "Shopping", "Social"]
@@ -2376,10 +2356,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Amphora", categories: ["Food & beverage", "Gaming"] },
   { name: "Apple", categories: ["Food & beverage"] },
   { name: "Banana", categories: ["Food & beverage"] },
-  {
-    name: "Barrel",
-    categories: ["Food & beverage", "Navigation, Maps, and POIs"]
-  },
+  { name: "Barrel", categories: ["Food & beverage", "Navigation & Places"] },
   { name: "Bean", categories: ["Food & beverage"] },
   { name: "BeanOff", categories: ["Food & beverage"] },
   { name: "Beef", categories: ["Food & beverage"] },
@@ -2436,11 +2413,11 @@ export const iconMetadata: IconMetadata[] = [
   },
   {
     name: "Utensils",
-    categories: ["Food & beverage", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Food & beverage", "Navigation & Places", "Travel"]
   },
   {
     name: "UtensilsCrossed",
-    categories: ["Food & beverage", "Navigation, Maps, and POIs", "Travel"]
+    categories: ["Food & beverage", "Navigation & Places", "Travel"]
   },
   { name: "Vegan", categories: ["Food & beverage", "Sustainability"] },
   { name: "Wheat", categories: ["Food & beverage"] },
@@ -2708,7 +2685,7 @@ export const iconMetadata: IconMetadata[] = [
     name: "WavesHorizontal",
     categories: [
       "Multimedia",
-      "Navigation, Maps, and POIs",
+      "Navigation & Places",
       "Sustainability",
       "Weather"
     ]
@@ -2729,82 +2706,67 @@ export const iconMetadata: IconMetadata[] = [
   { name: "Trees", categories: ["Nature", "Sustainability"] },
   {
     name: "CircleParking",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
+    categories: ["Navigation & Places", "Transportation"]
   },
   {
     name: "CircleParkingOff",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
+    categories: ["Navigation & Places", "Transportation"]
   },
-  { name: "Compass", categories: ["Navigation, Maps, and POIs", "Travel"] },
-  { name: "Dumbbell", categories: ["Navigation, Maps, and POIs", "Sports"] },
-  { name: "Earth", categories: ["Navigation, Maps, and POIs"] },
-  {
-    name: "EvCharger",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
-  },
-  { name: "FerrisWheel", categories: ["Navigation, Maps, and POIs"] },
-  { name: "Footprints", categories: ["Navigation, Maps, and POIs"] },
-  {
-    name: "Fuel",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
-  },
-  { name: "Gavel", categories: ["Navigation, Maps, and POIs", "Tools"] },
-  { name: "Globe", categories: ["Navigation, Maps, and POIs"] },
-  { name: "GlobeCheck", categories: ["Navigation, Maps, and POIs"] },
-  { name: "Locate", categories: ["Navigation, Maps, and POIs"] },
-  { name: "LocateFixed", categories: ["Navigation, Maps, and POIs"] },
-  { name: "LocateOff", categories: ["Navigation, Maps, and POIs"] },
-  {
-    name: "Map",
-    categories: ["Navigation, Maps, and POIs", "Text formatting"]
-  },
-  { name: "MapMinus", categories: ["Navigation, Maps, and POIs", "Travel"] },
-  { name: "MapPinOff", categories: ["Navigation, Maps, and POIs", "Travel"] },
-  { name: "MapPlus", categories: ["Navigation, Maps, and POIs"] },
-  { name: "Navigation", categories: ["Navigation, Maps, and POIs"] },
-  { name: "Navigation2", categories: ["Navigation, Maps, and POIs"] },
-  { name: "Navigation2Off", categories: ["Navigation, Maps, and POIs"] },
-  { name: "NavigationOff", categories: ["Navigation, Maps, and POIs"] },
+  { name: "Compass", categories: ["Navigation & Places", "Travel"] },
+  { name: "Dumbbell", categories: ["Navigation & Places", "Sports"] },
+  { name: "Earth", categories: ["Navigation & Places"] },
+  { name: "EvCharger", categories: ["Navigation & Places", "Transportation"] },
+  { name: "FerrisWheel", categories: ["Navigation & Places"] },
+  { name: "Footprints", categories: ["Navigation & Places"] },
+  { name: "Fuel", categories: ["Navigation & Places", "Transportation"] },
+  { name: "Gavel", categories: ["Navigation & Places", "Tools"] },
+  { name: "Globe", categories: ["Navigation & Places"] },
+  { name: "GlobeCheck", categories: ["Navigation & Places"] },
+  { name: "Locate", categories: ["Navigation & Places"] },
+  { name: "LocateFixed", categories: ["Navigation & Places"] },
+  { name: "LocateOff", categories: ["Navigation & Places"] },
+  { name: "Map", categories: ["Navigation & Places", "Text formatting"] },
+  { name: "MapMinus", categories: ["Navigation & Places", "Travel"] },
+  { name: "MapPinOff", categories: ["Navigation & Places", "Travel"] },
+  { name: "MapPlus", categories: ["Navigation & Places"] },
+  { name: "Navigation", categories: ["Navigation & Places"] },
+  { name: "Navigation2", categories: ["Navigation & Places"] },
+  { name: "Navigation2Off", categories: ["Navigation & Places"] },
+  { name: "NavigationOff", categories: ["Navigation & Places"] },
   {
     name: "ParkingMeter",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
+    categories: ["Navigation & Places", "Transportation"]
   },
-  { name: "PinOff", categories: ["Navigation, Maps, and POIs"] },
+  { name: "PinOff", categories: ["Navigation & Places"] },
   {
     name: "Plane",
-    categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
+    categories: ["Navigation & Places", "Transportation", "Travel"]
   },
-  { name: "RollerCoaster", categories: ["Navigation, Maps, and POIs"] },
-  { name: "Route", categories: ["Navigation, Maps, and POIs"] },
-  { name: "RouteOff", categories: ["Navigation, Maps, and POIs"] },
+  { name: "RollerCoaster", categories: ["Navigation & Places"] },
+  { name: "Route", categories: ["Navigation & Places"] },
+  { name: "RouteOff", categories: ["Navigation & Places"] },
   {
     name: "Ship",
-    categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
+    categories: ["Navigation & Places", "Transportation", "Travel"]
   },
   {
     name: "ShipWheel",
-    categories: ["Navigation, Maps, and POIs", "Transportation", "Travel"]
+    categories: ["Navigation & Places", "Transportation", "Travel"]
   },
-  {
-    name: "SquareM",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
-  },
+  { name: "SquareM", categories: ["Navigation & Places", "Transportation"] },
   {
     name: "SquareParking",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
+    categories: ["Navigation & Places", "Transportation"]
   },
   {
     name: "SquareParkingOff",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
+    categories: ["Navigation & Places", "Transportation"]
   },
   {
     name: "TrainFrontTunnel",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
+    categories: ["Navigation & Places", "Transportation"]
   },
-  {
-    name: "TrainTrack",
-    categories: ["Navigation, Maps, and POIs", "Transportation"]
-  },
+  { name: "TrainTrack", categories: ["Navigation & Places", "Transportation"] },
   { name: "BellMinus", categories: ["Notification"] },
   { name: "BellOff", categories: ["Notification"] },
   { name: "BellPlus", categories: ["Notification"] },
@@ -3107,8 +3069,8 @@ export const categories: CategoryMetadata[] = [
   { name: "Charts", iconCount: 31 },
   { name: "Communication", iconCount: 56 },
   { name: "Connectivity", iconCount: 94 },
-  { name: "Cursors", iconCount: 33 },
-  { name: "Design", iconCount: 146 },
+  { name: "Cursors", iconCount: 34 },
+  { name: "Design", iconCount: 147 },
   { name: "Coding & development", iconCount: 244 },
   { name: "Devices", iconCount: 172 },
   { name: "Emoji", iconCount: 45 },
@@ -3123,10 +3085,10 @@ export const categories: CategoryMetadata[] = [
   { name: "Medical", iconCount: 42 },
   { name: "Multimedia", iconCount: 149 },
   { name: "Nature", iconCount: 23 },
-  { name: "Navigation, Maps, and POIs", iconCount: 88 },
+  { name: "Navigation & Places", iconCount: 88 },
   { name: "Notification", iconCount: 42 },
   { name: "People", iconCount: 5 },
-  { name: "Photography", iconCount: 76 },
+  { name: "Photography", iconCount: 77 },
   { name: "Science", iconCount: 36 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 59 },
@@ -3135,15 +3097,15 @@ export const categories: CategoryMetadata[] = [
   { name: "Social", iconCount: 138 },
   { name: "Sports", iconCount: 16 },
   { name: "Sustainability", iconCount: 25 },
-  { name: "Text formatting", iconCount: 259 },
+  { name: "Text formatting", iconCount: 260 },
   { name: "Time & calendar", iconCount: 62 },
-  { name: "Tools", iconCount: 72 },
+  { name: "Tools", iconCount: 73 },
   { name: "Transportation", iconCount: 64 },
   { name: "Travel", iconCount: 71 },
   { name: "Weather", iconCount: 51 }
 ];
 
-export const iconCount = 1735;
+export const iconCount = 1736;
 export const categoryCount = 42;
 
 // Helper functions
