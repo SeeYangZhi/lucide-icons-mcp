@@ -1,5 +1,5 @@
 // Auto-generated - do not edit manually
-// Generated from storage/datasets/default on 2026-06-18T06:58:29.154Z
+// Generated from storage/datasets/default on 2026-06-29T06:55:18.075Z
 
 export interface IconMetadata {
   name: string;
@@ -576,6 +576,7 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Animals", "Home", "Nature", "Navigation & Places"]
   },
   { name: "Bone", categories: ["Animals", "Gaming", "Medical"] },
+  { name: "BoneFracture", categories: ["Animals", "Medical"] },
   { name: "Bug", categories: ["Animals", "Coding & development"] },
   { name: "BugOff", categories: ["Animals", "Coding & development"] },
   { name: "BugPlay", categories: ["Animals", "Coding & development"] },
@@ -1762,7 +1763,16 @@ export const iconMetadata: IconMetadata[] = [
     categories: ["Coding & development", "Mathematics", "Text formatting"]
   },
   { name: "Database", categories: ["Coding & development", "Devices"] },
+  {
+    name: "DatabaseArrowDown",
+    categories: ["Coding & development", "Devices"]
+  },
+  { name: "DatabaseArrowUp", categories: ["Coding & development", "Devices"] },
+  { name: "DatabaseCheck", categories: ["Coding & development", "Devices"] },
+  { name: "DatabaseMinus", categories: ["Coding & development", "Devices"] },
+  { name: "DatabasePlus", categories: ["Coding & development", "Devices"] },
   { name: "DatabaseSearch", categories: ["Coding & development", "Devices"] },
+  { name: "DatabaseX", categories: ["Coding & development", "Devices"] },
   { name: "DatabaseZap", categories: ["Coding & development", "Devices"] },
   { name: "Diff", categories: ["Coding & development", "File icons"] },
   { name: "Divide", categories: ["Coding & development", "Mathematics"] },
@@ -2603,6 +2613,7 @@ export const iconMetadata: IconMetadata[] = [
   { name: "CopyX", categories: ["Mathematics", "Notification"] },
   { name: "EqualApproximately", categories: ["Mathematics"] },
   { name: "OctagonX", categories: ["Mathematics", "Notification"] },
+  { name: "Phi", categories: ["Mathematics", "Science"] },
   { name: "Pyramid", categories: ["Mathematics", "Shapes", "Travel"] },
   { name: "Sigma", categories: ["Mathematics", "Science", "Text formatting"] },
   { name: "SquareDivide", categories: ["Mathematics"] },
@@ -3063,7 +3074,7 @@ export const iconMetadata: IconMetadata[] = [
 export const categories: CategoryMetadata[] = [
   { name: "Accessibility", iconCount: 31 },
   { name: "Accounts & access", iconCount: 146 },
-  { name: "Animals", iconCount: 23 },
+  { name: "Animals", iconCount: 24 },
   { name: "Arrows", iconCount: 214 },
   { name: "Buildings", iconCount: 24 },
   { name: "Charts", iconCount: 31 },
@@ -3071,8 +3082,8 @@ export const categories: CategoryMetadata[] = [
   { name: "Connectivity", iconCount: 94 },
   { name: "Cursors", iconCount: 34 },
   { name: "Design", iconCount: 147 },
-  { name: "Coding & development", iconCount: 244 },
-  { name: "Devices", iconCount: 172 },
+  { name: "Coding & development", iconCount: 250 },
+  { name: "Devices", iconCount: 178 },
   { name: "Emoji", iconCount: 45 },
   { name: "File icons", iconCount: 166 },
   { name: "Finance", iconCount: 57 },
@@ -3081,15 +3092,15 @@ export const categories: CategoryMetadata[] = [
   { name: "Home", iconCount: 62 },
   { name: "Layout", iconCount: 144 },
   { name: "Mail", iconCount: 26 },
-  { name: "Mathematics", iconCount: 76 },
-  { name: "Medical", iconCount: 42 },
+  { name: "Mathematics", iconCount: 77 },
+  { name: "Medical", iconCount: 43 },
   { name: "Multimedia", iconCount: 149 },
   { name: "Nature", iconCount: 23 },
   { name: "Navigation & Places", iconCount: 88 },
   { name: "Notification", iconCount: 42 },
   { name: "People", iconCount: 5 },
   { name: "Photography", iconCount: 77 },
-  { name: "Science", iconCount: 36 },
+  { name: "Science", iconCount: 37 },
   { name: "Seasons", iconCount: 5 },
   { name: "Security", iconCount: 59 },
   { name: "Shapes", iconCount: 61 },
@@ -3105,7 +3116,7 @@ export const categories: CategoryMetadata[] = [
   { name: "Weather", iconCount: 51 }
 ];
 
-export const iconCount = 1736;
+export const iconCount = 1744;
 export const categoryCount = 42;
 
 // Helper functions

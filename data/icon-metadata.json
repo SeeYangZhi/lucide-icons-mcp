@@ -1352,6 +1352,13 @@
     ]
   },
   {
+    "name": "BoneFracture",
+    "categories": [
+      "Animals",
+      "Medical"
+    ]
+  },
+  {
     "name": "Bug",
     "categories": [
       "Animals",
@@ -5560,7 +5567,49 @@
     ]
   },
   {
+    "name": "DatabaseArrowDown",
+    "categories": [
+      "Coding & development",
+      "Devices"
+    ]
+  },
+  {
+    "name": "DatabaseArrowUp",
+    "categories": [
+      "Coding & development",
+      "Devices"
+    ]
+  },
+  {
+    "name": "DatabaseCheck",
+    "categories": [
+      "Coding & development",
+      "Devices"
+    ]
+  },
+  {
+    "name": "DatabaseMinus",
+    "categories": [
+      "Coding & development",
+      "Devices"
+    ]
+  },
+  {
+    "name": "DatabasePlus",
+    "categories": [
+      "Coding & development",
+      "Devices"
+    ]
+  },
+  {
     "name": "DatabaseSearch",
+    "categories": [
+      "Coding & development",
+      "Devices"
+    ]
+  },
+  {
+    "name": "DatabaseX",
     "categories": [
       "Coding & development",
       "Devices"
@@ -9446,6 +9495,13 @@
     "categories": [
       "Mathematics",
       "Notification"
+    ]
+  },
+  {
+    "name": "Phi",
+    "categories": [
+      "Mathematics",
+      "Science"
     ]
   },
   {
